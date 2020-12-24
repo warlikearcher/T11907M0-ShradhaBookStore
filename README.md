@@ -10,7 +10,7 @@ Name: VO HOANG TRUNG - StudentID : Student1208490
 
 Name: BUI DINH HUNG StudentID: Student1215631
 
-Open file User Guilde.pdf in folder Document for reading the installation guide of our project Instructions to run the website and download the source code.
+Open file Setup in folder Setup for reading the installation guide of our project Instructions to run the website and download the source code.
 
 Open the folder "Setup" --> select and open file "Setup.pdf"
 
