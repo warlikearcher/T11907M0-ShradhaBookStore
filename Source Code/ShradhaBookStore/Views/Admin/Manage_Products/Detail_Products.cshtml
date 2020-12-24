@@ -1,0 +1,118 @@
+﻿
+
+@{
+    ViewData["Title"] = "Details";
+
+}
+
+@{
+    Layout = "~/Views/Admin/Layout/_Layout.cshtml";
+}
+<!-- Content Wrapper. Contains page content -->
+<div class="content-wrapper">
+    <!-- Content Header (Page header) -->
+    <section class="content-header">
+        <div class="container-fluid">
+            <div class="row mb-2">
+                <div class="col-sm-6">
+                    <h1>Page Product Detail</h1>
+                </div>
+            </div>
+        </div><!-- /.container-fluid -->
+    </section>
+    <section class="content">
+        <div class="card">
+            <div class="card-body">
+                <dl class="row">
+                    @foreach (var item in ViewBag.Detail)
+                    {
+                        <dt class="col-sm-2">
+                            <p>Create At</p>
+                        </dt>
+                        <dd class="col-sm-10">
+                            <i>@item.Product.CreateAt</i>
+                        </dd>
+                        <dt class="col-sm-2">
+                            <p>Title</p>
+                        </dt>
+                        <dd class="col-sm-10">
+                            <i>@item.Product.ProductName</i>
+                        </dd>
+                        <dt class="col-sm-2">
+                            <p>Author</p>
+                        </dt>
+                        <dd class="col-sm-10">
+                            <i>@item.Product.AuthorName</i>
+                        </dd>
+                        <dt class="col-sm-2">
+                            <p>Price</p>
+                        </dt>
+                        <dd class="col-sm-10">
+                            <i>$@item.Product.Price</i>
+                        </dd>
+                        <dt class="col-sm-2">
+                            <p>Quantity</p>
+                        </dt>
+                        <dd class="col-sm-10">
+                            <i>@item.Product.Quantity</i>
+                        </dd>
+                        <dt class="col-sm-2">
+                            <p>Category</p>
+                        </dt>
+                        <dd class="col-sm-10">
+                            <i>@item.Category.CategoryName</i>
+                        </dd>
+                        <dt class="col-sm-2">
+                            <p>Publisher</p>
+                        </dt>
+                        <dd class="col-sm-10">
+                            <i>@item.Publisher.PublisherName</i>
+                        </dd>
+                        <dt class="col-sm-2">
+                            <p>Release Year</p>
+                        </dt>
+                        <dd class="col-sm-10">
+                            <i>@item.Product.ReleaseYear</i>
+                        </dd>
+                        <dt class="col-sm-2">
+                            <p>Version</p>
+                        </dt>
+                        <dd class="col-sm-10">
+                            <i>@item.Product.Ver</i>
+                        </dd>
+                        <dt class="col-sm-2">
+                            <p>Used products?</p>
+                        </dt>
+                        <dd class="col-sm-10">
+                            <i>@item.Product.Used</i>
+                        </dd>
+                        <dt class="col-sm-2">
+                            <p>Review</p>
+                        </dt>
+                        <dd class="col-sm-10">
+                            <i>@item.Product.Review</i>
+                        </dd>
+                        <dt class="col-sm-2">Thumbnail</dt>
+                        <dd class="col-sm-10">
+                            <img src="~/Image/@item.Product.Picture"
+                                 style="height: 200px; max-width: 400px" />
+                        </dd>
+                    }
+
+                </dl>
+            </div>
+            <div>
+                <a asp-action="Manage_Products" asp-controller="Manage_Products">Back to List</a>
+                |
+                @foreach (var item in ViewBag.Detail)
+                {
+                    <a href="@Url.Action("Edit_Products","Manage_Products",new { productId = item.Product.ProductCode })">Edit</a>
+                }
+
+            </div>
+        </div>
+        <div class="card-footer">
+        </div>
+    </section>
+</div>
+

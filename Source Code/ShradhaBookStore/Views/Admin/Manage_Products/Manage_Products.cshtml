@@ -1,0 +1,145 @@
+﻿@model IEnumerable<ShradhaBookStore.Models.ViewProduct>
+@{
+    ViewData["Title"] = "Manage Products";
+    Layout = "~/Views/Admin/Layout/_Layout.cshtml";
+    var pageList = (IPagedList)ViewBag.listProduct;
+}
+
+
+@using X.PagedList;
+@using X.PagedList.Mvc.Core;
+<div class="content-wrapper">
+    <!-- Content Header (Page header) -->
+    <div class="content-header">
+        <div class="container-fluid">
+            <div class="row mb-2">
+                <div class="col-sm-6">
+                    <h1 class="m-0">List Products</h1>
+                </div><!-- /.col -->
+            </div><!-- /.row -->
+        </div><!-- /.container-fluid -->
+    </div>
+
+
+    <!---->
+    <!-- Main content -->
+    <section class="content">
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-12">
+                    <div class="card">
+                        <div class="card-header">
+                            <h3 class="card-title">List Products</h3>
+                        </div>
+                        <div>
+                            @ViewBag.Check
+                        </div>
+                        <!-- /.card-header -->
+                        <div class="card-body">
+                            <form action="@Url.Action("Manage_Products", "Manage_Products")" method="POST">
+
+                                <div class="row">
+
+                                    <div class="col-md-3">
+                                        <div class="form-group">
+                                            <input type="text" name="txtSearch" class="form-control" placeholder="Search name book" />
+                                        </div>
+                                    </div>
+                                    <div class="col-md-2">
+                                        <button type="submit" class="btn btn-success">Search</button>
+                                    </div>
+                                </div>
+                            </form>
+                            <table id="example2" class="table table-bordered table-hover">
+                                <thead>
+                                    <tr>
+                                        <th>ID</th>
+                                        <th>Title</th>
+                                        <th>Price</th>
+                                        <th>Author</th>
+                                        <th>Category</th>
+                                        <th>Release Year</th>
+                                        <th>Thumbnail</th>
+                                        @*<th>Status</th>
+                                            <th>CreatedAt</th>*@
+                                        <th>Action</th>
+                                    </tr>
+                                </thead>
+                                <tbody>
+                                    @foreach (var item in ViewBag.listProduct)
+                                    {
+                                        <tr>
+                                            <td>@item.Product.ProductCode</td>
+                                            <td>@item.Product.ProductName</td>
+                                            <td>@item.Product.Price</td>
+                                            <td>@item.Product.AuthorName</td>
+                                            <td>@item.Category.CategoryName</td>
+                                            <td>@item.Product.ReleaseYear</td>
+                                            <td><img src="~/Image/@item.Product.Picture" width="80" /></td>
+                                            <td>
+
+                                                <a href="@Url.Action("Detail_Products","Manage_Products",new { productId = item.Product.ProductCode })">Details</a>
+                                                | <a href="@Url.Action("Remove_Products","Manage_Products",new { productId = item.Product.ProductCode })" class="confirm-delete" id="confirm-delete" >Remove</a>
+                                                | <a href="@Url.Action("Edit_Products","Manage_Products",new { productId = item.Product.ProductCode })">Edit</a>
+                                            </td>
+                                        </tr>
+                                    }
+                                </tbody>
+                                <tfoot>
+                                    <tr>
+                                        <th>ID</th>
+                                        <th>Title</th>
+                                        <th>Price</th>
+                                        <th>Author</th>
+                                        <th>Category</th>
+                                        <th>Release Year</th>
+                                        <th>Thumbnail</th>
+                                        @*<th>Status</th>
+                                            <th>CreatedAt</th>*@
+                                        <th>Action</th>
+                                    </tr>
+                                </tfoot>
+                            </table>
+                            <div class="row">
+                                <div class="col-sm-12 col-md-5">
+                                    <div class="dataTables_info" id="example2_info" role="status" aria-live="polite">Page @(pageList.PageCount < pageList.PageNumber ? 0 : pageList.PageNumber) of @pageList.PageCount</div>
+                                </div>
+                                <br />
+                                <div class="col-sm-12 col-md-7">
+                                    <div class="dataTables_paginate paging_simple_numbers" id="example2_paginate">
+                                        <ul class="pagination">
+                                            @Html.PagedListPager(pageList, page => Url.Action("Manage_Products", new { page }), new X.PagedList.Web.Common.PagedListRenderOptionsBase
+                                       {
+                                           LiElementClasses = new string[] { "page-item" },
+                                           PageClasses = new string[] { "page-link" }
+                                       })
+                                        </ul>
+                                    </div>
+
+                                </div>
+                            </div>
+
+                        </div>
+                        <!-- /.card-body -->
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </section>
+</div>
+@Html.Raw(TempData["msg"])
+
+
+@*href=""*@
+@*confirm-delete*@
+<script  type="text/javascript">
+
+    var elems = document.getElementsByClassName('confirm-delete');
+    var confirmIt = function (e) {
+        if (!confirm('Are you sure?')) e.preventDefault();
+    };
+    for (var i = 0, l = elems.length; i < l; i++) {
+        elems[i].addEventListener('click', confirmIt, false);
+    }
+</script>

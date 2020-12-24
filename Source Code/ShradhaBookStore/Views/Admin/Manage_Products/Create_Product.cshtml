@@ -1,0 +1,72 @@
+﻿
+@{
+    ViewData["Title"] = "Create_Product";
+}
+@{
+    Layout = "~/Views/Admin/Layout/_Layout.cshtml";
+}
+<h2>Create Product</h2>
+
+<div class="content-wrapper">
+    <!-- Content Header (Page header) -->
+    <section class="content-header">
+        <div class="container-fluid">
+            <div class="row mb-2">
+                <div class="col-sm-6">
+                    <h1>Choose Category and Publisher before continue next step</h1>
+                </div>
+            </div>
+        </div><!-- /.container-fluid -->
+    </section>
+
+    <!-- Main content -->
+    <section class="content">
+
+        <!-- Default box -->
+        <div class="card">
+            <div class="card-body">
+                <!-- content -->
+                <form asp-action="Create_Product" asp-controller="Manage_Products" method="post" enctype="multipart/form-data">
+                    <div class="row">
+                        <div class="col-md-4">
+                            <div class="form-group">
+                                <label>Category</label>
+                                <br />
+                                @*@Html.DropDownList("CategoryCode", new SelectList(ViewBag.CategoryList, "CategoryCode", "CategoryName"))*@
+                            <select name="cate">
+                                <option value="#" selected>---Select one---</option>
+                                @foreach (var item in ViewBag.CategoryList)
+                                {
+                                    <option value="@item.CategoryCode">@item.CategoryName</option>
+                                }
+                            </select>
+
+                            </div>@*Product Category*@
+                            <div class="form-group">
+                                <label>Publisher</label>
+                                <br />
+                                @*@Html.DropDownList("PublisherCode", new SelectList(ViewBag.PublisherList, "PublisherCode", "PublisherName"))*@
+                            <select name="pub">
+                                <option value="#" selected>---Select one---</option>
+                                @foreach (var item in ViewBag.PublisherList)
+                                {
+                                    <option value="@item.PublisherCode">@item.PublisherName</option>
+                                }
+                            </select>
+
+                            </div>@*Product Publisher*@
+                            <div class="form-group">
+                                <input type="submit" value="Create" class="btn btn-primary" />
+                            </div>
+                        </div>
+                    </div>
+                </form>
+            </div>
+            <!-- /.card-body -->
+
+        </div>
+        <!-- /.card -->
+
+    </section>
+    <!-- /.content -->
+</div>

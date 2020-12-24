@@ -1,0 +1,175 @@
+﻿
+@{
+    ViewData["Title"] = "CategoryPublisherList";
+}
+@{
+    Layout = "~/Views/Admin/Layout/_Layout.cshtml";
+    var pageList1 = (IPagedList)ViewBag.listCategory;
+    var pageList2 = (IPagedList)ViewBag.listPublisher;
+}
+
+
+@using X.PagedList;
+@using X.PagedList.Mvc.Core;
+<div class="content-wrapper">
+    <!-- Content Header (Page header) -->
+    <div class="content-header">
+        <div class="container-fluid">
+            <div class="row mb-2">
+                <div class="col-sm-6">
+                    <h1 class="m-0">Manage Category & Publisher</h1>
+                </div><!-- /.col -->
+            </div><!-- /.row -->
+        </div><!-- /.container-fluid -->
+    </div>
+
+
+    <!---->
+    <!-- Main content -->
+    <section class="content">
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-6">
+                    <div class="card">
+                        <div class="card-header">
+                            <h3 class="card-title">List Category</h3>
+                        </div>
+                        <div>
+                            @ViewBag.Check
+                        </div>
+                        <!-- /.card-header -->
+                        <div class="card-body">
+                            <table id="example2" class="table table-bordered table-hover">
+                                <thead>
+                                    <tr>
+                                        <th>ID</th>
+                                        <th>Category Name</th>
+                                        <th>Action</th>
+                                    </tr>
+                                </thead>
+                                <tbody>
+                                    @foreach (var item in ViewBag.listCategory)
+                                    {
+                                        <tr>
+                                            <td>@item.CategoryCode</td>
+                                            <td>@item.CategoryName</td>
+
+                                            <td>
+                                                <a href="@Url.Action("Remove_Category","Manage_Products",new { categoryCode = item.CategoryCode })" class="confirm-delete" id="confirm-delete">Remove</a>
+                                            </td>
+                                        </tr>
+                                    }
+                                </tbody>
+                                <tfoot>
+                                    <tr>
+                                        <th>ID</th>
+                                        <th>Category Name</th>
+                                        <th>Action</th>
+                                    </tr>
+                                </tfoot>
+                            </table>
+                            <div class="row">
+                                <div class="col-sm-12 col-md-5">
+                                    <div class="dataTables_info" id="example2_info" role="status" aria-live="polite">Page @(pageList1.PageCount < pageList1.PageNumber ? 0 : pageList1.PageNumber) of @pageList1.PageCount</div>
+                                </div>
+                                <br />
+                                <div class="col-sm-12 col-md-7">
+                                    <div class="dataTables_paginate paging_simple_numbers" id="example2_paginate">
+                                        <ul class="pagination">
+                                            @Html.PagedListPager(pageList1, page => Url.Action("CategoryPublisherList", new { page }), new X.PagedList.Web.Common.PagedListRenderOptionsBase
+                                       {
+                                           LiElementClasses = new string[] { "page-item" },
+                                           PageClasses = new string[] { "page-link" }
+                                       })
+                                        </ul>
+                                    </div>
+
+                                </div>
+                            </div>
+
+                        </div>
+                        <!-- /.card-body -->
+                    </div>
+                </div>
+                <div class="col-6">
+                    <div class="card">
+                        <div class="card-header">
+                            <h3 class="card-title">List Publisher</h3>
+                        </div>
+                        <div>
+                            @ViewBag.Check
+                        </div>
+                        <!-- /.card-header -->
+                        <div class="card-body">
+                            <table id="example2" class="table table-bordered table-hover">
+                                <thead>
+                                    <tr>
+                                        <th>ID</th>
+                                        <th>Publisher Name</th>
+                                        <th>Action</th>
+                                    </tr>
+                                </thead>
+                                <tbody>
+                                    @foreach (var item in ViewBag.listPublisher)
+                                    {
+                                        <tr>
+                                            <td>@item.PublisherCode</td>
+                                            <td>@item.PublisherName</td>
+                                            <td>
+                                                <a href="@Url.Action("Remove_Publisher","Manage_Products",new { publisherCode = item.PublisherCode })" class="confirm-delete" id="confirm-delete">Remove</a>
+
+                                            </td>
+                                        </tr>
+                                    }
+                                </tbody>
+                                <tfoot>
+                                    <tr>
+                                        <th>ID</th>
+                                        <th>Publisher Name</th>
+                                        <th>Action</th>
+                                    </tr>
+                                </tfoot>
+                            </table>
+                            <div class="row">
+                                <div class="col-sm-12 col-md-5">
+                                    <div class="dataTables_info" id="example2_info" role="status" aria-live="polite">Page @(pageList2.PageCount < pageList2.PageNumber ? 0 : pageList2.PageNumber) of @pageList2.PageCount</div>
+                                </div>
+                                <br />
+                                <div class="col-sm-12 col-md-7">
+                                    <div class="dataTables_paginate paging_simple_numbers" id="example2_paginate">
+                                        <ul class="pagination">
+                                            @Html.PagedListPager(pageList2, page2 => Url.Action("CategoryPublisherList", new { page2 }), new X.PagedList.Web.Common.PagedListRenderOptionsBase
+                                       {
+                                           LiElementClasses = new string[] { "page-item" },
+                                           PageClasses = new string[] { "page-link" }
+                                       })
+                                        </ul>
+                                    </div>
+
+                                </div>
+                            </div>
+
+                        </div>
+                        <!-- /.card-body -->
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </section>
+</div>
+@Html.Raw(TempData["msg"])
+
+
+@*href=""*@
+@*confirm-delete*@
+<script type="text/javascript">
+
+    var elems = document.getElementsByClassName('confirm-delete');
+    var confirmIt = function (e) {
+        if (!confirm('Are you sure?')) e.preventDefault();
+    };
+    for (var i = 0, l = elems.length; i < l; i++) {
+        elems[i].addEventListener('click', confirmIt, false);
+    }
+</script>

@@ -1,0 +1,205 @@
+﻿@{
+    ViewData["Title"] = "Detail Product";
+    Product product = ViewBag.GetInfoProduct;
+    Category category = ViewBag.Getcategory;
+    Publisher publisher = ViewBag.Getpublisher;
+}
+@using Microsoft.AspNetCore.Http;
+@using Newtonsoft.Json;
+@using ShradhaBookStore.Models;
+@using Microsoft.AspNetCore.Mvc;
+
+<div class="product-big-title-area">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-12">
+                <div class="product-bit-title text-center">
+                    <h2>Detail Product</h2>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<div class="single-product-area">
+    <div class="zigzag-bottom"></div>
+    <div class="container">
+        <div class="row">
+            <div class="col-md-4">
+                <div class="product-images">
+                    <div class="product-main-img">
+                        <img src="~/Image/@product.Picture" />
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-8">
+                <i style="color:#D2D2D2">#@product.ProductCode</i>
+                <h2 class="product-name">@product.ProductName</h2>
+                <div class="no-stock">
+                    <p class="pd-no">Author:<span>@product.AuthorName</span></p>
+                </div>
+                <div class="no-stock">
+                    <p class="pd-no">Publisher:<span>@publisher.PublisherName</span></p>
+                </div>
+                <div class="no-stock">
+                    <p class="pd-no">Category:<span>@category.CategoryName</span></p>
+                </div>
+                <div class="product-inner-price">
+                    <ins style="color:fuchsia"> Us $@product.Price</ins>
+                </div>
+                <form action="" class="cart">
+                    @if (product.Quantity > 0)
+                    {
+                        <button class="add_to_cart_button" type="submit" asp-controller="Cart2" asp-action="AddToShoppingCart" asp-route-Id="@product.ProductCode">Add to cart</button>
+                    }
+                    else
+                    {
+                        <button class="add_to_cart_button isDisabled" style="color:black!important">Sold out</button>
+                    }
+                </form>
+
+            </div>
+        </div>
+
+        <div style="margin-top:70px" class="row">
+
+            <div role="tabpanel">
+                <ul class="product-tab" role="tablist">
+                    <li role="presentation" class="active"><a href="#home" aria-controls="home" role="tab" data-toggle="tab">Description</a></li>
+                    <li role="presentation"><a href="#profile" aria-controls="profile" role="tab" data-toggle="tab">Reviews</a></li>
+                </ul>
+                <div class="tab-content">
+                    <div role="tabpanel" class="tab-pane fade in active" id="home">
+                        <h2>Product Description</h2>
+                        <p>@product.Review</p>
+                    </div>
+                    <div role="tabpanel" class="tab-pane fade" id="profile">
+                        <div class="submit-review Review2">
+                            <button style="float:right" class="btn2">X</button>
+                            <hr />
+                            @model ShradhaBookStore.Models.RatingReview
+                            @Html.AntiForgeryToken()
+                            @using (Html.BeginForm("CreateView", "Home", FormMethod.Post))
+                            {
+                                @Html.AntiForgeryToken()
+                                @Html.EditorFor(p => p.ProductCode, new { htmlAttributes = new { @class = "form-control", @type = "Hidden" } })
+                                @Html.EditorFor(p => p.UserId, new { htmlAttributes = new { @class = "form-control", @type = "Hidden" } })
+                                <div class="rating-chooser">
+                                    <p>Your rating</p>
+                                    @Html.EditorFor(p => p.Rate, new { htmlAttributes = new { @id = "rating", @type = "Hidden" } })
+                                    @*<input id="rating" for="Rate" value="">*@
+                                    <div class="rating">
+                                        <i class="star fa fa-star" data-rating="5" style='order:5'></i>
+                                        <i class="star fa fa-star" data-rating="4" style='order:4'></i>
+                                        <i class="star fa fa-star" data-rating="3" style='order:3'></i>
+                                        <i class="star fa fa-star" data-rating="2" style='order:2'></i>
+                                        <i class="star fa fa-star" data-rating="1" style='order:1'></i>
+                                    </div>
+                                </div>
+                                @Html.TextAreaFor(p => p.Context)
+                                <input type="submit" value="Submit">
+                            }
+
+
+                        </div>
+                        <div style="height:500px" class="Review1">
+
+                            @if (Context.Session.GetInt32("id") != null)
+                            {<button style="float:right" class="btn1">Rating now!</button>}
+                            else
+                            {
+                                <h4>Your need to Login for Rating</h4>
+                                <a href="@Url.Action("Login","UserInfo")">Login Now!!!</a>
+                            }
+
+                            <hr />
+                            <br />
+                            @if (ViewBag.rate != null)
+                            {
+                                <div id="textarea">
+                                    @foreach (var item in ViewBag.rate)
+                                    {
+                                        <div style="border: 0.5px solid black">
+                                            <div>@item.UserInfo.UserName</div>
+                                            <div>
+                                                @for (int i = 0; i < item.RatingReview.Rate; i++)
+                                                {
+                                                    <i class="fa fa-star checked"></i>
+                                                }
+                                                @if (item.RatingReview.Rate < 5)
+                                                {
+                                                    @for (int i = 0; i < (5 - item.RatingReview.Rate); i++)
+                                                    {
+                                                        <i class="fa fa-star"></i>
+                                                    }
+                                                }
+                                            </div>
+                                            <div>@item.RatingReview.Context</div>
+                                        </div>
+                                    }
+
+
+                                </div>
+                            }
+                            else
+                            {
+                                <div><span>This product has not had any reviews yet</span></div>
+                            }
+
+                        </div>
+                        
+
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="maincontent-area">
+                <div class="zigzag-bottom"></div>
+
+
+                <div class="col-md-12">
+                    <div class="latest-product">
+                        <h2 style="color:chocolate" class="section-title">RELATED PRODUCTS</h2>
+                        <div class="product-carousel">
+                            @foreach (var item in ViewBag.productList)
+                            {
+                                <div class="single-product">
+                                    <div class="product-f-image">
+                                        <img src="~/Image/@item.Product.Picture" />
+                                        <div class="product-hover">
+                                            @if (item.Product.Quantity > 0)
+                                            {
+                                                <a class="text-info add-to-cart-link" id="cartButton" asp-controller="Cart2" asp-action="AddToShoppingCart" asp-route-Id="@item.Product.ProductCode">
+                                                    Add to cart
+                                                </a>
+
+                                            }
+                                            else
+                                            {
+                                                <a class="text-info isDisabled add-to-cart-link" id="cartButton" style="color:black!important">
+                                                    Sold out
+                                                </a>
+
+                                            }
+                                            <a href="@Url.Action("Detail","Home",new {id = item.Product.ProductCode})" class="view-details-link"><i class="fa fa-link"></i> See details</a>
+                                        </div>
+                                    </div>
+
+                                    <h2><a href="single-product.html">@item.Product.ProductName</a></h2>
+
+                                    <div class="product-carousel-price">
+                                        <ins>US $@item.Product.Price</ins>
+                                    </div>
+                                </div>
+                            }
+
+                        </div>
+                    </div>
+                </div>
+
+
+            </div> <!-- End main content area -->
+
+        </div>
+    </div>
+</div>

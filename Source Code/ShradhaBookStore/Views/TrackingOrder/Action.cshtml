@@ -1,0 +1,47 @@
+﻿
+
+@{ ViewData["Title"] = "Action"; }
+
+ <h3 style="text-align:center">Show Product</h3>
+<style>
+    table tr td {
+        border: 1px solid #FFFFFF;
+        vertical-align: middle;
+    }
+
+    table tr th {
+        background: #eee;
+    }
+
+    .panel-shadow {
+        box-shadow: rgba(0, 0, 0, 0.3) 7px 7px 7px;
+    }
+    </style>
+<div class="panel-body">
+    <div class="table-responsive">
+        <table class="table">
+            <thead>
+                <tr>
+                    <th>ProductName</th>
+                    <th>Amount</th>
+                    <th>Total Price</th>
+                </tr>
+            </thead>
+            <tbody>
+                @foreach (var item in ViewBag.GetItem)
+                { 
+                 <tr>
+                <td><strong> @item.product.ProductName</strong></td>
+                <td>@item.detail.Amount</td>
+                <td>@item.detail.Price.ToString("c")</td>
+            </tr>
+                }
+           
+            </tbody>
+        </table>
+          <form asp-action="Index" class="pull-right" asp-route-id="@ViewBag.selected">
+        <button type="submit">Turn Back</button>
+    </form>
+
+    </div>
+</div>

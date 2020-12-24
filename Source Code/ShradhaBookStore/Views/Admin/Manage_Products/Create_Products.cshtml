@@ -1,0 +1,129 @@
+﻿@model ShradhaBookStore.Models.Product
+@{
+    ViewData["Title"] = "Create Feedback";
+
+}
+@{
+    Layout = "~/Views/Admin/Layout/_Layout.cshtml";
+}
+<!-- Content Wrapper. Contains page content -->
+<div class="content-wrapper">
+    <!-- Content Header (Page header) -->
+    <section class="content-header">
+        <div class="container-fluid">
+            <div class="row mb-2">
+                <div class="col-sm-6">
+                    <h1>Page Products Create</h1>
+                </div>
+            </div>
+        </div><!-- /.container-fluid -->
+    </section>
+
+    <!-- Main content -->
+    <section class="content">
+
+        <!-- Default box -->
+        <div class="card">
+            <div class="card-body">
+                <!-- content -->
+                <form asp-action="Create_Products" asp-controller="Manage_Products" method="post" enctype="multipart/form-data">
+                    <div class="row">
+                        <div>
+                            <h3 style="color:red;font-family:Symbol">@ViewData["Msg"]</h3>
+                        </div>
+                        <div class="col-md-4">
+                            <div class="form-group" hidden>
+                                <label class="control-label">Product Code</label>
+                                <br />
+                                <input asp-for="ProductCode" class="form-control" value="@ViewBag.productCode" />
+                                <span asp-validation-for="ProductCode" class="text-danger"></span>
+                            </div>
+                            <div class="form-group" hidden>
+                                <label class="control-label">Category Code</label>
+                                <br />
+                                <input asp-for="CategoryCode" class="form-control" value="@ViewBag.categoryCode" />
+                                <span asp-validation-for="CategoryCode" class="text-danger"></span>
+                            </div>
+                            <div class="form-group" hidden>
+                                <label class="control-label">Publisher Code</label>
+                                <br />
+                                <input asp-for="PublisherCode" class="form-control" value="@ViewBag.publisherCode" />
+                                <span asp-validation-for="PublisherCode" class="text-danger"></span>
+                            </div>
+
+                            <div class="form-group">
+                                <label class="control-label">Title</label>
+                                <br />
+                                <input asp-for="ProductName" class="form-control" />
+                                <span asp-validation-for="ProductName" class="text-danger"></span>
+                            </div>  @*Product Name*@
+                            <div class="form-group">
+                                <label class="control-label">Price ($)</label>
+                                <br />
+                                <input asp-for="Price" class="form-control" min="1" type="number" step=".01" id="amount" max="1000" />
+                                <span asp-validation-for="Price" class="text-danger"></span>
+                            </div>@*Product Price*@
+                            <div class="form-group">
+                                <label class="control-label">Quantity</label>
+                                <br />
+                                <input asp-for="Quantity" class="form-control" min="1" type="number" id="amount" max="100000" />
+                                <span asp-validation-for="Quantity" class="text-danger"></span>
+                            </div>@*Product Quantity*@
+                            <div class="form-group">
+                                <label class="control-label">Author</label>
+                                <br />
+                                <input asp-for="AuthorName" class="form-control" />
+                                <span asp-validation-for="AuthorName" class="text-danger"></span>
+                            </div>@*Product Author*@
+                            <div class="form-group">
+                                <label class="control-label">Release Year</label>
+                                <br />
+                                <input asp-for="ReleaseYear" class="form-control" />
+                                <span asp-validation-for="ReleaseYear" class="text-danger"></span>
+                            </div>@*Product Release Year*@
+                            <div class="form-group">
+                                <label class="control-label">Version</label>
+                                <br />
+                                <input asp-for="Ver" class="form-control" />
+                                <span asp-validation-for="Ver" class="text-danger"></span>
+                            </div> @*Product Version*@
+                            <div class="form-group">
+                                <label class="control-label">Condition of products: Used products?</label>
+                                <br />
+                                <input asp-for="Used" class="form-control" type="checkbox" />
+                                <span asp-validation-for="Used" class="text-danger"></span>
+                            </div>@*Product Used?*@
+                            <div class="form-group">
+                                <label class="control-label">Review</label>
+                                <br />
+                                <textarea asp-for="Review" class="form-control"></textarea>
+                                <span asp-validation-for="Review" class="text-danger"></span>
+                            </div> @*Product Review*@
+                            <div class="form-group">
+                                <label class="control-label">Thumbnail</label>
+                                <br />
+                                <input type="file" name="file" class="form-control" accept="~/Image/*">
+                            </div>@*Product Picture*@
+                            <br />
+
+                            <div class="form-group">
+                                <input type="submit" value="Save" class="btn btn-primary" />
+                            </div>
+
+                        </div>
+                    </div>
+                </form>
+            </div>
+            <!-- /.card-body -->
+            <div class="card-footer">
+
+            </div>
+            <!-- /.card-footer-->
+        </div>
+        <!-- /.card -->
+
+    </section>
+    <!-- /.content -->
+</div>
+<!-- /.content-wrapper -->
+@Html.Raw(TempData["msg"])

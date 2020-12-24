@@ -1,0 +1,47 @@
+﻿@model ShradhaBookStore.Models.UserInfo
+@using Microsoft.AspNetCore.Http
+@{ ViewBag.Title = "Change Information"; }
+
+<link href="~/css/bootstrap.min.css" rel="stylesheet">
+
+@using (Html.BeginForm("Update", "UserInfo", FormMethod.Post))
+{
+@Html.ValidationSummary()
+
+
+
+                <div class="wrap-contact100" style="display: block;" id="updatemodel">
+
+                    <div class="modal-title"> <h2 style="font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;color:#62ab00">Change infomation</h2></div>
+
+                    <div class="modal-body">
+                        <form id="updateform">
+                            <div class="form-group">
+                                <b style="color: #62ab00"> Full Name :</b>
+                                <input class="form-control" data-val="true" data-val-required="Full Name is required" name="fullname" placeholder="Enter New Full Name" type="text" value=""required>
+                            </div>
+                            <div class="form-group">
+                                <b style="color: #62ab00">Email Adress:</b>
+                                <input class="form-control" data-val="true" data-val-required="Email is required" name="email" placeholder="Enter New Email Adress" type="text" value="" required>
+                            </div>
+                            <div class="form-group">
+                                <b style="color: #62ab00"> Phone number :</b>
+                                <input class="form-control" data-val="true" data-val-required="Phone number is required" name="phone" placeholder="Enter New Phone Number" type="text" value="" required>
+                            </div>
+                            <div class="form-group">
+                                <b style="color: #62ab00"> Adress :</b>
+                                <input class="form-control" data-val="true" data-val-required="Adress is required" name="adress" placeholder="Enter New  Adress" type="text" value="" required>
+                            </div>
+                            @if (ViewBag.error != null)
+                            {
+                              <span class="badge badge-danger">@ViewBag.error</span>}
+
+                            <div class="modal-footer">
+
+                                <input type="submit" value="Save" name="Submits" class="btn btn-primary" style=" background-color: #62ab00; border-color: #62ab00" />
+                               
+                            </div>
+                        </form>
+                    </div>
+
+                </div>}

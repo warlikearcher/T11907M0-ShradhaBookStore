@@ -1,0 +1,103 @@
+﻿@model IEnumerable<ShradhaBookStore.Models.UserInfo>
+@{ ViewData["Title"] = "Home";}
+@{ Layout = "~/Views/Admin/Layout/_Layout.cshtml"; }
+<div class="content-wrapper">
+    <!-- Content Header (Page header) -->
+    <div class="content-header">
+        <div class="container-fluid">
+            <div class="row mb-2">
+                <div class="col-sm-6">
+                    <h1 class="m-0">Manage</h1>
+                </div><!-- /.col -->
+            </div><!-- /.row -->
+        </div><!-- /.container-fluid -->
+    </div>
+    <section class="content">
+        <div class="container-fluid">
+
+
+            <div class="row">
+                <div class="col-12">
+                    <div class="card">
+                        <div class="card-header">
+                            <h3 style="color:deepskyblue" class="card-title"><b>List Users</b></h3>
+                            <div class="card-tools">
+                                @using (Html.BeginForm("Filter", "Manage_Users", FormMethod.Get))
+                                {
+                    <div class="input-group input-group-sm" style="width: 300px;">
+                        <input type="text" name="bname" class="form-control float-right" placeholder="Search name product here...">
+
+                        <div class="input-group-append">
+                            <button type="submit" class="btn btn-default">
+                                <i class="fas fa-search"></i>
+                            </button>
+                        </div>
+                    </div>}
+                            </div>
+                        </div>
+                        <!-- /.card-header -->
+                        <div class="card-body">
+                            <table id="example2" class="table table-bordered table-hover">
+                                <thead style="color:white;background-color:dimgray">
+                                    <tr>
+                                        <th>No</th>
+                                        <th>Name</th>
+                                        <th>Username</th>
+                                        <th>Password</th>
+                                        <th>Email</th>
+                                        <th>Phone</th>
+                                        <th>Status</th>
+                                        <th>Address</th>
+                                        <th>CreatedAt</th>
+                                        <th>Action</th>
+                                    </tr>
+                                </thead>
+                                <tbody>
+
+                                    @foreach (var item in Model)
+                                    {
+                                    <tr>
+                                        <td>@item.UserID</td>
+                                        <td>@item.FullName</td>
+                                        <td>@item.UserName</td>
+                                        <td>******</td>
+                                        <td>@item.Email</td>
+                                        <td>@item.Phone</td>
+                                        <td>@item.Adress</td>
+                                        <td>
+                                            @if (item.Status == true)
+                                            {
+                                    <Text>Inactive</Text> }
+                                else
+                                {
+                                    <Text>Active</Text>}
+                                        </td>
+                                        <td>@item.CreateAt</td>
+
+                                        <td>
+
+                                            @if (item.Status == true)
+                                            {
+                                    <a href="@Url.Action("deactiveUser","Manage_Users", new {id=item.UserID })">Active User</a> }
+                                else
+                                {
+                                    <a href="@Url.Action("deactiveUser","Manage_Users", new {id=item.UserID })">Deactivate User</a>}
+
+                                        </td>
+                                    </tr>}
+                                </tbody>
+
+                            </table>
+                        </div>
+                        <!-- /.card-body -->
+                    </div>
+
+                </div>
+                <!-- /.col -->
+            </div>
+        </div>     <!-- /.row -->
+        <!-- /.container-fluid -->
+    </section>
+    <!-- /.content -->
+</div>
+

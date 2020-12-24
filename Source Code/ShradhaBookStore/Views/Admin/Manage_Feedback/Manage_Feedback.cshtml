@@ -1,0 +1,62 @@
+﻿@model IEnumerable<ShradhaBookStore.Models.FeedBack>
+
+@{
+    ViewData["Title"] = "Manage Feedback";
+}
+@{
+    Layout = "~/Views/Admin/Layout/_Layout.cshtml";
+}
+<div class="content-wrapper">
+    <!-- Content Header (Page header) -->
+    <div class="content-header">
+        <div class="container-fluid">
+            <div class="row mb-2">
+                <div class="col-sm-6">
+                    <h1 style="font-size:25px" class="m-0">List Feedback</h1>
+                </div><!-- /.col -->
+            </div><!-- /.row -->
+        </div><!-- /.container-fluid -->
+    </div>
+    <section class="content">
+        <div class="row">
+            <div class="col-12">
+                <div class="card">
+                    <div class="card-header">
+                        <h3 style="color:crimson" class="card-title"><b>List Feedback</b></h3>
+                    </div>
+                    <!-- /.card-header -->
+                    <div class="card-body">
+                        <table id="example2" class="table table-bordered">
+                            <thead style="background-color:deepskyblue">
+                                <tr>
+                                    <th>FeedBack ID</th>
+                                    <th>Title</th>
+                                    <th>FeedBack Message</th>
+                                    <th>Email</th>                                   
+                                    <th>Create At</th>
+                                    <th>Action</th>
+</thead>
+                            <tbody>
+                                @foreach (var item in Model )
+                                {
+                                <tr>
+                                    <td>@item.FeedBackID</td>
+                                    <td>@item.Title</td>
+                                    <td>@item.Message</td>
+                                    <td>@item.Email</td>                                   
+                                    <td>@item.FeedBackAt</td>
+                                    <td>
+                                        <div class="read-more">
+                                            <a asp-controller="Manage_Feedback" asp-action="ReplyMail" asp-route-id="@item.FeedBackID">Reply FeedBack</a>
+                                        </div>
+                                    </td>
+                                </tr>
+                                }
+                            </tbody>
+                        </table>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+</div>

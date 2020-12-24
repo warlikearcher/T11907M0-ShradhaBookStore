@@ -1,0 +1,64 @@
+﻿@model ShradhaBookStore.Models.UserInfo
+@using Microsoft.AspNetCore.Http
+
+@{
+    ViewBag.Title = "Details";
+
+}
+<link rel="stylesheet" href="~/css/bootstrap.min.css" type="text/css" media="all">
+<div class="container">
+    @using (Html.BeginForm("Details", "UserInfo", FormMethod.Get))
+    {
+    <div class="panel-group col-lg-4 col-lg-offset-4" id="accordion">
+        <div class="panel panel-default">
+            <div class="panel-heading">
+                <h4 class="panel-title">
+                    <a class="accordion-toggle" data-toggle="collapse" data-parent="#accordion" href="#collapseOne">
+
+                        <span style="padding-left: 95px;">Your Infomation</span>
+                    </a>
+                </h4>
+            </div>
+            <div id="collapseOne" class="panel-collapse collapse in">
+                <div class="panel-body" style="font-size=10px ; margin:auto">
+                    @Html.HiddenFor(m => m.UserID)
+                    <strong>Your Full Name</strong>: @Html.DisplayFor(m => m.FullName) <br>
+                    <strong>Your User Name</strong>: @Html.DisplayFor(m => m.UserName)  <br>
+                    <strong>Your Email Adress</strong>: @Html.DisplayFor(m => m.Email)<br>
+                    <strong>Your Adress</strong>: @Html.DisplayFor(m => m.Adress)<br>
+                    <strong>Your Phone Number</strong>: @Html.DisplayFor(m => m.Phone)<br>
+                    <strong>Date Create</strong>: @Html.DisplayFor(m => m.CreateAt)<br>
+
+                </div>
+            </div>
+        </div>
+        <div class="panel panel-default">
+            <div class="panel-heading">
+                <h4 class="panel-title">
+                    <a asp-controller="TrackingOrder" asp-action="Index">Tracking Order</a>
+                </h4>
+            </div>
+
+        </div>
+        <div class="panel panel-default">
+            <div class="panel-heading">
+                <h4 class="panel-title">
+                    <a asp-controller="UserInfo" asp-action="Update" asp-route-id="@Context.Session.GetInt32("id")">Update</a>
+                </h4>
+            </div>
+
+        </div>
+        <div class="panel panel-default">
+            <div class="panel-heading">
+                <h4 class="panel-title">
+
+                    <a asp-controller="UserInfo" asp-action="ChangePass" asp-route-id="@Context.Session.GetInt32("id")">Change PassWord</a>
+
+                </h4>
+            </div>
+        </div>
+    </div>
+    }
+    </div>
+
+

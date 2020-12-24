@@ -1,0 +1,120 @@
+﻿@model IEnumerable<ShradhaBookStore.Models.Shipping>
+
+@{ ViewData["Title"] = "Shipping"; }
+@{ Layout = "~/Views/Admin/Layout/_Layout.cshtml"; }
+<div class="content-wrapper">
+    <!-- Content Header (Page header) -->
+    <div class="content-header">
+        <div class="container-fluid">
+            <div class="row mb-2">
+                <div class="col-sm-6">
+                    <h1 class="m-0">Lists Order is Confirm</h1>
+                </div><!-- /.col -->
+            </div><!-- /.row -->
+        </div><!-- /.container-fluid -->
+    </div>
+    <section class="content">
+        <div class="container-fluid">
+            <!-- /.row -->
+            <div class="row">
+                <div class="col-12">
+                    <div class="card">
+                        <div class="card-header">
+                            <h3 class="card-title">List Orders</h3>
+
+                            <div class="card-tools">
+                                <div class="input-group input-group-sm" style="width: 150px;">
+                                    <form asp-action="Shipping" asp-controller="Manage_Oders">
+                                        <input type="text" name="table_search" class="form-control float-right" placeholder="Search by OrderNo.">
+                                        <div class="input-group-append">
+                                            <button type="submit" class="btn btn-default">
+                                                <i class="fas fa-search"></i>
+                                            </button>
+                                        </div>
+                                    </form>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- /.card-header -->
+                        <div class="card-body table-responsive p-0" style="height: 500px;">
+                            <table class="table table-head-fixed text-nowrap">
+                                <thead>
+                                    <tr>
+                                        <th>
+                                            @Html.DisplayNameFor(model => model.OrderNo)
+                                        </th>
+                                        <th>
+                                            @Html.DisplayNameFor(model => model.Delivering)
+                                        </th>
+                                        <th>
+                                            @Html.DisplayNameFor(model => model.Delivered)
+                                        </th>
+                                        <th>
+                                          Date Order
+                                        </th>
+                                        <th></th>
+                                    </tr>
+                                </thead>
+                                <tbody>
+                                    @foreach (var item in Model)
+                                    {
+                        <tr>
+                            <td>@item.OrderNo</td>
+                            @if (item.Delivering == true)
+                            {
+                        <td>Received / Shipping in progress</td>
+ }
+        else
+        {
+                        <td>Orders have not been received yet</td>
+}
+                            @if (item.Delivered == true)
+                            {
+                        <td>The order has been delivered</td>
+ }
+        else
+        {
+                        <td>The order has not been delivered</td>
+}
+                            <td>
+                                @Html.DisplayFor(modelItem => item.Delivered_date)
+                            </td>
+                            @if (item.Delivering == false)
+                            {
+            <td>
+                <a class="btn btn-default" asp-action="Accept1" asp-controller="Manage_Oders" asp-route-id="@item.id">Confirm recive order from shop</a>
+
+            </td>
+}
+
+                            @if (item.Delivering == true)
+                            {
+            @if (item.Delivered == false)
+            {
+<td>
+    <a class="btn btn-success" asp-action="Accept2" asp-controller="Manage_Oders" asp-route-id="@item.id">Order is Delivered</a>
+</td>
+ }
+else
+{
+<td>
+    <a class="btn btn-default">Delivery has been confirmed</a>
+</td>}}
+
+
+                        </tr>
+}
+                                </tbody>
+                            </table>
+                        </div>
+                        <!-- /.card-body -->
+
+
+                    </div>
+                    <!-- /.card -->
+                </div>
+            </div>
+        </div>
+    </section>
+</div>
+@Html.Raw(TempData["msg"])

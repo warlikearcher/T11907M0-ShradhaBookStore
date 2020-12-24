@@ -1,0 +1,93 @@
+﻿@{ ViewData["Title"] = "Manage Order"; }
+@{ Layout = "~/Views/Admin/Layout/_Layout.cshtml"; }
+<div class="content-wrapper">
+    @model IEnumerable<ShradhaBookStore.Models.Order>
+    <!-- Content Header (Page header) -->
+    <div class="content-header">
+        <div class="container-fluid">
+            <div class="row mb-2">
+                <div class="col-sm-6">
+                    <h1 class="m-0">
+                        Order is deny
+                    </h1>
+                </div><!-- /.col -->
+            </div><!-- /.row -->
+        </div><!-- /.container-fluid -->
+    </div>
+    <section class="content">
+        <div class="container-fluid">
+            <!-- /.row -->
+            <div class="row">
+                <div class="col-12">
+                    <div class="card">
+                        <div class="card-header">
+                            <h3 class="card-title">List Orders</h3>
+
+                            <div class="card-tools">
+                                <div class="input-group input-group-sm" style="width: 150px;">
+                                    <form asp-action="Manrage_Denine_Oders" asp-controller="Manage_Oders">
+                                        <input type="text" name="table_search" class="form-control float-right" placeholder="Search">
+                                        <div class="input-group-append">
+                                            <button type="submit" class="btn btn-default">
+                                                <i class="fas fa-search"></i>
+                                            </button>
+                                        </div>
+                                        </form>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- /.card-header -->
+                        <div class="card-body table-responsive p-0" style="height: 500px;">
+                            @if (Model == null)
+                            {
+                        <table class="table table-head-fixed text-nowrap">
+                            <tr>
+                                <td>No orders have been rejected</td>
+                            </tr>
+                            </table>
+                            }
+                            else
+                            {
+                            <table class="table table-head-fixed text-nowrap">
+                                <thead>
+                                    <tr>
+                                        <th>OrderNo</th>
+                                        <th>Email</th>
+                                        <th>FullName</th>
+                                        <th>Phone</th>
+                                        <th>Address</th>
+                                        <th>Street/..</th>
+                                        <th>Show Product</th>
+                                    </tr>
+                                </thead>
+                                <tbody>
+                                    @foreach (var item in Model)
+                                    {
+                                    <tr>
+                                        <td>@item.OrderNo</td>
+                                        <td>@item.Email</td>
+                                        <td>@item.Fullname</td>
+                                        <td>@item.PhoneNumber</td>
+                                        <td>@item.AddressLine1</td>
+                                        <td>@item.To</td>
+                                        <td>
+                                            <a class="btn btn-default" asp-action="ShowProduct" asp-controller="Manage_Oders" asp-route-id="@item.OrderNo">Show Product</a>
+                                        </td>
+                                    </tr>
+}
+
+
+                                </tbody>
+                            </table>}
+                        </div>
+                        <!-- /.card-body -->
+
+
+                    </div>
+                    <!-- /.card -->
+                </div>
+            </div>
+        </div>
+    </section>
+</div>
+@Html.Raw(TempData["msg"])

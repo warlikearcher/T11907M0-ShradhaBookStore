@@ -1,0 +1,283 @@
+﻿<script src="https://kit.fontawesome.com/cca0c56933.js" crossorigin="anonymous"></script>
+@using Microsoft.AspNetCore.Http;
+
+<style>
+    #monkey {
+        margin: 0 auto;
+        width: 280px;
+        display: block
+    }
+    /*    #monkey2 {
+     width:340px;
+     align-items:center;
+    }*/
+    #svg {
+        pointer-events: none;
+    }
+
+    user agent stylesheet
+    #svg:not(:root) {
+        overflow: hidden;
+    }
+
+    p {
+        line-height: 21px;
+    }
+</style>
+@{ Layout = "~/Views/Shared/_Layout.cshtml"; }
+<link href="~/css/script.scss" rel="text/css" />
+@model IEnumerable<ShradhaBookStore.Models.OrderProduct>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<style>
+    .dot {
+        height: 25px;
+        width: 25px;
+        background-color: #bbb;
+        border-radius: 50%;
+        display: inline-block;
+    }
+</style>
+<script src="~/js/jquery.min.js"></script>
+
+
+
+@section Scripts {
+    @*@Html.Raw(TempData["msg"])*@
+    @if (ViewBag.Check != null)
+    {
+
+<script type="text/javascript">
+            window.onload = function () {
+                /**/
+                window.location.href = '@Url.Action("Index","Cart2")';
+                alert("Some of the items you left in the shopping cart have been temporarily removed because they were sold out");
+            }
+</script>ViewBag.Check = null;
+                }
+    <script>
+        $(document).ready(function () {
+            $(".update").click(function (event) {
+                event.preventDefault();
+                var quantity = $(".quantity_" + $(this).attr("data-id")).val();
+                console.log(quantity);
+                $.ajax({
+                    type: "POST",
+                    url: "@Url.Action("updateAll", "Cart2")",
+                    data: {
+                        id: $(this).attr("data-id"),
+                        quantity: quantity
+                    },
+                    success: function (result) {
+                        $(".update").val(result);
+                        window.location.href = '@Url.Action("Index","Cart2")';
+                    }, error: function (response) {
+                        ////alert("The quantity you ordered has exceeded the quantity in stock");
+                           window.location.href = '@Url.Action("Index","Cart2")';
+                    }
+                });
+            });
+
+        });
+
+    </script>
+    <script>
+        $(document).ready(function () {
+            $(".delete").click(function (event) {
+                var r = confirm("Do you want delete?");
+                if (r == true) {
+                    event.preventDefault();
+                    $.ajax({
+                        type: "POST",
+                        url: "@Url.Action("RemoveAll", "Cart2")",
+                        data: {
+                            id: $(this).attr("data-id")
+                        },
+                        success: function (result) {
+                            window.location.href = '@Url.Action("Index","Cart2")';
+                        }
+                    });
+                }
+                     else {
+                        ///
+                    }
+    });
+});
+
+    </script>
+
+    @*<script>
+            function ONinput() {
+                document.getElementsByClassName('amout')[0].oninput = function () {
+                    var max = parseInt(this.max);
+
+                    if (parseInt(this.value) > max) {
+                        this.value = max;
+                    }
+                }
+            }
+        </script>*@
+
+
+    @*<script>
+              $(document).ready(function () {
+                $.ajax({
+                    url: "@Url.Action("_Count", "Cart2")",
+                    type:"GET",
+                    context: document.body,
+                    success: function (result) {
+                        $('#Cartcount').html(result);
+                        ////alert("done");
+                    }
+                });
+            });
+        </script>*@
+}
+
+
+
+
+
+
+
+@if (ViewBag.GetItem == null)
+{
+<div id="svg">
+    <img id="monkey" src="~/Image/empty.png" />
+</div> @*<svg id="monkey" viewBox="0 0 490 525"><path fill="#6A1B9A" d="M325 85c1 12-1 25-5 38-8 29-31 52-60 61-26 8-54 14-81 18-37 6-26-37-38-72l-4-4c0-17-9-33 4-37l33-4c9-2 9-21 11-30 1-7 3-14 5-21 8-28 40-42 68-29 18 9 36 19 50 32 13 11 16 31 17 48z"></path><path fill="none" stroke="#6A1B9A" stroke-width="24" stroke-linecap="round" stroke-miterlimit="10" d="M431 232c3 15 21 19 34 11 15-9 14-30 5-43-12-17-38-25-59-10-23 18-27 53-21 97s1 92-63 108"></path><path fill="#6A1B9A" d="M284 158c35 40 63 85 86 133 24 52-6 113-62 123-2 0-4 1-6 1-53 9-101-33-101-87V188l83-30z"></path><path fill="#F7CB4D" d="M95 152c-3-24 13-57 46-64l27-5c9-2 16-19 17-28l3-15 20-3c44 14 42 55 18 69 22 0 39 26 32 53-5 18-20 32-39 36-13 3-26 5-40 8-50 8-80-14-84-51z"></path><path fill="#6A1B9A" d="M367 392c-21 18-77 70-25 119h-61c-27-29-32-69 1-111l85-8z"></path><path fill="#6A1B9A" d="M289 399c-21 18-84 62-32 111h-61c-37-34-5-104 43-134l50 23z"></path><path fill="#EDB526" d="M185 56l3-15 20-3c25 8 35 25 35 41-12-18-49-29-58-23z"></path><path fill="#E62117" d="M190 34c8-28 40-42 68-29 18 9 36 19 50 32 10 9 14 23 16 37L187 46l3-12z"></path><path fill="#8E24AA" d="M292 168c0 0 0 201 0 241s20 98 91 85l-16-54c-22 12-31-17-31-37 0-20 0-108 0-137S325 200 292 168z"></path><path fill="#F7CB4D" d="M284 79c11-9 23-17 35-23 25-12 54 7 59 38v1c4 27-13 51-36 53-12 1-25 1-37 0-22-1-39-27-32-52v-1c2-6 6-12 11-16z"></path><path fill="#6A1B9A" d="M201 203s0 84-95 140l22 42s67-25 89-86-16-96-16-96z"></path><path fill="#BE2117" d="M224 54l-67-14c-10-2-13-15-5-21s18-6 26 0l46 35z"></path><circle fill="#4A148C" cx="129" cy="161" r="12"></circle><circle fill="#4A148C" cx="212" cy="83" r="7"></circle><circle fill="#4A148C" cx="189" cy="79" r="7"></circle><path fill="#F7CB4D" d="M383 493c11-3 19-8 25-13 7-10 4-16-5-20 8-9 2-22-8-18 1-1 1-2 1-3 3-9-9-15-15-8-3 4-8 7-13 9l15 53z"></path><path fill="#EDB526" d="M252 510c5 6 0 15-9 15h-87c-10 0-16-8-13-15 5-12 21-19 36-16l73 16z"></path><ellipse transform="rotate(19.126 278.35 14.787)" fill="#E62117" cx="278" cy="15" rx="9" ry="7"></ellipse><path fill="#F7CB4D" d="M341 510c5 6 0 15-9 15h-87c-10 0-16-8-13-15 5-12 21-19 36-16l73 16z"></path><path fill="#EDB526" d="M357 90c-12-19-35-23-55-11-19 12-25 32-13 52"></path><path fill="#E62117" d="M110 427l21-9c5-2 7-8 5-13l-42-94c-3-6-9-9-15-6l-11 5c-6 2-9 9-7 15l36 97c2 5 8 7 13 5z"></path><path fill="#B0BEC5" d="M37 278l41-17c11-4 22-5 33-1 5 2 10 4 14 6 6 3 4 11-3 11-9 0-18 1-26 3l2 12c1 6-2 11-8 13l-36 15c-5 2-10 1-14-2l-9-7-2 17c0 2-2 4-4 5l-3 1c-3 1-7 0-8-3L1 300c-1-3 0-7 4-9l4-2c2-1 5 0 7 1l12 10 1-11c0-5 3-9 8-11z"></path><path fill="#F7CB4D" d="M103 373c10 2 14 10 8 19 6-1 10 4 10 9 0 3-3 6-6 7l-26 11c-2 1-5 1-8 0-6-3-7-9-2-16-7-1-13-9-6-17-8-1-12-8-8-15l3-3 23-11c9-4 19 8 12 16z"></path><ellipse transform="rotate(173.3 233.455 334.51)" fill="#8E24AA" cx="234" cy="335" rx="32" ry="46"></ellipse></svg>*@ @*<svg id="monkey" viewBox="0 0 490 525"><path fill="#6A1B9A" d="M325 85c1 12-1 25-5 38-8 29-31 52-60 61-26 8-54 14-81 18-37 6-26-37-38-72l-4-4c0-17-9-33 4-37l33-4c9-2 9-21 11-30 1-7 3-14 5-21 8-28 40-42 68-29 18 9 36 19 50 32 13 11 16 31 17 48z"></path><path fill="none" stroke="#6A1B9A" stroke-width="24" stroke-linecap="round" stroke-miterlimit="10" d="M431 232c3 15 21 19 34 11 15-9 14-30 5-43-12-17-38-25-59-10-23 18-27 53-21 97s1 92-63 108"></path><path fill="#6A1B9A" d="M284 158c35 40 63 85 86 133 24 52-6 113-62 123-2 0-4 1-6 1-53 9-101-33-101-87V188l83-30z"></path><path fill="#F7CB4D" d="M95 152c-3-24 13-57 46-64l27-5c9-2 16-19 17-28l3-15 20-3c44 14 42 55 18 69 22 0 39 26 32 53-5 18-20 32-39 36-13 3-26 5-40 8-50 8-80-14-84-51z"></path><path fill="#6A1B9A" d="M367 392c-21 18-77 70-25 119h-61c-27-29-32-69 1-111l85-8z"></path><path fill="#6A1B9A" d="M289 399c-21 18-84 62-32 111h-61c-37-34-5-104 43-134l50 23z"></path><path fill="#EDB526" d="M185 56l3-15 20-3c25 8 35 25 35 41-12-18-49-29-58-23z"></path><path fill="#E62117" d="M190 34c8-28 40-42 68-29 18 9 36 19 50 32 10 9 14 23 16 37L187 46l3-12z"></path><path fill="#8E24AA" d="M292 168c0 0 0 201 0 241s20 98 91 85l-16-54c-22 12-31-17-31-37 0-20 0-108 0-137S325 200 292 168z"></path><path fill="#F7CB4D" d="M284 79c11-9 23-17 35-23 25-12 54 7 59 38v1c4 27-13 51-36 53-12 1-25 1-37 0-22-1-39-27-32-52v-1c2-6 6-12 11-16z"></path><path fill="#6A1B9A" d="M201 203s0 84-95 140l22 42s67-25 89-86-16-96-16-96z"></path><path fill="#BE2117" d="M224 54l-67-14c-10-2-13-15-5-21s18-6 26 0l46 35z"></path><circle fill="#4A148C" cx="129" cy="161" r="12"></circle><circle fill="#4A148C" cx="212" cy="83" r="7"></circle><circle fill="#4A148C" cx="189" cy="79" r="7"></circle><path fill="#F7CB4D" d="M383 493c11-3 19-8 25-13 7-10 4-16-5-20 8-9 2-22-8-18 1-1 1-2 1-3 3-9-9-15-15-8-3 4-8 7-13 9l15 53z"></path><path fill="#EDB526" d="M252 510c5 6 0 15-9 15h-87c-10 0-16-8-13-15 5-12 21-19 36-16l73 16z"></path><ellipse transform="rotate(19.126 278.35 14.787)" fill="#E62117" cx="278" cy="15" rx="9" ry="7"></ellipse><path fill="#F7CB4D" d="M341 510c5 6 0 15-9 15h-87c-10 0-16-8-13-15 5-12 21-19 36-16l73 16z"></path><path fill="#EDB526" d="M357 90c-12-19-35-23-55-11-19 12-25 32-13 52"></path><path fill="#E62117" d="M110 427l21-9c5-2 7-8 5-13l-42-94c-3-6-9-9-15-6l-11 5c-6 2-9 9-7 15l36 97c2 5 8 7 13 5z"></path><path fill="#B0BEC5" d="M37 278l41-17c11-4 22-5 33-1 5 2 10 4 14 6 6 3 4 11-3 11-9 0-18 1-26 3l2 12c1 6-2 11-8 13l-36 15c-5 2-10 1-14-2l-9-7-2 17c0 2-2 4-4 5l-3 1c-3 1-7 0-8-3L1 300c-1-3 0-7 4-9l4-2c2-1 5 0 7 1l12 10 1-11c0-5 3-9 8-11z"></path><path fill="#F7CB4D" d="M103 373c10 2 14 10 8 19 6-1 10 4 10 9 0 3-3 6-6 7l-26 11c-2 1-5 1-8 0-6-3-7-9-2-16-7-1-13-9-6-17-8-1-12-8-8-15l3-3 23-11c9-4 19 8 12 16z"></path><ellipse transform="rotate(173.3 233.455 334.51)" fill="#8E24AA" cx="234" cy="335" rx="32" ry="46"></ellipse></svg>*@
+
+                <div style="text-align:center">
+                    <img style="width:90px;" src="~/Image/Logo.png" /><p style="color:red;font-size:140%;">Your Cart is Empty</p>
+                    <p>It's sad that the cart is empty :(.</p>
+                    <p> @ViewBag.HetSanPham</p>
+                    <a asp-action="Index" class="btn btn-success" asp-controller="Home"><span class="glyphicon glyphicon-arrow-left"></span>&nbsp;Continue Shopping</a>
+
+                </div> }
+            else
+            {
+<link rel="stylesheet" type="text/css" href="//netdna.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.min.css">
+                <div class="container-fluid bootstrap snippets bootdey">
+                    <div class="row">
+                        <div class="col-md-12">
+                            <div class="panel panel-info panel-shadow">
+                                <div class="panel-body">
+                                    <div class="table-responsive">
+                                        <table class="table">
+                                            <thead>
+                                                <tr>
+                                                    <th scope="col">Picture</th>
+                                                    <th scope="col">ProductName</th>
+                                                    <th scope="col">Amount</th>
+                                                    <th scope="col">Price</th>
+                                                    <th scope="col">Product Total Price</th>
+                                                </tr>
+                                            </thead>
+                                            <tbody>
+                                                @foreach (var item in ViewBag.GetItem)
+                                                {
+                                                    if (Context.Session.GetString("cart") == null)
+                                                    {
+                                                        string txt_class = "quantity_" + item.product.ProductCode;
+                                <tr>
+                                    <td style="vertical-align: middle;"><img src="~/Image/@item.product.Picture" class="img-cart"></td>
+                                    <td style="vertical-align: middle;"><strong>@item.product.ProductName</strong></td>
+                                    <td style="vertical-align: middle;">
+                                        <div class="form-inline">
+
+                                            <input min="1" type="number" oninput="ONinput()" id="amount" class="@txt_class amout" value="@item.Cart.Amount" />
+                                            <a href="" data-id="@item.product.ProductCode" id="dot" class="update btn btn-default"><i class="fa fa-pencil"></i></a>
+                                            @*<button rel="tooltip" class="btn btn-default"><i class="fa fa-pencil"></i></button>*@
+                                            <a href="" data-id="@item.product.ProductCode" onclick="confirm(" Do you want delete?")" name="delete" id="dot" class="delete btn btn-primary"><i class="fa fa-trash-o"></i></a>
+
+                                            @*<a href="#" class="btn btn-primary"><i class="fa fa-trash-o"></i></a>*@
+                                        </div>
+                                    </td>
+                                    <td style="vertical-align: middle;">$@item.Cart.Price</td>
+                                    <td style="vertical-align: middle;">$@((item.Cart.Amount * item.product.Price))</td>
+                                    @if (ViewBag.hetSanPhamRoi != null)
+                                    {
+            <td>@ViewBag.hetSanPhamRoi</td>}
+                                </tr> }
+                                                    else
+                                                    {
+                                                        string txt_class = "quantity_" + item.product.ProductCode;
+                                <tr>
+                                    <td style="vertical-align: middle;"><img src="~/Image/@item.product.Picture" class="img-cart"></td>
+                                    <td style="vertical-align: middle;"><strong>@item.product.ProductName</strong></td>
+                                    <td style="vertical-align: middle;">
+                                        <div class="form-inline">
+                                            <input min="1" oninput="ONinput()" type="number" id="amount" class="@txt_class amout" value="@item.Amount" />
+                                            <a href="" data-id="@item.product.ProductCode" id="dot" class="update btn btn-default"><i class="fa fa-pencil"></i></a>
+                                            @*<button rel="tooltip" class="btn btn-default"><i class="fa fa-pencil"></i></button>*@
+                                            <a href="" data-id="@item.product.ProductCode" onclick="confirm(" Do you want delete?")" name="delete" id="dot" class="delete btn btn-primary"><i class="fa fa-trash-o"></i></a>
+                                            @*<a href="#" class="btn btn-primary"><i class="fa fa-trash-o"></i></a>*@
+                                        </div>
+                                    </td>
+                                    <td style="vertical-align: middle;">$@item.Price</td>
+                                    <td style="vertical-align: middle;">$@((item.Amount * item.product.Price))</td>
+
+                                </tr>
+}
+                        }
+
+                                                <tr>
+                                                    <td colspan="6">&nbsp;</td>
+                                                </tr>
+                                                <tr>
+                                                    <td colspan="4" class="text-right"><strong>Total</strong></td>
+                                                    <td>$@ViewBag.total</td>
+                                                </tr>
+                                            </tbody>
+                                        </table>
+                                    </div>
+                                </div>
+                            </div>
+                            <a asp-controller="Order" asp-action="CheckOut" asp-route-id="@ViewBag.Randomurl" class="btn-outline-success btn btn-secondary pull-right">Next<span class="glyphicon glyphicon-chevron-right"></span></a>
+                            <a asp-action="Index" class="btn btn-success" asp-controller="Home"><span class="glyphicon glyphicon-arrow-left"></span>&nbsp;Continue Shopping</a>
+                            @*<a href="#" class="btn btn-primary pull-right">Next<span class="glyphicon glyphicon-chevron-right"></span></a>*@
+                        </div>
+                    </div>
+                </div>
+                                <p style="text-align:center;color:forestgreen;font-weight:400;font-size:13px;">The quantity ordered will not exceed the quantity in stock</p>
+                                                <p style="text-align:center;color:forestgreen;font-weight:400;font-size:12px;">
+                                                    if the number you put into the cart before login
+                                                    Then you login
+                                                    it is not true of the original quantity
+                                                    Don't be surprised because the quantity in stock is just that much
+                                                    Please sympathize with the shop
+                                                </p>
+
+                                                                <p style="text-align:center">Layout Cart - Copyright from :Matew darfkmoun - </p>
+                                                                                <style>
+                                                                                    .img-cart {
+                                                                                        display: block;
+                                                                                        max-width: 50px;
+                                                                                        height: auto;
+                                                                                        margin-left: auto;
+                                                                                        margin-right: auto;
+                                                                                    }
+
+                                                                                    table tr td {
+                                                                                        border: 1px solid #FFFFFF;
+                                                                                    }
+
+                                                                                    table tr th {
+                                                                                        background: #eee;
+                                                                                    }
+
+                                                                                    .panel-shadow {
+                                                                                        box-shadow: rgba(0, 0, 0, 0.3) 7px 7px 7px;
+                                                                                    }
+                                                                                </style>}

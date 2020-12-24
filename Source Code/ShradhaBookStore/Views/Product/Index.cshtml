@@ -1,0 +1,49 @@
+﻿@model IEnumerable<ShradhaBookStore.Models.Product>
+@{
+    ViewData["Title"] = "Index";
+}
+<style>
+    .pro-Image {
+        width: 80px;
+    }
+    .text {
+        font-size: 17px;
+        line-height:120px;
+        text-align: center;
+        background-color: #fafafa;
+        /*border: solid 1px lightgray;*/
+    }
+</style>
+<h1>Product</h1>
+<h3>@ViewBag.Again</h3>
+<table class="table">
+    <thead class="thead-dark" style="border-radius:12px">
+        <tr>
+            <th>Image</th>
+            <th>Name</th>
+            <th>Price</th>
+            <th>Author</th>
+            <th>Version</th>
+            <th></th>
+            <th></th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var item in Model)
+        {
+            <tr>
+                <td class="text-center pro-Image"><img width="80px" class="img-fluid"src="~/images/@item.Picture" /></td>
+                <td class="text-center text">@item.ProductName</td>
+                <td class="text-center text">@item.Price.ToString("c")</td>
+                <td class="text-center text">@item.AuthorName</td>
+                <td class="text-center text">@item.Ver</td>
+               @* <td class="text-danger"><a asp-action="Update" asp-route-id="@item.ProductCode">Update</a></td>*@
+                <td class="">
+                    <a class="text-info" id="cartButton" asp-controller="Cart2" asp-action="AddToShoppingCart" asp-route-Id="@item.ProductCode">
+                        Add to cart
+                    </a>
+                </td>    
+            </tr>
+        }
+        </tbody>
+</table>

@@ -1,0 +1,229 @@
+﻿@model ShradhaBookStore.Models.Order
+
+@{
+    ViewData["Title"] = "CheckOut";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+<link type="text/css" rel="stylesheet" href="~/css/payment.css">
+<link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
+
+<main class="page payment-page">
+    <section class="payment-form dark">
+        <div class="container">
+            <div class="block-heading">
+                <h2>Payment</h2>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc quam urna, dignissim nec auctor in, mattis vitae leo.</p>
+            </div>
+            <form asp-action="CheckOut">
+                <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+                <div class="products">
+                    <h3 class="title">Checkout</h3>
+                    @*@foreach (var item in ViewBag.ProductDetail)
+                        {
+                            <div class="item">
+                                <p class="item-name">@item.product.ProductName</p>
+                                <span class="price">@(item.Cart.Price*item.Cart.Amount).ToString("c")</span>
+                                <p class="item-name">@item.Cart.Amount</p>
+                            </div>
+                        }*@
+
+
+                    Khoảng cách (Km): <p id="testsss"></p><br />
+                    Phí giao hàng : <p id="fee"></p>
+                    <div class="total">Total<span class="price">$320</span></div>
+                </div>
+                <br />
+                <hr />
+                <br />
+                <div class="card-details">
+                    <div class="row">
+                        <div class="form-group col-sm-6">
+                            <label asp-for="FirstName" class="control-label"></label>
+                            <input asp-for="FirstName" class="form-control" />
+                            <span asp-validation-for="FirstName" class="text-danger"></span>
+                        </div>
+                        <div class="form-group col-sm-6">
+                            <label asp-for="LastName" class="control-label"></label>
+                            <input asp-for="LastName" class="form-control" />
+                            <span asp-validation-for="LastName" class="text-danger"></span>
+                        </div>
+                        <div class="form-group col-sm-6">
+                            <label asp-for="AddressLine1" class="control-label"></label>
+                            <input asp-for="AddressLine1" class="form-control" />
+                            <span asp-validation-for="AddressLine1" class="text-danger"></span>
+                        </div>
+                        <div class="form-group col-sm-6">
+                            <label asp-for="AddressLine2" class="control-label"></label>
+                            <input asp-for="AddressLine2" class="form-control" />
+                            <span asp-validation-for="AddressLine2" class="text-danger"></span>
+                        </div>
+                        <div class="form-group col-sm-6">
+                            <label asp-for="ZipCode" class="control-label"></label>
+                            <input asp-for="ZipCode" class="form-control" />
+                            <span asp-validation-for="ZipCode" class="text-danger"></span>
+                        </div>
+                        <div class="form-group col-sm-6">
+                            <label asp-for="State" class="control-label"></label>
+                            <input asp-for="State" class="form-control" />
+                            <span asp-validation-for="State" class="text-danger"></span>
+                        </div>
+                        <div class="form-group col-sm-6">
+                            <label asp-for="Country" class="control-label"></label>
+                            <input asp-for="Country" class="form-control" />
+                            <span asp-validation-for="Country" class="text-danger"></span>
+                        </div>
+                        <div class="form-group col-sm-12">
+                            <label asp-for="PhoneNumber" class="control-label"></label>
+                            <input asp-for="PhoneNumber" class="form-control" />
+                            <span asp-validation-for="PhoneNumber" class="text-danger"></span>
+                        </div>
+                        <div class="form-group col-sm-12">
+                            <label asp-for="Email" class="control-label"></label>
+                            <input asp-for="Email" class="form-control" />
+                            <span asp-validation-for="Email" class="text-danger"></span>
+                        </div>
+                        <div class="form-group col-sm-12">
+                            <label asp-for="note" class="control-label"></label>
+                            <input asp-for="note" class="form-control" />
+                            <span asp-validation-for="note" class="text-danger"></span>
+                        </div>
+                    </div>
+                </div>
+                <hr />
+                <div class="card-details">
+                    <div class="row">
+                        <div style="border:1px solid medium" class="form-group col-sm-7">
+                            <select class="form-control" id="ordertype" asp-for="ordertype" onchange="showDiv()">
+                                <option>Payment Before Order</option>
+                                <option>Payment after delivery</option>
+                                <option>Payment Online (Bank transfer)</option>
+                            </select>
+                        </div>
+                        <div class="form-group col-sm-5">
+                            @*<p id="kinhdo"></p>
+                                <p id="vido"></p>*@
+                            <div id='searchBoxContainer'><input data-val="true" data-val-required="Please enter the your location" type='text' id='searchBox' /></div>
+                            <input hidden asp-for="To" id="to" name="to" value="" />
+                            <input hidden asp-for="Fee" id="fee" name="fee" value="" />
+                            *@*<input hidden id="test" name="test" value="" />*@
+                            <div id='myMap' hidden style='width: 100vw; height: 100vh;'></div>
+                        </div>
+                    </div>
+                </div>
+                <div class="form-group col-sm-12">
+                    <input type="submit" class="btn btn-primary btn-block" value="Complete">
+                </div>
+                <style>
+                    #cardDetail1, #cardDetail2 {
+                        display: none;
+                    }
+                </style>
+                <div id="cardDetail2">
+
+                </div>
+                <div id="cardDetail1" class="card-details">
+                    <div class="row">
+                        <div class="form-group">
+                            <h3 style="text-align:center;">Banking Information</h3>
+                            Account Name: <code>Võ Hoàng Trung</code><br /><br /><br />
+                            Account No: <strong><code>1234567891112</code></strong><br /><br /><br />
+                            Bank Name : <code>Nokia - Samsung</code><br /><br /><br />
+                            Account Transfer Content / Description : [Order number] <br />(You will receive the Order number after payment - <br /> Use it to include in transfer content)<br /><br /><br />
+                            After the transfer is successful, it will take a few minutes for us to confirm your order
+                        </div>
+                    </div>
+                </div>
+            </form>
+        </div>
+    </section>
+</main>
+@section Scripts {
+    @{await Html.RenderPartialAsync("_ValidationScriptsPartial");}
+}
+
+
+<script type='text/javascript'>
+    function loadMapScenario() {
+        const lat1 = 10.787119352208848;
+        const lon1 = 106.6662850259796;
+        Microsoft.Maps.loadModule('Microsoft.Maps.AutoSuggest', {
+            callback: onLoad,
+            errorCallback: onError
+        });
+
+        function onLoad() {
+            var options = {
+                maxResults: 20
+            };
+            var manager = new Microsoft.Maps.AutosuggestManager(options);
+            manager.attachAutosuggest('#searchBox', '#searchBoxContainer', selectedSuggestion);
+        }
+
+        function onError(message) {
+            document.getElementById('printoutPanel').innerHTML = message;
+        }
+
+
+        function selectedSuggestion(suggestionResult) {
+            document.getElementById('to').value = suggestionResult.formattedSuggestion
+            //document.getElementById('kinhdo').innerHTML =
+            //    '<br> vido: ' + suggestionResult.location.latitude
+            //document.getElementById('vido').innerHTML =
+            //    '<br> kinhdo: ' + suggestionResult.location.longitude
+            var R = 6371;
+            var lat1 = 10.787035038194158;
+            var lon1 = 106.66651033153323;
+            var lat2 = suggestionResult.location.latitude;
+            var lon2 = suggestionResult.location.longitude;
+            // Radius of the earth in km
+            var dLat = (lat2 - lat1) * (Math.PI / 180); //
+            var dLon = (lon2 - lon1) * (Math.PI / 180); //
+            var a =
+                Math.sin(dLat / 2) * Math.sin(dLat / 2) +
+                Math.cos(lat1 * (Math.PI / 180)) * Math.cos(lat2 * (Math.PI / 180)) *
+                Math.sin(dLon / 2) * Math.sin(dLon / 2);
+            var c = 2 * Math.atan2(Math.sqrt(a), Math.sqrt(1 - a));
+            var d = Math.floor(R * c); // Distance in km
+            //document.getElementById('test').value = d;
+            document.getElementById('testsss').innerHTML = d + "&nbspKm";
+            if (d > 3) {
+                document.getElementById('fee').innerHTML = "50.000 VNĐ";
+                document.getElementById('fee').value = "50000";
+            }
+            else {
+                document.getElementById('fee').innerHTML = "Nill";
+                document.getElementById('fee').value = "0";
+            }
+
+        }
+    }
+    function showDiv() {
+        var Type = document.getElementById("ordertype").value;
+        if (Type == "Payment after delivery") {
+            document.getElementById("cardDetail2").style.display = 'block';
+            document.getElementById("cardDetail1").style.display = 'none';
+        }
+        else if (Type == "Payment Online (Bank transfer)") {
+            document.getElementById("cardDetail2").style.display = 'none';
+            document.getElementById("cardDetail1").style.display = 'block';
+        }
+    }
+
+</script>
+
+<script type='text/javascript' src='https://www.bing.com/api/maps/mapcontrol?key=AjVdFOFp93HANlnPHI_21ta6mH-7QBTC3r3U7LYzMQcysxNq2oq7_tdOU-RGbye5&callback=loadMapScenario' async defer></script>
+
+
+
+<div id="cardDetail1" class="card-details">
+    <div class="row">
+        <div class="form-group">
+            <h3 style="text-align:center;">Banking Information</h3>
+            Account Name: <code>Võ Hoàng Trung</code><br /><br /><br />
+            Account No: <strong><code>1234567891112</code></strong><br /><br /><br />
+            Bank Name : <code>Nokia - Samsung</code><br /><br /><br />
+            Account Transfer Content / Description : [Order number] <br />(You will receive the Order number after payment - <br /> Use it to include in transfer content)<br /><br /><br />
+            After the transfer is successful, it will take a few minutes for us to confirm your order
+        </div>
+    </div>
+</div>

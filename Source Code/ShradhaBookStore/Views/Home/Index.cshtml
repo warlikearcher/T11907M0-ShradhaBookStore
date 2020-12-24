@@ -1,0 +1,145 @@
+﻿@{
+    ViewData["Title"] = "Home Page";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<div class="slider-area">
+    <!-- Slider -->
+    <div class="block-slider block-slider4">
+        <ul class="" id="bxslider-home4">
+            @foreach (var item in ViewBag.GetBanner)
+            {
+                <li>
+                    <img src="~/Image/@item.Image" alt="Slide" />
+                </li>
+            }
+
+
+        </ul>
+    </div>
+    <!-- ./Slider -->
+</div> <!-- End slider area -->
+
+<div class="promo-area">
+    <div class="zigzag-bottom"></div>
+    <div class="container">
+        <div class="row">
+            <div class="col-md-3 col-sm-6">
+                <div class="single-promo promo1">
+                    <i class="fa fa-refresh"></i>
+                    <p>30 Days return</p>
+                </div>
+            </div>
+            <div class="col-md-3 col-sm-6">
+                <div class="single-promo promo2">
+                    <i class="fa fa-truck"></i>
+                    <p>Free shipping</p>
+                </div>
+            </div>
+            <div class="col-md-3 col-sm-6">
+                <div class="single-promo promo3">
+                    <i class="fa fa-lock"></i>
+                    <p>Secure payments</p>
+                </div>
+            </div>
+            <div class="col-md-3 col-sm-6">
+                <div class="single-promo promo4">
+                    <i class="fa fa-gift"></i>
+                    <p>New products</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</div> <!-- End promo area -->
+<div class="container">
+    <div class="row">
+        <div class="maincontent-area">
+            <div class="zigzag-bottom"></div>
+            <div class="col-md-12">
+                <div class="latest-product">
+                    <h2 class="section-title">LATEST BOOKS</h2>
+                    <div class="product-carousel">
+                        @foreach (var item in ViewBag.Lasted)
+                        {
+                            <div class="single-product">
+                                <div class="product-f-image">
+                                    <img src="~/Image/@item.Picture" alt="">
+                                    <div class="product-hover">
+                                        @if (item.Quantity > 0)
+                                        {
+                                            <a class="text-info add-to-cart-link" id="cartButton" asp-controller="Cart2" asp-action="AddToShoppingCart" asp-route-Id="@item.ProductCode">
+                                                Add to cart
+                                            </a> }
+                                        else
+                                        {
+                                            <a class="text-info isDisabled add-to-cart-link" id="cartButton" style="color:black!important">
+                                                Sold out
+                                            </a>}
+                                        <a href="@Url.Action("Detail","Home",new {id = item.ProductCode})" class="view-details-link"><i class="fa fa-link"></i> See details</a>
+                                    </div>
+                                </div>
+
+                                <h2><a href="single-product.html">@item.ProductName</a></h2>
+
+                                <div class="product-carousel-price">
+                                    <ins>US $@item.Price</ins>
+                                </div>
+                            </div>}
+
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div> <!-- End main content area -->
+<div class="container">
+    <div class="row">
+        <div class="maincontent-area">
+            <div class="zigzag-bottom"></div>
+
+
+            <div class="col-md-12">
+                <div class="latest-product">
+                    <h2 style="color:chocolate" class="section-title">POPULAR PRODUCTS</h2>
+                    <div class="product-carousel">
+                        @foreach (var item in ViewBag.popularList)
+                        {
+                            <div class="single-product">
+                                <div class="product-f-image">
+                                    <img src="~/Image/@item.Product.Picture" />
+                                    <div class="product-hover">
+                                        @if (item.Product.Quantity > 0)
+                                        {
+                                            <a class="text-info add-to-cart-link" id="cartButton" asp-controller="Cart2" asp-action="AddToShoppingCart" asp-route-Id="@item.Product.ProductCode">
+                                                    Add to cart
+                                                </a>
+                                            }
+                                        else
+                                        {
+                                            <a class="text-info isDisabled add-to-cart-link" id="cartButton" style="color:black!important">
+                                                Sold out
+                                            </a>}
+                                        <a href="@Url.Action("Detail","Home",new {id = item.Product.ProductCode})" class="view-details-link"><i class="fa fa-link"></i> See details</a>
+                                    </div>
+                                </div>
+
+                                <h2><a href="single-product.html">@item.Product.ProductName</a></h2>
+
+                                <div class="product-carousel-price">
+                                    <ins>US $@item.Product.Price</ins>
+                                </div>
+                            </div>}
+
+                    </div>
+                </div>
+            </div>
+
+
+        </div> <!-- End main content area -->
+
+    </div>
+</div>
+
+<br>
+@Html.Raw(TempData["msg"])

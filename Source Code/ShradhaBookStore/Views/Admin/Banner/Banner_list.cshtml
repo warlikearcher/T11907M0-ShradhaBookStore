@@ -1,0 +1,111 @@
+﻿@model IEnumerable<ShradhaBookStore.Models.Banner>
+@{
+    ViewData["Title"] = "Banner_list";
+    Layout = "~/Views/Admin/Layout/_Layout.cshtml";
+    var pageList = (IPagedList)ViewBag.listBanner;
+}
+
+
+@using X.PagedList;
+@using X.PagedList.Mvc.Core;
+<div class="content-wrapper">
+    <!-- Content Header (Page header) -->
+    <div class="content-header">
+        <div class="container-fluid">
+            <div class="row mb-2">
+                <div class="col-sm-6">
+                    <h1 class="m-0">List Banner</h1>
+                </div><!-- /.col -->
+            </div><!-- /.row -->
+        </div><!-- /.container-fluid -->
+    </div>
+
+
+    <!---->
+    <!-- Main content -->
+    <section class="content">
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-12">
+                    <div class="card">
+                        <div class="card-header">
+                            <h3 class="card-title">List Banner</h3>
+                        </div>
+                        <!-- /.card-header -->
+                        <div class="card-body">
+                            <table id="example2" class="table table-bordered table-hover">
+                                <thead>
+                                    <tr>
+                                        <th>ID</th>
+                                        <th>Image</th>
+                                        <th>Create At</th>
+                                        <th>Action</th>
+                                    </tr>
+                                </thead>
+                                <tbody>
+                                    @foreach (var item in ViewBag.listBanner)
+                                    {
+                                    <tr>
+                                        <td>@item.BannerCode</td>
+
+                                        <td><img src="~/Image/@item.Image" width="80" /></td>
+                                        <td>@item.CreateAt</td>
+                                        <td>
+                                            <a href="@Url.Action("Remove_Banner","Banner",new { bannerCode = item.BannerCode })" value="@item.BannerCode" class="confirm-delete" id="confirm-delete">Remove</a>
+                                        </td>
+                                    </tr>
+                                    }
+                                </tbody>
+                                <tfoot>
+                                    <tr>
+                                        <th>ID</th>
+                                        <th>Image</th>
+                                        <th>Create At</th>
+                                        <th>Action</th>
+                                    </tr>
+                                </tfoot>
+                            </table>
+                            <div class="row">
+                                <div class="col-sm-12 col-md-5">
+                                    <div class="dataTables_info" id="example2_info" role="status" aria-live="polite">Page @(pageList.PageCount < pageList.PageNumber ? 0 : pageList.PageNumber) of @pageList.PageCount</div>
+                                </div>
+                                <br />
+                                <div class="col-sm-12 col-md-7">
+                                    <div class="dataTables_paginate paging_simple_numbers" id="example2_paginate">
+                                        <ul class="pagination">
+                                            @Html.PagedListPager(pageList, page => Url.Action("Banner_list", new { page }), new X.PagedList.Web.Common.PagedListRenderOptionsBase
+                                       {
+                                           LiElementClasses = new string[] { "page-item" },
+                                           PageClasses = new string[] { "page-link" }
+                                       })
+                                        </ul>
+                                    </div>
+
+                                </div>
+                            </div>
+
+                        </div>
+                        <!-- /.card-body -->
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </section>
+</div>
+@Html.Raw(TempData["msg"])
+
+
+@*href=""*@
+@*confirm-delete*@
+<script type="text/javascript">
+
+    var elems = document.getElementsByClassName('confirm-delete');
+    var confirmIt = function (e) {
+        if (!confirm('Are you sure?')) e.preventDefault();
+    };
+    for (var i = 0, l = elems.length; i < l; i++) {
+        elems[i].addEventListener('click', confirmIt, false);
+    }
+</script>
+

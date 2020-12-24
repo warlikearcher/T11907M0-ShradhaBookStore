@@ -1,0 +1,58 @@
+﻿@model ShradhaBookStore.Models.Publisher
+@{
+    ViewData["Title"] = "Create_Publisher";
+}
+@{
+    Layout = "~/Views/Admin/Layout/_Layout.cshtml";
+}
+<h2>Create new Publisher</h2>
+<div class="content-wrapper">
+    <!-- Main content -->
+    <section class="content">
+
+        <!-- Default box -->
+        <div class="card">
+            <div class="card-body">
+                <!-- content -->
+                @using (Html.BeginForm("Create_Publisher", "Manage_Products", FormMethod.Post))
+                {
+                    <div class="row">
+                        <div class="col-md-4">
+                            <div class="form-group">
+                                <label class="control-label">Publisher Code</label>
+                                <i>Publisher Code  must be short for Publisher Name</i>
+                                <i>Ex: "Kim Dong Publisher" => "KD0"</i>
+                                <br />
+                                @Html.EditorFor(p => p.PublisherCode)
+                                @Html.ValidationMessageFor(p => p.PublisherCode)
+                            </div>
+                            <div class="form-group">
+                                <label class="control-label">Publisher Name</label>
+                                <br />
+                                @Html.EditorFor(p => p.PublisherName)
+                                @Html.ValidationMessageFor(p => p.PublisherName)
+                            </div>
+                            <br />
+
+                            <div class="form-group">
+                                <input type="submit" value="Save" class="btn btn-primary" />
+                            </div>
+
+                        </div>
+                    </div>
+                }
+            </div>
+            <!-- /.card-body -->
+            <div class="card-footer">
+
+            </div>
+            <!-- /.card-footer-->
+        </div>
+        <!-- /.card -->
+
+    </section>
+    <!-- /.content -->
+</div>
+<!-- /.content-wrapper -->
+@Html.Raw(TempData["msg"])
+

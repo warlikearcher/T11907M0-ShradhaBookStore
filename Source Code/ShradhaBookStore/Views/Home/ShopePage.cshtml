@@ -1,0 +1,147 @@
+﻿@{
+    ViewData["Title"] = "Shop Page";
+    var pageList = (IPagedList)ViewBag.productList;
+}
+
+@using X.PagedList;
+@using X.PagedList.Mvc.Core;
+
+<div class="product-big-title-area">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-12">
+                <div class="product-bit-title text-center">
+                    <h2>Shop</h2>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<div class="container">
+    <div class="row">
+        <div class="col-md-2">
+            <div style="padding-top:30px">
+                <div class="page-sidebar">
+                    <div class="sidebar-block">
+                        <h3 class="sidebar-title">Categories</h3>
+                        <ul class="sidebar-menu">
+                            @*@foreach (var item in ViewBag.GetCategory)*@
+                            @foreach (var item in ViewBag.GetCategory)
+                            {
+                                <li><a href="@Url.Action("ShopePage","Home",new {Category = item.CategoryCode})">@item.CategoryName</a></li>
+}
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-10">
+            <div class="shop-toolbar" style="padding-top:30px">
+                <div class="row align-items-center">
+                    <div class="col-xl-8 col-lg-8 col-md-8 col-sm-8">
+                        <div class="sorting-selection" style="width: 100%;">
+                            <div style="display: inline-block;">
+                                <span>Sort By:</span>
+                            </div>
+                            <div style="display: inline-block;">
+                                <select class="form-control" id="sortSelect" onchange="sortSelect()">
+                                    <option id="SearchText" value="@ViewBag.SeachValue" hidden></option>
+                                    <option value="DS" selected="selected" id="DS">Default Sorting</option>
+                                    <option value="AZ" id="AZ">
+                                        Sort By:Name (A - Z)
+                                    </option>
+                                    <option value="ZA" id="ZA">
+                                        Sort By:Name (Z - A)
+                                    </option>
+                                    <option value="LH" id="LH">
+                                        Sort By:Price (Low &gt; High)
+                                    </option>
+                                    <option value="HL" id="HL">
+                                        Sort By:Price (High &gt; Low)
+
+                                    </option>
+                                </select>
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <hr />
+            <div class="single-product-area">
+                <div class="zigzag-bottom"></div>
+                <div>
+                    <div class="row">
+                        @foreach (var item in ViewBag.productList)
+                        {
+                            <div class="col-md-3 col-sm-6" style=" height:400px">
+                                <div class="single-shop-product">
+                                    <div class="product-upper">
+                                        <a href="@Url.Action("Detail","Home",new {id = item.Product.ProductCode})"><img style="width:180px;height:260px" src="~/Image/@item.Product.Picture" alt=""></a>
+                                    </div>
+                                    <h5 style="padding-top:5px"><a href="@Url.Action("Detail","Home",new {id = item.Product.ProductCode})">@item.Product.ProductName</a></h5>
+                                    <div class="product-carousel-price">
+                                        <ins>US $@item.Product.Price</ins>
+                                    </div> @*ProductInfo*@
+
+                                    <div class="product-option-shop">
+                                        @if (item.Product.Quantity > 0)
+                                        {
+                                            <a class="text-info add_to_cart_button" id="cartButton" asp-controller="Cart2" asp-action="AddToShoppingCart" asp-route-Id="@item.Product.ProductCode">
+                                                Add to cart
+                                            </a> }
+                                        else
+                                        {
+                                            <a class="text-info isDisabled" id="cartButton">
+                                                Sold out
+                                            </a>}
+
+                                    </div>
+                                </div>
+                            </div>}
+                    </div>
+                    <div class="row">
+                        <div class="col-md-12">
+                            <div class="product-pagination text-center">
+                                <nav>
+                                    @Html.PagedListPager(pageList, page => Url.Action("ShopePage", new { page }))
+                                </nav>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+@Html.Raw(TempData["msg"])
+<script>
+    function sortSelect() {
+        var selObj = document.getElementById("sortSelect");
+        var selValue = selObj.value;
+
+        var selSearchValue = document.getElementById("SearchText").value;
+        if (selSearchValue == null) {
+            var url = '@Url.Action("ShopePage", "Home")' + 'sortby=' + selValue;
+        }
+        else {
+            var url = '@Url.Action("ShopePage", "Home")' + '?searchText=' + selSearchValue + '&sortby=' + selValue;
+        }
+
+
+        window.location.href = url
+
+        @*var url = '@Url.Action("Index", "PageList", new { searchText ="findMe", sortby = "sortMe"}).Replace("&amp;", "&")';
+        window.location.href = url.replace('findMe', selSearchValue).replace('sortMe', selValue);*@
+
+    }
+
+
+</script>
+@*Range Slide*@
+<script type="text/javascript">
+    $('input').popup();
+</script>
+
+
+

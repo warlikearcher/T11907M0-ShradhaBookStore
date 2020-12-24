@@ -1,0 +1,49 @@
+﻿@using Microsoft.AspNetCore.Http;
+<style>
+    #picture {
+    width:80px !important;
+    }
+</style>
+@if(ViewBag.GetItem == null)
+{
+<tr>
+    <td>ViewBag.Empty</td>
+    <td>ViewBag.Empty</td>
+    <td>ViewBag.Empty</td>
+    <td>ViewBag.Empty</td>
+</tr>
+}
+else if (Context.Session.GetInt32("id") != null)
+{
+    @foreach (var item in ViewBag.GetItem)
+    {
+        <tr>
+            <td><a asp-action="RemoveFromShoppingCart" asp-route-id="@item.product.ProductCode"><i class="fa fa-trash" aria-hidden="true"></i></a></td>
+            <td class="w-25 justify-content-center align-items-center">
+                <img  src="~/images/@item.product.Picture" id="picture" class="img-fluid img-thumbnail" alt="Sheep">
+            </td>
+            <td class="justify-content-center align-items-center">@item.product.ProductName</td>
+            <td class="justify-content-center align-items-center">@item.Cart.Price.ToString("c")</td>
+            <td class="justify-content-center align-items-center">@item.Cart.Amount</td>
+            <td class="justify-content-center align-items-center">@((item.Cart.Amount * item.product.Price).ToString("c"))</td>
+        </tr>
+    }
+}
+else
+{
+    @foreach (var item in ViewBag.GetItem)
+    {
+        <tr>
+            <td><a asp-action="RemoveFromShoppingCart" asp-route-id="@item.product.ProductCode"><i class="fa fa-trash" aria-hidden="true"></i></a></td>
+
+            <td class="w-25 justify-content-center align-items-center">
+                <img src="~/images/@item.product.Picture" id="picture" class="img-fluid img-thumbnail" alt="Sheep">
+            </td>
+            <td class="ssss justify-content-center align-items-center">@item.product.ProductName</td>
+            <td class="ssss justify-content-center align-items-center">@item.product.Price.ToString("c")</td>
+            <td class="ssss justify-content-center align-items-center">@item.Amount</td>
+            <td class="ssss justify-content-center align-items-center">@((item.Amount * item.product.Price).ToString("c"))</td>
+        </tr>
+    }
+}
+

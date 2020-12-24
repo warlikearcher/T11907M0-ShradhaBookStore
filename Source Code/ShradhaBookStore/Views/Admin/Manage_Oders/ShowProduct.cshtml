@@ -1,0 +1,64 @@
+﻿@{ ViewData["Title"] = "Show Product"; }
+@{ Layout = "~/Views/Admin/Layout/_Layout.cshtml"; }
+<div class="content-wrapper">
+    @*@model IEnumerable<ShradhaBookStore.Models.OrderDetail>*@
+    <!-- Content Header (Page header) -->
+    <section class="content">
+        <div class="container-fluid">
+            <!-- /.row -->
+            <div class="row">
+                <div class="col-12">
+                    <div class="card">
+                        <div class="card-header">
+                            <h3 class="card-title">List Product</h3>
+
+                            <div class="card-tools">
+                                <div class="input-group input-group-sm" style="width: 150px;">
+                                    <input type="text" name="table_search" class="form-control float-right" placeholder="Search">
+                                    <div class="input-group-append">
+                                        <button type="submit" class="btn btn-default">
+                                            <i class="fas fa-search"></i>
+                                        </button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- /.card-header -->
+                        <div class="card-body table-responsive p-0" style="height: 500px;">
+                            <table class="table table-head-fixed text-nowrap">
+                                <thead>
+                                    <tr>
+                                        <th>Product Name</th>
+                                        <th>total price</th>
+                                        <th>amount</th>
+                                        <th>Quantity still in stock</th>
+                                    </tr>
+                                </thead>
+                                <tbody>
+                                    @foreach (var item in ViewBag.Model)
+                                    {
+                        <tr>
+                            <td>@item.product.ProductName</td>
+                            <td>@item.detail.Price.ToString("c")</td>
+                            <td>@item.detail.Amount</td>
+                            <td>@item.product.Quantity</td>
+                        </tr>}
+                                </tbody>
+                            </table>
+                        </div>
+                        <!-- /.card-body -->
+                        <button onclick="goBack()">Go Back</button>
+
+                        <script>
+                            function goBack() {
+                                window.history.back();
+                            }
+                        </script>
+
+                    </div>
+                    <!-- /.card -->
+                </div>
+            </div>
+        </div>
+    </section>
+</div>

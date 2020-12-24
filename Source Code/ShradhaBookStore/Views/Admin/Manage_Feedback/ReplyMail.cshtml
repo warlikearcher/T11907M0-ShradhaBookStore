@@ -1,0 +1,64 @@
+﻿@model ShradhaBookStore.Models.Reply
+
+
+@{ ViewData["Title"] = "Reply"; }
+@{ Layout = "~/Views/Admin/Layout/_Layout.cshtml"; }
+@using AspNetCore @using Microsoft.AspNetCore.Http
+@using (Html.BeginForm("ReplyMail", "Manage_Feedback", FormMethod.Post))
+{
+<div class="container">
+    <!-- Form Started -->
+    <div class="container form-top">
+        <div class="row" style="margin-left:350px;">
+            <div class="col-md-6 col-md-offset-3 col-sm-12 col-xs-12">
+                <div class="panel panel-danger">
+                    <div class="panel-body">
+                        <form id="reused_form">
+
+                            <div class="form-group">
+                                <h2 style="color:crimson; padding:50px;" >Reply FeedBack Form </h2>
+
+                            </div>
+                            <div class="form-group">
+                                <input type="hidden" class="form-control" name="UserID" readonly value=" @Context.Session.GetInt32("UserID")" />
+                                <label><i class="fa fa-user" aria-hidden="true"></i> Email To :</label>
+                                <input class="form-control" name="MailTo" readonly value=" @Context.Session.GetString("MailTo")" />
+                            </div>
+                            <div class="form-group">
+                                <label><i class="fa fa-envelope" aria-hidden="true"></i> Title :</label>
+                                <input type="text" name="ReplyTitle" class="form-control" placeholder="Enter Reply Title" required>
+                            </div>
+                            <div class="form-group">
+                                <label><i class="fa fa-comment" aria-hidden="true"></i> Message</label>
+                                <textarea rows="3" name="ReplyMessage" class="form-control" placeholder="Enter Your Reply Message" required></textarea>
+                            </div>
+                            @ViewBag.Message
+
+                            <div class="form-group">
+                                <button class="btn btn-raised btn-block btn-danger" onclick="return alert('Your reply has been sent!')"> Send →</button>
+                            </div>
+                        </form>
+
+
+                    </div>
+
+
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Form Ended -->
+</div>}
+@if (ViewBag.Msg != null)
+{
+    <script type="text/javascript">
+      window.onload = function () {
+        alert("@ViewBag.Msg");
+      };
+    </script>
+    <div>
+        <h3 style="color: #ee5b54">@ViewBag.Msg</h3>
+    </div>
+
+    
+}

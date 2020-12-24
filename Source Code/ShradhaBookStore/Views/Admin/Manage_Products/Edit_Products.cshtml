@@ -1,0 +1,134 @@
+﻿@model ShradhaBookStore.Models.Product
+
+@{
+    ViewData["Title"] = "Edit Products";
+}
+
+@{
+    Layout = "~/Views/Admin/Layout/_Layout.cshtml";
+}
+<!-- Content Wrapper. Contains page content -->
+<div class="content-wrapper">
+    <!-- Content Header (Page header) -->
+    <section class="content-header">
+        <div class="container-fluid">
+            <div class="row mb-2">
+                <div class="col-sm-6">
+                    <h1>Page Products Update</h1>
+                </div>
+            </div>
+        </div><!-- /.container-fluid -->
+    </section>
+
+    <!-- Main content -->
+    <section class="content">
+
+        <!-- Default box -->
+        <div class="card">
+            <div class="card-body">
+                <!-- content -->
+                <form asp-action="Edit_Products" asp-controller="Manage_Products" method="post" enctype="multipart/form-data">
+                    <div class="row">
+                        <div>
+                            <h3 style="color:red;font-family:Symbol">@ViewData["Msg"]</h3>
+                        </div>
+                        <div class="col-md-4">
+                            <div class="form-group">
+                                @Html.HiddenFor(p => p.ProductCode)
+                            </div>
+
+                            <div class="form-group">
+                                <label class="control-label">Title</label>
+                                <br />
+                                @Html.EditorFor(p => p.ProductName)
+                                @Html.ValidationMessageFor(p => p.ProductName)
+                            </div>  @*Product Name*@
+                            <div class="form-group">
+                                <label class="control-label">Price ($)</label>
+                                <br />
+                                @Html.EditorFor(p => p.Price)
+                                @Html.ValidationMessageFor(p => p.Price)
+                            </div>@*Product Price*@
+                            <div class="form-group">
+                                <label class="control-label">Quantity</label>
+                                <br />
+                                @Html.EditorFor(p => p.Quantity)
+                                @Html.ValidationMessageFor(p => p.Quantity)
+                            </div>@*Product Quantity*@
+                            <div class="form-group">
+                                <label class="control-label">Author</label>
+                                <br />
+                                @Html.EditorFor(p => p.AuthorName)
+                                @Html.ValidationMessageFor(p => p.AuthorName)
+                            </div>@*Product Author*@
+                            <div class="form-group">
+                                <label class="control-label">Release Year</label>
+                                <br />
+                                @Html.EditorFor(p => p.ReleaseYear)
+                                @Html.ValidationMessageFor(p => p.ReleaseYear)
+                            </div>@*Product Release Year*@
+                            <div class="form-group">
+                                <label class="control-label">Version</label>
+                                <br />
+                                @Html.EditorFor(p => p.Ver)
+                                @Html.ValidationMessageFor(p => p.Ver)
+                            </div> @*Product Version*@
+                            <div class="form-group">
+                                <label class="control-label">Condition of products: Used products?</label>
+                                <br />
+                                @Html.EditorFor(p => p.Used)
+                                @Html.ValidationMessageFor(p => p.Used)
+                            </div>@*Product Used?*@
+                            <div class="form-group">
+                                <label class="control-label">Review</label>
+                                <br />
+                                @Html.TextAreaFor(p => p.Review)
+                                @Html.ValidationMessageFor(p => p.Review)
+                            </div> @*Product Review*@
+                            <div class="form-group">
+                                <label>Category</label>
+                                <br />
+                                @*@Html.DropDownList("CategoryName", (IEnumerable<SelectListItem>)ViewBag.CategoryList, new { @class = "form-control" })*@
+                                @Html.DropDownListFor(p => p.CategoryCode,new SelectList(ViewBag.CategoryList, "CategoryCode", "CategoryName"))
+                                @*<select class="form-control" asp-for="CategoryCode"
+                    asp-items="@(new SelectList(ViewBag.ListofCategory,"CategoryCode","CategoryName"))">
+            </select>*@
+                            </div>@*Product Category*@
+                            <div class="form-group">
+                                <label>Publisher</label>
+                                <br />
+
+                                @*@Html.DropDownList("PublisherName", (IEnumerable<SelectListItem>)ViewBag.PublisherList, new { @class = "form-control" })*@
+                                @Html.DropDownListFor(p => p.PublisherCode, new SelectList(ViewBag.PublisherList, "PublisherCode", "PublisherName"))
+                                @*<select class="form-control" asp-for="PublisherCode"
+                    asp-items="@(new SelectList(ViewBag.ListofPublisher,"PublisherCode","PublisherName"))">
+            </select>*@
+                            </div>@*Product Publisher*@
+                        <div class="form-group">
+                            <label class="control-label">Thumbnail</label>
+                            <br />
+                            @Html.DisplayFor(model => model.Picture)
+                            <input type="file" name="file" class="form-control" accept="~/Image/*">
+                        </div>@*Product Picture*@
+                            <br />
+
+                            <div class="form-group">
+                                <input type="submit" value="Save" class="btn btn-primary" />
+                            </div>
+
+                        </div>
+                    </div>
+                </form>
+                
+                <!-- content -->
+            </div>
+            <!-- /.card-body -->
+            <div class="card-footer">
+            </div>
+            <!-- /.card-footer-->
+        </div>
+        <!-- /.card -->
+    </section>
+    <!-- /.content -->
+</div>
+<!-- /.content-wrapper -->

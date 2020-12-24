@@ -1,0 +1,347 @@
+﻿<style>
+    #type {
+        text-align: center;
+    }
+
+    .root {
+        margin: 10% auto;
+        position: relative;
+        display: block;
+        font-family: 'Montserrat', sans-serif;
+        width: 40rem;
+        padding: 1rem;
+        min-height: 50vh;
+        border-radius: 5px;
+        box-shadow: 0 2rem 6rem rgba(0, 0, 0, 0.3);
+    }
+
+    figure {
+        display: flex;
+    }
+
+        figure img {
+            width: 8rem;
+            height: 8rem;
+            border-radius: 15%;
+            border: 1.5px solid forestgreen;
+            margin-right: 1.5rem;
+            padding: 1rem;
+        }
+
+        figure figcaption {
+            display: flex;
+            flex-direction: column;
+            justify-content: space-evenly;
+        }
+
+            figure figcaption h4 {
+                font-size: 1.4rem;
+                font-weight: 500;
+            }
+
+            figure figcaption h6 {
+                font-size: 1rem;
+                font-weight: 300;
+            }
+
+            figure figcaption h2 {
+                font-size: 1.6rem;
+                font-weight: 500;
+            }
+
+    .order-track {
+        margin-top: 2rem;
+        padding: 0 1rem;
+        border-top: 1px dashed #2c3e50;
+        padding-top: 2.5rem;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .order-track-step {
+        display: flex;
+        height: 7rem;
+    }
+
+        .order-track-step:last-child {
+            overflow: hidden;
+            height: 4rem;
+        }
+
+            .order-track-step:last-child .order-track-status span:last-of-type {
+                display: none;
+            }
+
+    .order-track-status {
+        margin-right: 1.5rem;
+        position: relative;
+    }
+
+    .order-track-status-dot {
+        display: block;
+        width: 2.2rem;
+        height: 2.2rem;
+        border-radius: 50%;
+        background: gray;
+    }
+
+    .order-track-status-line {
+        display: block;
+        margin: 0 auto;
+        width: 2px;
+        height: 7rem;
+        background: black;
+    }
+
+    .order-track-text-stat {
+        font-size: 1.3rem;
+        font-weight: 500;
+        margin-bottom: 3px;
+    }
+
+    .order-track-text-sub {
+        font-size: 1rem;
+        font-weight: 300;
+    }
+
+    .order-track {
+        transition: all .3s height 0.3s;
+        transform-origin: top center;
+    }
+
+    #acitve {
+        background-color: forestgreen;
+    }
+</style>
+<br />
+<h3 id="type">Tracking Order</h3>
+<div class="container">
+    <form asp-action="Index">
+        <input class="form-control" type="text" name="search" value="" placeholder="Search" />
+        <input type="submit" value="Search"/>
+    </form>
+</div>
+
+<br />
+<hr />
+@if (ViewBag.CheckItem == null)
+{
+    <h3 style="color:green;text-align:center;">Search your order here</h3>
+}
+else if (ViewBag.Ordernumber == null || ViewBag.Deny != null || ViewBag.Cancle != null)
+{
+    if (ViewBag.Ordernumber == null)
+    {
+        <h3 style="color:forestgreen;text-align:center;">The OrderNumber dont have in us Database Or The order number is not belong of you</h3>
+    }
+    if(ViewBag.Deny != null)
+    {
+      <h3 style="color:forestgreen;text-align:center;">The order was rejected for a number of reasons: The product is out</h3>
+    }
+
+    if (ViewBag.Cancle != null)
+    {
+        <h3 style="color:forestgreen;text-align:center;">This order have been cancle</h3>
+    }
+}
+else
+{
+<section class="root">
+    <figure>
+        <img src="https://image.flaticon.com/icons/svg/970/970514.svg" alt="">
+        <figcaption>
+            <h4>Tracking Details</h4>
+            <div class="row">
+                <div class="col-sm-6">
+                    <h6>Order Number</h6>
+                    <h2># @ViewBag.Ordernumber</h2>
+                </div>
+                <div class="col-sm-6">
+                    <h6>Date Order</h6>
+                    <h2># @ViewBag.Date</h2>
+                </div>
+            </div>
+
+
+
+        </figcaption>
+    </figure>
+    <div class="order-track">
+        <div class="row">
+
+            @*<div class="order-track-text">
+                        <p class="order-track-text-stat">Date Created</p>
+                        <span class="order-track-text-sub">@ViewBag.Date</span>
+                    </div>
+                </div>*@
+            <div class="col-sm-6">
+                <div class="order-track-text">
+                    <p class="order-track-text-stat">
+                        From - @ViewBag.from
+                    </p>
+                </div>
+            </div>
+            <div class="col-sm-6">
+                <p class="order-track-text-stat">
+                    To - @ViewBag.to
+                </p>
+            </div>
+        </div>
+    </div>
+    <div class="order-track">
+        <div class="order-track-step">
+            <div class="order-track-status">
+                @if (ViewBag.OrderStatus == "Order not confirm")
+                {
+<span class="order-track-status-dot"></span> }
+                else
+                {
+<span class="order-track-status-dot" id="acitve"></span>}
+                <span class="order-track-status-line"></span>
+            </div>
+            <div class="order-track-text">
+                <p class="order-track-text-stat">Order Confirm/Processing</p>
+                <span class="order-track-text-sub" style="font-size:10px;">Grand Total : @ViewBag.Price</span>
+            </div>
+        </div>
+        <div class="order-track-step">
+            <div class="order-track-status">
+                @if (ViewBag.DeliverinnStatus == false)
+                {
+<span class="order-track-status-dot"></span> }
+                else
+                {
+<span class="order-track-status-dot" id="acitve"></span>}
+                <span class="order-track-status-line"></span>
+            </div>
+            <div class="order-track-text">
+                <p class="order-track-text-stat">Delivering</p>
+                <span class="order-track-text-sub" style="font-size:15px;">On the way</span>
+            </div>
+        </div>
+        <div class="order-track-step">
+            <div class="order-track-status">
+                @if (ViewBag.DeliveredStatus == false)
+                {
+<span class="order-track-status-dot"></span> }
+                else
+                {
+<span class="order-track-status-dot" id="acitve"></span>}
+                <span class="order-track-status-line"></span>
+            </div>
+            <div class="order-track-text">
+                <p class="order-track-text-stat">Delivered</p>
+                <span class="order-track-text-sub" style="font-size:15px;">Ready for pickup</span>
+            </div>
+        </div>
+    </div>
+     @if (ViewBag.DeliveredStatus == false)
+     { 
+         <div class="order-track" style="text-align:left">
+        <a href="" data-id="@ViewBag.OrderNo" name="delete" id="dot" class="delete btn btn-primary"><i class="fa fa-trash-o"></i>Cancle Order</a>
+        @*<button onclick="confirms()">Cancle Order</button>*@
+         </div>
+     }
+    <div class="order-track" style="text-align:right">
+        <a class="btn btn-success " asp-action="Action" id="Clickss" asp-route-id="@ViewBag.Ordernumber">Product</a>
+    </div>
+</section>
+
+@*<script>
+    function confirms() {
+        var yes = confirm('You want Cancle ?');
+        if (yes == true) {
+            window.location.href = '@Url.Action("ClearOrder",new { id= @ViewBag.OrderNo })';
+        }
+        else {
+            //
+        }
+    }
+</script>*@
+
+
+}
+<style>
+    button {
+        background-color: #008cba;
+        /* Green */
+        border: none;
+        color: white;
+        padding: 15px 32px;
+        text-align: center;
+        text-decoration: none;
+        display: inline-block;
+        font-size: 16px;
+        margin: 4px 2px;
+        cursor: pointer;
+    }
+
+    .button:disabled {
+        opacity: 0.5;
+    }
+
+    .hide {
+        display: none;
+    }
+</style>
+@section Scripts {
+
+    <script>
+       $(document).ready(function () {
+            $(".delete").click(function (event) {
+                var r = confirm("Do you want delete?");
+                if (r == true) {
+                    event.preventDefault();
+                    $.ajax({
+                        type: "POST",
+                        url: "@Url.Action("ClearOrder", "TrackingOrder")",
+                        data: {
+                            id: $(this).attr("data-id")
+                        },
+                        success: function (result) {
+                            window.location.href = '@Url.Action("Index","TrackingOrder")';
+                        }
+                    });
+                }
+                     else {
+                        ///
+                    }
+    });
+});
+    </script>
+
+    <script>
+        $(document).ready(function () {
+            $("#Clickss").on("click", function () {
+                $("#payment-button-amount").text("In Processing....");
+
+                $(".button").attr("disabled", false);
+                setTimeout(function () {
+                    $(".Status").css({ 'display': 'none' });
+                    $("#body1").css({ 'display': 'block' });
+                    $("#body2").css({ 'display': 'none' });
+                    $("#click1").css({ 'display': 'none' });
+                    $("#click2").css({ 'display': 'block' });
+                    $(".button").attr("disabled", false);
+                    //$('.btnPayment').css({ 'display': 'none' });
+                }, 1000);
+
+            });
+            $("#click2").on("click", function () {
+                $("#payment-button-amount").text("In Processing....");
+
+                $(".button").attr("disabled", false);
+                setTimeout(function () {
+                    $(".Status").css({ 'display': 'block' });
+                    $("#body1").css({ 'display': 'none' });
+                    $("#body2").css({ 'display': 'block' });
+                    $("#click1").css({ 'display': 'block' });
+                    $("#click2").css({ 'display': 'none' });
+                    $(".button").attr("disabled", false);
+                    //$('.btnPayment').css({ 'display': 'none' });
+                }, 1000);
+
+            });
+        });
+    </script>
+}

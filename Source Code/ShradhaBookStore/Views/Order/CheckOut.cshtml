@@ -1,0 +1,285 @@
+﻿@model ShradhaBookStore.Models.Order
+
+@{ ViewData["Title"] = "CheckOut"; }
+
+
+@if (ViewBag.Checkedd != null)
+{
+@Html.Raw(TempData["sdsdasds"])}
+<main class="page payment-page">
+    <section class="payment-form dark">
+        <div class="container">
+            <div class="block-heading">
+                <h2>Payment</h2>
+            </div>
+            @*@AntiForgeryToken*@
+            <form asp-action="CheckOut">
+                <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+                <div class="products">
+                    <h3 class="title">Checkout</h3>
+                    @if (ViewBag.ProductDetail == null)
+                    {
+        <div class="item-product">
+            <p>Cart Empty</p>
+            <a asp-action="Index" class="btn btn-success" asp-controller="Home"><span class="glyphicon glyphicon-arrow-left"></span>&nbsp;Continue Shopping</a>
+        </div>}
+    else
+    {
+@foreach (var item in ViewBag.ProductDetail)
+{
+<div class="item-product">
+    <span class="price">$@((item.Cart.Amount * item.product.Price))</span>
+    <p class="item-name"> @item.product.ProductName</p>
+    <p class="item-description"></p>
+</div>}
+                @if (ViewBag.hetSanPhamRoi != null)
+                {
+<p>@ViewBag.hetSanPhamRoi</p>}}
+
+                    <div class="total">Total<span class="price"> $@ViewBag.total</span></div>
+
+                    <hr />
+                    <div class="total">Fee Shipping<span class="price" id="fees"></span></div>
+                </div>
+                <div class="card-details">
+                    <h3 class="title">Information - </h3>
+                    <p>(Dont use any white space - minus Choose Area/Street)</p>
+                    <p class="">Example:Trung_Vo</p>
+                    <div class="row">
+                        <div class="form-group col-sm-6">
+                            <label asp-for="FirstName" class="control-label"></label>
+                            <input asp-for="FirstName" id="txt1" class="form-control" />
+                            <span asp-validation-for="FirstName" class="text-danger"></span>
+                        </div>
+                        <div class="form-group col-sm-6">
+                            <label asp-for="LastName" class="control-label"></label>
+                            <input asp-for="LastName" id="txt2" class="form-control" />
+                            <span asp-validation-for="LastName" class="text-danger"></span>
+                        </div>
+                        <div class="form-group col-sm-12">
+                            <label asp-for="AddressLine1" class="control-label"></label>
+                            <input asp-for="AddressLine1" id="txt3" class="form-control" />
+                            <span asp-validation-for="AddressLine1" class="text-danger"></span>
+                        </div>
+                        <div class="form-group col-sm-12">
+                            <label class="control-label">Choose Area/Street</label>
+                            <input hidden id="to" name="to" value="" />
+                            <input hidden id="fee" name="fee" value="" />
+                            <div id='searchBoxContainer'><input data-val="true" class="form-control" data-val-required="Please enter the your location" type='text' id='searchBox' /></div>
+                            <div id='myMap' hidden style='width: 100vw; height: 100vh;'></div>
+                        </div>
+                        <div class="form-group col-sm-6">
+                            <label asp-for="ZipCode" class="control-label"></label>
+                            <input asp-for="ZipCode" id="txt4" class="form-control" />
+                            <span asp-validation-for="ZipCode" class="text-danger"></span>
+                        </div>
+                        <div class="form-group col-sm-6">
+                            <label asp-for="State" class="control-label"></label>
+                            <input asp-for="State" id="txt5" class="form-control" />
+                            <span asp-validation-for="State" class="text-danger"></span>
+                        </div>
+                        <div class="form-group col-sm-6">
+                            <label asp-for="Country" class="control-label"></label>
+                            <input asp-for="Country" id="txt6" class="form-control" />
+                            <span asp-validation-for="Country" class="text-danger"></span>
+                        </div>
+                        <div class="form-group col-sm-6">
+                            <label asp-for="PhoneNumber" class="control-label"></label>
+                            <input asp-for="PhoneNumber" id="txt7" class="form-control" />
+                            <span asp-validation-for="PhoneNumber" class="text-danger"></span>
+                        </div>
+                        <div class="form-group col-sm-6">
+                            <label asp-for="Email" class="control-label"></label>
+                            <input asp-for="Email" id="txt8" class="form-control" />
+                            <span asp-validation-for="Email" class="text-danger"></span>
+                        </div>
+                        <div class="form-group col-sm-6">
+                            <label asp-for="note" class="control-label"></label>
+                            <input asp-for="note" id="txt9" class="form-control" />
+                            <span asp-validation-for="note" class="text-danger"></span>
+                        </div>
+                        <div class="form-group col-sm-12">
+                            <label asp-for="ordertype" class="control-label"></label>
+                            <select class="form-control" id="ordertype" asp-for="ordertype" onchange="showDiv()">
+                                <option value="Payment Before Order">Payment Before Order</option>
+                                <option value="Payment after delivery">Payment after delivery</option>
+                                <option value="Payment Online (Bank transfer)">Payment Online (Bank transfer)</option>
+                            </select>
+                            <span asp-validation-for="ordertype" class="text-danger"></span>
+                        </div>
+                    </div>
+                    <div class="form-group">
+                        <input type="submit" value="Create" class="btn btn-primary" />
+                    </div>
+                </div>
+                <div id="cardDetail2">
+
+                </div>
+                <div id="cardDetail1" class="card-details">
+                    <div class="row">
+                        <div class="form-group">
+                            <h3 style="text-align:center;">Banking Information</h3>
+                            Account Name: <code>Võ Hoàng Trung</code><br /><br /><br />
+                            Account No: <strong><code>1234567891112</code></strong><br /><br /><br />
+                            Bank Name : <code>Nokia - Samsung</code><br /><br /><br />
+                            Account Transfer Content / Description : [Order number] <br />(You will receive the Order number after payment - <br /> Use it to include in transfer content)<br /><br /><br />
+                            After the transfer is successful, it will take a few minutes for us to confirm your order
+                        </div>
+                    </div>
+                </div>
+            </form>
+        </div>
+    </section>
+</main>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<style>
+    #cardDetail1, #cardDetail2 {
+        display: none;
+    }
+</style>
+
+
+@section Scripts {
+    @{await Html.RenderPartialAsync("_ValidationScriptsPartial");}
+}
+
+
+
+
+<script type='text/javascript'>
+    function loadMapScenario() {
+        const lat1 = 10.787119352208848;
+        const lon1 = 106.6662850259796;
+        Microsoft.Maps.loadModule('Microsoft.Maps.AutoSuggest', {
+            callback: onLoad,
+            errorCallback: onError
+        });
+
+        function onLoad() {
+            var options = {
+                maxResults: 8
+            };
+            var manager = new Microsoft.Maps.AutosuggestManager(options);
+            manager.attachAutosuggest('#searchBox', '#searchBoxContainer', selectedSuggestion);
+        }
+
+        function onError(message) {
+            document.getElementById('printoutPanel').innerHTML = message;
+        }
+
+
+        function selectedSuggestion(suggestionResult) {
+            document.getElementById('to').value = suggestionResult.formattedSuggestion
+            //document.getElementById('kinhdo').innerHTML =
+            //    '<br> vido: ' + suggestionResult.location.latitude
+            //document.getElementById('vido').innerHTML =
+            //    '<br> kinhdo: ' + suggestionResult.location.longitude
+            var R = 6371;
+            var lat1 = 10.787035038194158;
+            var lon1 = 106.66651033153323;
+            var lat2 = suggestionResult.location.latitude;
+            var lon2 = suggestionResult.location.longitude;
+            // Radius of the earth in km
+            var dLat = (lat2 - lat1) * (Math.PI / 180); //
+            var dLon = (lon2 - lon1) * (Math.PI / 180); //
+            var a =
+                Math.sin(dLat / 2) * Math.sin(dLat / 2) +
+                Math.cos(lat1 * (Math.PI / 180)) * Math.cos(lat2 * (Math.PI / 180)) *
+                Math.sin(dLon / 2) * Math.sin(dLon / 2);
+            var c = 2 * Math.atan2(Math.sqrt(a), Math.sqrt(1 - a));
+            var d = Math.floor(R * c); // Distance in km
+            //document.getElementById('test').value = d;
+            //document.getElementById('testsss').innerHTML = d + "&nbspKm";
+
+            if (d > 3) {
+                document.getElementById('fees').innerHTML = "$30";
+                //document.getElementById('fee').value = d;
+                document.getElementById('fee').value = 30;
+            }
+            else {
+                document.getElementById('fees').innerHTML = "Nill";
+                document.getElementById('fee').value = 0;
+            }
+
+        }
+    }
+    function showDiv() {
+        var Type = document.getElementById("ordertype").value;
+        if (Type == "Payment after delivery") {
+            document.getElementById("cardDetail2").style.display = 'block';
+            document.getElementById("cardDetail1").style.display = 'none';
+            document.getElementById("cardDetail").style.display = 'none';
+        }
+        else if (Type == "Payment Online (Bank transfer)") {
+            document.getElementById("cardDetail2").style.display = 'none';
+            document.getElementById("cardDetail1").style.display = 'block';
+            document.getElementById("cardDetail").style.display = 'none';
+        }
+        else {
+            document.getElementById("cardDetail").style.display = 'none';
+            document.getElementById("cardDetail1").style.display = 'none';
+            document.getElementById("cardDetail2").style.display = 'none';
+        }
+    }
+
+</script>
+<script>
+    var txt1 = document.getElementById("txt1").value;
+    var txt2 = document.getElementById("txt2").value;
+    var txt3 = document.getElementById("txt3").value;
+    var txt4 = document.getElementById("txt4").value;
+    var txt5 = document.getElementById("txt5").value;
+    var txt6 = document.getElementById("txt6").value;
+    var txt7 = document.getElementById("txt7").value;
+    var txt8 = document.getElementById("txt8").value;
+    var txt9 = document.getElementById("txt9").value;
+    $(window).on('load', function () {
+        var whiteSpace = stringHasTheWhiteSpaceOrNot(txt1);
+        if (whiteSpace == true) {
+            console.log("The string has whitespace");
+        } else {
+            console.log("The string does not have whitespace");
+        }
+    })
+    var txt1 = document.getElementById("myText").value;
+    function stringHasTheWhiteSpaceOrNot(value) {
+        return value.indexOf(' ') >= 0;
+    }
+
+</script>
+@*<script type='text/javascript' src='https://www.bing.com/api/maps/mapcontrol?key=AjVdFOFp93HANlnPHI_21ta6mH-7QBTC3r3U7LYzMQcysxNq2oq7_tdOU-RGbye5&callback=loadMapScenario' async defer></script>*@
+<script type="text/javascript" src="https://www.bing.com/api/maps/mapcontrol?callback=dpBootStrap&amp;key=Ap0AObt84NcDaUThCeWOj52ZqUHv6k4TJhjLibR-DghC-semgoj-0uPbIi8r0E4j"></script>
+<script type='text/javascript' src='https://www.bing.com/api/maps/mapcontrol?key=Ap0AObt84NcDaUThCeWOj52ZqUHv6k4TJhjLibR-DghC-semgoj-0uPbIi8r0E4j&callback=loadMapScenario' async defer></script>

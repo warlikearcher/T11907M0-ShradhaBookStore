@@ -1,0 +1,1171 @@
+D:\FPT Aptech\HK 3\WAD\WAD\ShradhaBookStore\obj\Debug\netcoreapp3.1\ShradhaBookStore.AssemblyInfoInputs.cache
+D:\FPT Aptech\HK 3\WAD\WAD\ShradhaBookStore\obj\Debug\netcoreapp3.1\ShradhaBookStore.AssemblyInfo.cs
+D:\FPT Aptech\HK 3\WAD\WAD\ShradhaBookStore\obj\Debug\netcoreapp3.1\ShradhaBookStore.csproj.CoreCompileInputs.cache
+D:\FPT Aptech\HK 3\WAD\WAD\ShradhaBookStore\obj\Debug\netcoreapp3.1\ShradhaBookStore.MvcApplicationPartsAssemblyInfo.cs
+D:\FPT Aptech\HK 3\WAD\WAD\ShradhaBookStore\obj\Debug\netcoreapp3.1\ShradhaBookStore.MvcApplicationPartsAssemblyInfo.cache
+D:\FPT Aptech\HK 3\WAD\WAD\ShradhaBookStore\obj\Debug\netcoreapp3.1\ShradhaBookStore.RazorAssemblyInfo.cache
+D:\FPT Aptech\HK 3\WAD\WAD\ShradhaBookStore\obj\Debug\netcoreapp3.1\ShradhaBookStore.RazorAssemblyInfo.cs
+D:\FPT Aptech\HK 3\WAD\WAD\ShradhaBookStore\bin\Debug\netcoreapp3.1\appsettings.Development.json
+D:\FPT Aptech\HK 3\WAD\WAD\ShradhaBookStore\bin\Debug\netcoreapp3.1\appsettings.json
+D:\FPT Aptech\HK 3\WAD\WAD\ShradhaBookStore\bin\Debug\netcoreapp3.1\Properties\launchSettings.json
+D:\FPT Aptech\HK 3\WAD\WAD\ShradhaBookStore\bin\Debug\netcoreapp3.1\ShradhaBookStore.exe
+D:\FPT Aptech\HK 3\WAD\WAD\ShradhaBookStore\bin\Debug\netcoreapp3.1\ShradhaBookStore.deps.json
+D:\FPT Aptech\HK 3\WAD\WAD\ShradhaBookStore\bin\Debug\netcoreapp3.1\ShradhaBookStore.runtimeconfig.json
+D:\FPT Aptech\HK 3\WAD\WAD\ShradhaBookStore\bin\Debug\netcoreapp3.1\ShradhaBookStore.runtimeconfig.dev.json
+D:\FPT Aptech\HK 3\WAD\WAD\ShradhaBookStore\bin\Debug\netcoreapp3.1\ShradhaBookStore.dll
+D:\FPT Aptech\HK 3\WAD\WAD\ShradhaBookStore\bin\Debug\netcoreapp3.1\ShradhaBookStore.pdb
+D:\FPT Aptech\HK 3\WAD\WAD\ShradhaBookStore\bin\Debug\netcoreapp3.1\ShradhaBookStore.Views.dll
+D:\FPT Aptech\HK 3\WAD\WAD\ShradhaBookStore\bin\Debug\netcoreapp3.1\ShradhaBookStore.Views.pdb
+D:\FPT Aptech\HK 3\WAD\WAD\ShradhaBookStore\bin\Debug\netcoreapp3.1\BingMapsRESTToolkit.dll
+D:\FPT Aptech\HK 3\WAD\WAD\ShradhaBookStore\bin\Debug\netcoreapp3.1\Microsoft.AspNetCore.JsonPatch.dll
+D:\FPT Aptech\HK 3\WAD\WAD\ShradhaBookStore\bin\Debug\netcoreapp3.1\Microsoft.AspNetCore.Razor.Language.dll
+D:\FPT Aptech\HK 3\WAD\WAD\ShradhaBookStore\bin\Debug\netcoreapp3.1\Microsoft.Bcl.AsyncInterfaces.dll
+D:\FPT Aptech\HK 3\WAD\WAD\ShradhaBookStore\bin\Debug\netcoreapp3.1\Microsoft.Bcl.HashCode.dll
+D:\FPT Aptech\HK 3\WAD\WAD\ShradhaBookStore\bin\Debug\netcoreapp3.1\Microsoft.CodeAnalysis.dll
+D:\FPT Aptech\HK 3\WAD\WAD\ShradhaBookStore\bin\Debug\netcoreapp3.1\Microsoft.CodeAnalysis.CSharp.dll
+D:\FPT Aptech\HK 3\WAD\WAD\ShradhaBookStore\bin\Debug\netcoreapp3.1\Microsoft.CodeAnalysis.CSharp.Workspaces.dll
+D:\FPT Aptech\HK 3\WAD\WAD\ShradhaBookStore\bin\Debug\netcoreapp3.1\Microsoft.CodeAnalysis.Razor.dll
+D:\FPT Aptech\HK 3\WAD\WAD\ShradhaBookStore\bin\Debug\netcoreapp3.1\Microsoft.CodeAnalysis.Workspaces.dll
+D:\FPT Aptech\HK 3\WAD\WAD\ShradhaBookStore\bin\Debug\netcoreapp3.1\Microsoft.Data.SqlClient.dll
+D:\FPT Aptech\HK 3\WAD\WAD\ShradhaBookStore\bin\Debug\netcoreapp3.1\Microsoft.DotNet.PlatformAbstractions.dll
+D:\FPT Aptech\HK 3\WAD\WAD\ShradhaBookStore\bin\Debug\netcoreapp3.1\Microsoft.EntityFrameworkCore.dll
+D:\FPT Aptech\HK 3\WAD\WAD\ShradhaBookStore\bin\Debug\netcoreapp3.1\Microsoft.EntityFrameworkCore.Abstractions.dll
+D:\FPT Aptech\HK 3\WAD\WAD\ShradhaBookStore\bin\Debug\netcoreapp3.1\Microsoft.EntityFrameworkCore.Relational.dll
+D:\FPT Aptech\HK 3\WAD\WAD\ShradhaBookStore\bin\Debug\netcoreapp3.1\Microsoft.EntityFrameworkCore.SqlServer.dll
+D:\FPT Aptech\HK 3\WAD\WAD\ShradhaBookStore\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Caching.Abstractions.dll
+D:\FPT Aptech\HK 3\WAD\WAD\ShradhaBookStore\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Caching.Memory.dll
+D:\FPT Aptech\HK 3\WAD\WAD\ShradhaBookStore\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Configuration.dll
+D:\FPT Aptech\HK 3\WAD\WAD\ShradhaBookStore\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Configuration.Abstractions.dll
+D:\FPT Aptech\HK 3\WAD\WAD\ShradhaBookStore\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Configuration.Binder.dll
+D:\FPT Aptech\HK 3\WAD\WAD\ShradhaBookStore\bin\Debug\netcoreapp3.1\Microsoft.Extensions.DependencyInjection.dll
+D:\FPT Aptech\HK 3\WAD\WAD\ShradhaBookStore\bin\Debug\netcoreapp3.1\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+D:\FPT Aptech\HK 3\WAD\WAD\ShradhaBookStore\bin\Debug\netcoreapp3.1\Microsoft.Extensions.DependencyModel.dll
+D:\FPT Aptech\HK 3\WAD\WAD\ShradhaBookStore\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Logging.dll
+D:\FPT Aptech\HK 3\WAD\WAD\ShradhaBookStore\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Logging.Abstractions.dll
+D:\FPT Aptech\HK 3\WAD\WAD\ShradhaBookStore\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Options.dll
+D:\FPT Aptech\HK 3\WAD\WAD\ShradhaBookStore\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Primitives.dll
+D:\FPT Aptech\HK 3\WAD\WAD\ShradhaBookStore\bin\Debug\netcoreapp3.1\Microsoft.Identity.Client.dll
+D:\FPT Aptech\HK 3\WAD\WAD\ShradhaBookStore\bin\Debug\netcoreapp3.1\Microsoft.IdentityModel.JsonWebTokens.dll
+D:\FPT Aptech\HK 3\WAD\WAD\ShradhaBookStore\bin\Debug\netcoreapp3.1\Microsoft.IdentityModel.Logging.dll
+D:\FPT Aptech\HK 3\WAD\WAD\ShradhaBookStore\bin\Debug\netcoreapp3.1\Microsoft.IdentityModel.Protocols.dll
+D:\FPT Aptech\HK 3\WAD\WAD\ShradhaBookStore\bin\Debug\netcoreapp3.1\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+D:\FPT Aptech\HK 3\WAD\WAD\ShradhaBookStore\bin\Debug\netcoreapp3.1\Microsoft.IdentityModel.Tokens.dll
+D:\FPT Aptech\HK 3\WAD\WAD\ShradhaBookStore\bin\Debug\netcoreapp3.1\Microsoft.VisualStudio.Web.CodeGeneration.dll
+D:\FPT Aptech\HK 3\WAD\WAD\ShradhaBookStore\bin\Debug\netcoreapp3.1\Microsoft.VisualStudio.Web.CodeGeneration.Contracts.dll
+D:\FPT Aptech\HK 3\WAD\WAD\ShradhaBookStore\bin\Debug\netcoreapp3.1\Microsoft.VisualStudio.Web.CodeGeneration.Core.dll
+D:\FPT Aptech\HK 3\WAD\WAD\ShradhaBookStore\bin\Debug\netcoreapp3.1\dotnet-aspnet-codegenerator-design.dll
+D:\FPT Aptech\HK 3\WAD\WAD\ShradhaBookStore\bin\Debug\netcoreapp3.1\Microsoft.VisualStudio.Web.CodeGeneration.EntityFrameworkCore.dll
+D:\FPT Aptech\HK 3\WAD\WAD\ShradhaBookStore\bin\Debug\netcoreapp3.1\Microsoft.VisualStudio.Web.CodeGeneration.Templating.dll
+D:\FPT Aptech\HK 3\WAD\WAD\ShradhaBookStore\bin\Debug\netcoreapp3.1\Microsoft.VisualStudio.Web.CodeGeneration.Utils.dll
+D:\FPT Aptech\HK 3\WAD\WAD\ShradhaBookStore\bin\Debug\netcoreapp3.1\Microsoft.VisualStudio.Web.CodeGenerators.Mvc.dll
+D:\FPT Aptech\HK 3\WAD\WAD\ShradhaBookStore\bin\Debug\netcoreapp3.1\Newtonsoft.Json.dll
+D:\FPT Aptech\HK 3\WAD\WAD\ShradhaBookStore\bin\Debug\netcoreapp3.1\Newtonsoft.Json.Bson.dll
+D:\FPT Aptech\HK 3\WAD\WAD\ShradhaBookStore\bin\Debug\netcoreapp3.1\NuGet.Frameworks.dll
+D:\FPT Aptech\HK 3\WAD\WAD\ShradhaBookStore\bin\Debug\netcoreapp3.1\System.Collections.Immutable.dll
+D:\FPT Aptech\HK 3\WAD\WAD\ShradhaBookStore\bin\Debug\netcoreapp3.1\System.Composition.AttributedModel.dll
+D:\FPT Aptech\HK 3\WAD\WAD\ShradhaBookStore\bin\Debug\netcoreapp3.1\System.Composition.Convention.dll
+D:\FPT Aptech\HK 3\WAD\WAD\ShradhaBookStore\bin\Debug\netcoreapp3.1\System.Composition.Hosting.dll
+D:\FPT Aptech\HK 3\WAD\WAD\ShradhaBookStore\bin\Debug\netcoreapp3.1\System.Composition.Runtime.dll
+D:\FPT Aptech\HK 3\WAD\WAD\ShradhaBookStore\bin\Debug\netcoreapp3.1\System.Composition.TypedParts.dll
+D:\FPT Aptech\HK 3\WAD\WAD\ShradhaBookStore\bin\Debug\netcoreapp3.1\System.Configuration.ConfigurationManager.dll
+D:\FPT Aptech\HK 3\WAD\WAD\ShradhaBookStore\bin\Debug\netcoreapp3.1\System.Diagnostics.DiagnosticSource.dll
+D:\FPT Aptech\HK 3\WAD\WAD\ShradhaBookStore\bin\Debug\netcoreapp3.1\System.IdentityModel.Tokens.Jwt.dll
+D:\FPT Aptech\HK 3\WAD\WAD\ShradhaBookStore\bin\Debug\netcoreapp3.1\System.Runtime.Caching.dll
+D:\FPT Aptech\HK 3\WAD\WAD\ShradhaBookStore\bin\Debug\netcoreapp3.1\System.Security.Cryptography.ProtectedData.dll
+D:\FPT Aptech\HK 3\WAD\WAD\ShradhaBookStore\bin\Debug\netcoreapp3.1\X.PagedList.dll
+D:\FPT Aptech\HK 3\WAD\WAD\ShradhaBookStore\bin\Debug\netcoreapp3.1\X.PagedList.Mvc.Core.dll
+D:\FPT Aptech\HK 3\WAD\WAD\ShradhaBookStore\bin\Debug\netcoreapp3.1\X.PagedList.Web.Common.dll
+D:\FPT Aptech\HK 3\WAD\WAD\ShradhaBookStore\bin\Debug\netcoreapp3.1\cs\Microsoft.CodeAnalysis.resources.dll
+D:\FPT Aptech\HK 3\WAD\WAD\ShradhaBookStore\bin\Debug\netcoreapp3.1\de\Microsoft.CodeAnalysis.resources.dll
+D:\FPT Aptech\HK 3\WAD\WAD\ShradhaBookStore\bin\Debug\netcoreapp3.1\es\Microsoft.CodeAnalysis.resources.dll
+D:\FPT Aptech\HK 3\WAD\WAD\ShradhaBookStore\bin\Debug\netcoreapp3.1\fr\Microsoft.CodeAnalysis.resources.dll
+D:\FPT Aptech\HK 3\WAD\WAD\ShradhaBookStore\bin\Debug\netcoreapp3.1\it\Microsoft.CodeAnalysis.resources.dll
+D:\FPT Aptech\HK 3\WAD\WAD\ShradhaBookStore\bin\Debug\netcoreapp3.1\ja\Microsoft.CodeAnalysis.resources.dll
+D:\FPT Aptech\HK 3\WAD\WAD\ShradhaBookStore\bin\Debug\netcoreapp3.1\ko\Microsoft.CodeAnalysis.resources.dll
+D:\FPT Aptech\HK 3\WAD\WAD\ShradhaBookStore\bin\Debug\netcoreapp3.1\pl\Microsoft.CodeAnalysis.resources.dll
+D:\FPT Aptech\HK 3\WAD\WAD\ShradhaBookStore\bin\Debug\netcoreapp3.1\pt-BR\Microsoft.CodeAnalysis.resources.dll
+D:\FPT Aptech\HK 3\WAD\WAD\ShradhaBookStore\bin\Debug\netcoreapp3.1\ru\Microsoft.CodeAnalysis.resources.dll
+D:\FPT Aptech\HK 3\WAD\WAD\ShradhaBookStore\bin\Debug\netcoreapp3.1\tr\Microsoft.CodeAnalysis.resources.dll
+D:\FPT Aptech\HK 3\WAD\WAD\ShradhaBookStore\bin\Debug\netcoreapp3.1\zh-Hans\Microsoft.CodeAnalysis.resources.dll
+D:\FPT Aptech\HK 3\WAD\WAD\ShradhaBookStore\bin\Debug\netcoreapp3.1\zh-Hant\Microsoft.CodeAnalysis.resources.dll
+D:\FPT Aptech\HK 3\WAD\WAD\ShradhaBookStore\bin\Debug\netcoreapp3.1\cs\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\FPT Aptech\HK 3\WAD\WAD\ShradhaBookStore\bin\Debug\netcoreapp3.1\de\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\FPT Aptech\HK 3\WAD\WAD\ShradhaBookStore\bin\Debug\netcoreapp3.1\es\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\FPT Aptech\HK 3\WAD\WAD\ShradhaBookStore\bin\Debug\netcoreapp3.1\fr\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\FPT Aptech\HK 3\WAD\WAD\ShradhaBookStore\bin\Debug\netcoreapp3.1\it\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\FPT Aptech\HK 3\WAD\WAD\ShradhaBookStore\bin\Debug\netcoreapp3.1\ja\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\FPT Aptech\HK 3\WAD\WAD\ShradhaBookStore\bin\Debug\netcoreapp3.1\ko\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\FPT Aptech\HK 3\WAD\WAD\ShradhaBookStore\bin\Debug\netcoreapp3.1\pl\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\FPT Aptech\HK 3\WAD\WAD\ShradhaBookStore\bin\Debug\netcoreapp3.1\pt-BR\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\FPT Aptech\HK 3\WAD\WAD\ShradhaBookStore\bin\Debug\netcoreapp3.1\ru\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\FPT Aptech\HK 3\WAD\WAD\ShradhaBookStore\bin\Debug\netcoreapp3.1\tr\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\FPT Aptech\HK 3\WAD\WAD\ShradhaBookStore\bin\Debug\netcoreapp3.1\zh-Hans\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\FPT Aptech\HK 3\WAD\WAD\ShradhaBookStore\bin\Debug\netcoreapp3.1\zh-Hant\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\FPT Aptech\HK 3\WAD\WAD\ShradhaBookStore\bin\Debug\netcoreapp3.1\cs\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\FPT Aptech\HK 3\WAD\WAD\ShradhaBookStore\bin\Debug\netcoreapp3.1\de\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\FPT Aptech\HK 3\WAD\WAD\ShradhaBookStore\bin\Debug\netcoreapp3.1\es\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\FPT Aptech\HK 3\WAD\WAD\ShradhaBookStore\bin\Debug\netcoreapp3.1\fr\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\FPT Aptech\HK 3\WAD\WAD\ShradhaBookStore\bin\Debug\netcoreapp3.1\it\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\FPT Aptech\HK 3\WAD\WAD\ShradhaBookStore\bin\Debug\netcoreapp3.1\ja\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\FPT Aptech\HK 3\WAD\WAD\ShradhaBookStore\bin\Debug\netcoreapp3.1\ko\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\FPT Aptech\HK 3\WAD\WAD\ShradhaBookStore\bin\Debug\netcoreapp3.1\pl\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\FPT Aptech\HK 3\WAD\WAD\ShradhaBookStore\bin\Debug\netcoreapp3.1\pt-BR\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\FPT Aptech\HK 3\WAD\WAD\ShradhaBookStore\bin\Debug\netcoreapp3.1\ru\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\FPT Aptech\HK 3\WAD\WAD\ShradhaBookStore\bin\Debug\netcoreapp3.1\tr\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\FPT Aptech\HK 3\WAD\WAD\ShradhaBookStore\bin\Debug\netcoreapp3.1\zh-Hans\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\FPT Aptech\HK 3\WAD\WAD\ShradhaBookStore\bin\Debug\netcoreapp3.1\zh-Hant\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\FPT Aptech\HK 3\WAD\WAD\ShradhaBookStore\bin\Debug\netcoreapp3.1\cs\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\FPT Aptech\HK 3\WAD\WAD\ShradhaBookStore\bin\Debug\netcoreapp3.1\de\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\FPT Aptech\HK 3\WAD\WAD\ShradhaBookStore\bin\Debug\netcoreapp3.1\es\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\FPT Aptech\HK 3\WAD\WAD\ShradhaBookStore\bin\Debug\netcoreapp3.1\fr\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\FPT Aptech\HK 3\WAD\WAD\ShradhaBookStore\bin\Debug\netcoreapp3.1\it\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\FPT Aptech\HK 3\WAD\WAD\ShradhaBookStore\bin\Debug\netcoreapp3.1\ja\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\FPT Aptech\HK 3\WAD\WAD\ShradhaBookStore\bin\Debug\netcoreapp3.1\ko\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\FPT Aptech\HK 3\WAD\WAD\ShradhaBookStore\bin\Debug\netcoreapp3.1\pl\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\FPT Aptech\HK 3\WAD\WAD\ShradhaBookStore\bin\Debug\netcoreapp3.1\pt-BR\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\FPT Aptech\HK 3\WAD\WAD\ShradhaBookStore\bin\Debug\netcoreapp3.1\ru\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\FPT Aptech\HK 3\WAD\WAD\ShradhaBookStore\bin\Debug\netcoreapp3.1\tr\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\FPT Aptech\HK 3\WAD\WAD\ShradhaBookStore\bin\Debug\netcoreapp3.1\zh-Hans\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\FPT Aptech\HK 3\WAD\WAD\ShradhaBookStore\bin\Debug\netcoreapp3.1\zh-Hant\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\FPT Aptech\HK 3\WAD\WAD\ShradhaBookStore\bin\Debug\netcoreapp3.1\runtimes\unix\lib\netcoreapp2.1\Microsoft.Data.SqlClient.dll
+D:\FPT Aptech\HK 3\WAD\WAD\ShradhaBookStore\bin\Debug\netcoreapp3.1\runtimes\win\lib\netcoreapp2.1\Microsoft.Data.SqlClient.dll
+D:\FPT Aptech\HK 3\WAD\WAD\ShradhaBookStore\bin\Debug\netcoreapp3.1\runtimes\win-arm64\native\sni.dll
+D:\FPT Aptech\HK 3\WAD\WAD\ShradhaBookStore\bin\Debug\netcoreapp3.1\runtimes\win-x64\native\sni.dll
+D:\FPT Aptech\HK 3\WAD\WAD\ShradhaBookStore\bin\Debug\netcoreapp3.1\runtimes\win-x86\native\sni.dll
+D:\FPT Aptech\HK 3\WAD\WAD\ShradhaBookStore\bin\Debug\netcoreapp3.1\runtimes\unix\lib\netcoreapp2.0\System.Runtime.Caching.dll
+D:\FPT Aptech\HK 3\WAD\WAD\ShradhaBookStore\bin\Debug\netcoreapp3.1\runtimes\win\lib\netcoreapp2.0\System.Runtime.Caching.dll
+D:\FPT Aptech\HK 3\WAD\WAD\ShradhaBookStore\bin\Debug\netcoreapp3.1\runtimes\win\lib\netstandard2.0\System.Security.Cryptography.ProtectedData.dll
+D:\FPT Aptech\HK 3\WAD\WAD\ShradhaBookStore\bin\Debug\netcoreapp3.1\System.Web.Services.dll
+D:\FPT Aptech\HK 3\WAD\WAD\ShradhaBookStore\bin\Debug\netcoreapp3.1\System.EnterpriseServices.dll
+D:\FPT Aptech\HK 3\WAD\WAD\ShradhaBookStore\bin\Debug\netcoreapp3.1\System.Design.dll
+D:\FPT Aptech\HK 3\WAD\WAD\ShradhaBookStore\bin\Debug\netcoreapp3.1\System.DirectoryServices.dll
+D:\FPT Aptech\HK 3\WAD\WAD\ShradhaBookStore\bin\Debug\netcoreapp3.1\System.Runtime.Remoting.dll
+D:\FPT Aptech\HK 3\WAD\WAD\ShradhaBookStore\bin\Debug\netcoreapp3.1\System.Windows.Forms.dll
+D:\FPT Aptech\HK 3\WAD\WAD\ShradhaBookStore\bin\Debug\netcoreapp3.1\System.Data.OracleClient.dll
+D:\FPT Aptech\HK 3\WAD\WAD\ShradhaBookStore\bin\Debug\netcoreapp3.1\Accessibility.dll
+D:\FPT Aptech\HK 3\WAD\WAD\ShradhaBookStore\bin\Debug\netcoreapp3.1\System.Drawing.Design.dll
+D:\FPT Aptech\HK 3\WAD\WAD\ShradhaBookStore\bin\Debug\netcoreapp3.1\System.Web.RegularExpressions.dll
+D:\FPT Aptech\HK 3\WAD\WAD\ShradhaBookStore\bin\Debug\netcoreapp3.1\System.Runtime.Serialization.Formatters.Soap.dll
+D:\FPT Aptech\HK 3\WAD\WAD\ShradhaBookStore\bin\Debug\netcoreapp3.1\System.Deployment.dll
+D:\FPT Aptech\HK 3\WAD\WAD\ShradhaBookStore\bin\Debug\netcoreapp3.1\System.Web.Services.xml
+D:\FPT Aptech\HK 3\WAD\WAD\ShradhaBookStore\bin\Debug\netcoreapp3.1\System.EnterpriseServices.xml
+D:\FPT Aptech\HK 3\WAD\WAD\ShradhaBookStore\bin\Debug\netcoreapp3.1\System.Design.xml
+D:\FPT Aptech\HK 3\WAD\WAD\ShradhaBookStore\bin\Debug\netcoreapp3.1\System.DirectoryServices.xml
+D:\FPT Aptech\HK 3\WAD\WAD\ShradhaBookStore\bin\Debug\netcoreapp3.1\System.Runtime.Remoting.xml
+D:\FPT Aptech\HK 3\WAD\WAD\ShradhaBookStore\bin\Debug\netcoreapp3.1\System.Windows.Forms.xml
+D:\FPT Aptech\HK 3\WAD\WAD\ShradhaBookStore\bin\Debug\netcoreapp3.1\System.Data.OracleClient.xml
+D:\FPT Aptech\HK 3\WAD\WAD\ShradhaBookStore\bin\Debug\netcoreapp3.1\Accessibility.xml
+D:\FPT Aptech\HK 3\WAD\WAD\ShradhaBookStore\bin\Debug\netcoreapp3.1\System.Drawing.Design.xml
+D:\FPT Aptech\HK 3\WAD\WAD\ShradhaBookStore\bin\Debug\netcoreapp3.1\System.Web.RegularExpressions.xml
+D:\FPT Aptech\HK 3\WAD\WAD\ShradhaBookStore\bin\Debug\netcoreapp3.1\System.Runtime.Serialization.Formatters.Soap.xml
+D:\FPT Aptech\HK 3\WAD\WAD\ShradhaBookStore\bin\Debug\netcoreapp3.1\System.Deployment.xml
+D:\FPT Aptech\HK 3\WAD\WAD\ShradhaBookStore\bin\Debug\netcoreapp3.1\System.EnterpriseServices.Wrapper.dll
+D:\FPT Aptech\HK 3\WAD\WAD\ShradhaBookStore\obj\Debug\netcoreapp3.1\ShradhaBookStore.TagHelpers.input.cache
+D:\FPT Aptech\HK 3\WAD\WAD\ShradhaBookStore\obj\Debug\netcoreapp3.1\ShradhaBookStore.TagHelpers.output.cache
+D:\FPT Aptech\HK 3\WAD\WAD\ShradhaBookStore\obj\Debug\netcoreapp3.1\ShradhaBookStore.RazorCoreGenerate.cache
+D:\FPT Aptech\HK 3\WAD\WAD\ShradhaBookStore\obj\Debug\netcoreapp3.1\Razor\Views\Admin\Layout\_Layout.cshtml.g.cs
+D:\FPT Aptech\HK 3\WAD\WAD\ShradhaBookStore\obj\Debug\netcoreapp3.1\Razor\Views\Admin\Manage_Admin\Manage_Admin.cshtml.g.cs
+D:\FPT Aptech\HK 3\WAD\WAD\ShradhaBookStore\obj\Debug\netcoreapp3.1\Razor\Views\Admin\Manage_Feedback\Manage_Feedback.cshtml.g.cs
+D:\FPT Aptech\HK 3\WAD\WAD\ShradhaBookStore\obj\Debug\netcoreapp3.1\Razor\Views\Admin\Manage_Oders\Manage_Oders.cshtml.g.cs
+D:\FPT Aptech\HK 3\WAD\WAD\ShradhaBookStore\obj\Debug\netcoreapp3.1\Razor\Views\Admin\Manage_Products\Create_Product.cshtml.g.cs
+D:\FPT Aptech\HK 3\WAD\WAD\ShradhaBookStore\obj\Debug\netcoreapp3.1\Razor\Views\Admin\Manage_Products\Create_Products.cshtml.g.cs
+D:\FPT Aptech\HK 3\WAD\WAD\ShradhaBookStore\obj\Debug\netcoreapp3.1\Razor\Views\Admin\Manage_Products\Detail_Products.cshtml.g.cs
+D:\FPT Aptech\HK 3\WAD\WAD\ShradhaBookStore\obj\Debug\netcoreapp3.1\Razor\Views\Admin\Manage_Products\Edit_Products.cshtml.g.cs
+D:\FPT Aptech\HK 3\WAD\WAD\ShradhaBookStore\obj\Debug\netcoreapp3.1\Razor\Views\Admin\Manage_Products\Manage_Products.cshtml.g.cs
+D:\FPT Aptech\HK 3\WAD\WAD\ShradhaBookStore\obj\Debug\netcoreapp3.1\Razor\Views\Admin\Manage_Products\NotFound.cshtml.g.cs
+D:\FPT Aptech\HK 3\WAD\WAD\ShradhaBookStore\obj\Debug\netcoreapp3.1\Razor\Views\Admin\Manage_Users\Manage_Users.cshtml.g.cs
+D:\FPT Aptech\HK 3\WAD\WAD\ShradhaBookStore\obj\Debug\netcoreapp3.1\Razor\Views\Cart2\Count.cshtml.g.cs
+D:\FPT Aptech\HK 3\WAD\WAD\ShradhaBookStore\obj\Debug\netcoreapp3.1\Razor\Views\Cart2\Index.cshtml.g.cs
+D:\FPT Aptech\HK 3\WAD\WAD\ShradhaBookStore\obj\Debug\netcoreapp3.1\Razor\Views\Cart2\_Count.cshtml.g.cs
+D:\FPT Aptech\HK 3\WAD\WAD\ShradhaBookStore\obj\Debug\netcoreapp3.1\Razor\Views\Cart2\_Index.cshtml.g.cs
+D:\FPT Aptech\HK 3\WAD\WAD\ShradhaBookStore\obj\Debug\netcoreapp3.1\Razor\Views\FeedBack\SendFeedBack.cshtml.g.cs
+D:\FPT Aptech\HK 3\WAD\WAD\ShradhaBookStore\obj\Debug\netcoreapp3.1\Razor\Views\Home\Index.cshtml.g.cs
+D:\FPT Aptech\HK 3\WAD\WAD\ShradhaBookStore\obj\Debug\netcoreapp3.1\Razor\Views\Home\Privacy.cshtml.g.cs
+D:\FPT Aptech\HK 3\WAD\WAD\ShradhaBookStore\obj\Debug\netcoreapp3.1\Razor\Views\Order\CheckOut.cshtml.g.cs
+D:\FPT Aptech\HK 3\WAD\WAD\ShradhaBookStore\obj\Debug\netcoreapp3.1\Razor\Views\Order\CheckoutComplete.cshtml.g.cs
+D:\FPT Aptech\HK 3\WAD\WAD\ShradhaBookStore\obj\Debug\netcoreapp3.1\Razor\Views\Order\Error.cshtml.g.cs
+D:\FPT Aptech\HK 3\WAD\WAD\ShradhaBookStore\obj\Debug\netcoreapp3.1\Razor\Views\Order\Index.cshtml.g.cs
+D:\FPT Aptech\HK 3\WAD\WAD\ShradhaBookStore\obj\Debug\netcoreapp3.1\Razor\Views\Order\KiemTraThanhToan.cshtml.g.cs
+D:\FPT Aptech\HK 3\WAD\WAD\ShradhaBookStore\obj\Debug\netcoreapp3.1\Razor\Views\Order\ordersucess.cshtml.g.cs
+D:\FPT Aptech\HK 3\WAD\WAD\ShradhaBookStore\obj\Debug\netcoreapp3.1\Razor\Views\Order\payment.cshtml.g.cs
+D:\FPT Aptech\HK 3\WAD\WAD\ShradhaBookStore\obj\Debug\netcoreapp3.1\Razor\Views\Order\PaymentCreditCard.cshtml.g.cs
+D:\FPT Aptech\HK 3\WAD\WAD\ShradhaBookStore\obj\Debug\netcoreapp3.1\Razor\Views\Product\Index.cshtml.g.cs
+D:\FPT Aptech\HK 3\WAD\WAD\ShradhaBookStore\obj\Debug\netcoreapp3.1\Razor\Views\Product\Update.cshtml.g.cs
+D:\FPT Aptech\HK 3\WAD\WAD\ShradhaBookStore\obj\Debug\netcoreapp3.1\Razor\Views\Shared\Components\CartCount\Default.cshtml.g.cs
+D:\FPT Aptech\HK 3\WAD\WAD\ShradhaBookStore\obj\Debug\netcoreapp3.1\Razor\Views\Shared\Error.cshtml.g.cs
+D:\FPT Aptech\HK 3\WAD\WAD\ShradhaBookStore\obj\Debug\netcoreapp3.1\Razor\Views\Shared\_Layout.cshtml.g.cs
+D:\FPT Aptech\HK 3\WAD\WAD\ShradhaBookStore\obj\Debug\netcoreapp3.1\Razor\Views\Shared\_ValidationScriptsPartial.cshtml.g.cs
+D:\FPT Aptech\HK 3\WAD\WAD\ShradhaBookStore\obj\Debug\netcoreapp3.1\Razor\Views\TrackingOrder\Action.cshtml.g.cs
+D:\FPT Aptech\HK 3\WAD\WAD\ShradhaBookStore\obj\Debug\netcoreapp3.1\Razor\Views\TrackingOrder\gggg.cshtml.g.cs
+D:\FPT Aptech\HK 3\WAD\WAD\ShradhaBookStore\obj\Debug\netcoreapp3.1\Razor\Views\TrackingOrder\Index.cshtml.g.cs
+D:\FPT Aptech\HK 3\WAD\WAD\ShradhaBookStore\obj\Debug\netcoreapp3.1\Razor\Views\UserInfo\ChangePass.cshtml.g.cs
+D:\FPT Aptech\HK 3\WAD\WAD\ShradhaBookStore\obj\Debug\netcoreapp3.1\Razor\Views\UserInfo\Details.cshtml.g.cs
+D:\FPT Aptech\HK 3\WAD\WAD\ShradhaBookStore\obj\Debug\netcoreapp3.1\Razor\Views\UserInfo\Layout\_Layout.cshtml.g.cs
+D:\FPT Aptech\HK 3\WAD\WAD\ShradhaBookStore\obj\Debug\netcoreapp3.1\Razor\Views\UserInfo\Login.cshtml.g.cs
+D:\FPT Aptech\HK 3\WAD\WAD\ShradhaBookStore\obj\Debug\netcoreapp3.1\Razor\Views\UserInfo\Register.cshtml.g.cs
+D:\FPT Aptech\HK 3\WAD\WAD\ShradhaBookStore\obj\Debug\netcoreapp3.1\Razor\Views\UserInfo\Update.cshtml.g.cs
+D:\FPT Aptech\HK 3\WAD\WAD\ShradhaBookStore\obj\Debug\netcoreapp3.1\Razor\Views\_ViewImports.cshtml.g.cs
+D:\FPT Aptech\HK 3\WAD\WAD\ShradhaBookStore\obj\Debug\netcoreapp3.1\Razor\Views\_ViewStart.cshtml.g.cs
+D:\FPT Aptech\HK 3\WAD\WAD\ShradhaBookStore\obj\Debug\netcoreapp3.1\ShradhaBookStore.RazorTargetAssemblyInfo.cache
+D:\FPT Aptech\HK 3\WAD\WAD\ShradhaBookStore\obj\Debug\netcoreapp3.1\ShradhaBookStore.RazorTargetAssemblyInfo.cs
+D:\FPT Aptech\HK 3\WAD\WAD\ShradhaBookStore\obj\Debug\netcoreapp3.1\ShradhaBookStore.Views.pdb
+D:\FPT Aptech\HK 3\WAD\WAD\ShradhaBookStore\obj\Debug\netcoreapp3.1\ShradhaBookStore.csproj.CopyComplete
+D:\FPT Aptech\HK 3\WAD\WAD\ShradhaBookStore\obj\Debug\netcoreapp3.1\staticwebassets\ShradhaBookStore.StaticWebAssets.Manifest.cache
+D:\FPT Aptech\HK 3\WAD\WAD\ShradhaBookStore\obj\Debug\netcoreapp3.1\staticwebassets\ShradhaBookStore.StaticWebAssets.xml
+D:\FPT Aptech\HK 3\WAD\WAD\ShradhaBookStore\obj\Debug\netcoreapp3.1\ShradhaBookStore.dll
+D:\FPT Aptech\HK 3\WAD\WAD\ShradhaBookStore\obj\Debug\netcoreapp3.1\ShradhaBookStore.pdb
+D:\FPT Aptech\HK 3\WAD\WAD\ShradhaBookStore\obj\Debug\netcoreapp3.1\ShradhaBookStore.genruntimeconfig.cache
+D:\FPT Aptech\HK 3\WAD\WAD\ShradhaBookStore\obj\Debug\netcoreapp3.1\ShradhaBookStore.csprojAssemblyReference.cache
+D:\FPT Aptech\HK 3\WAD\WAD\ShradhaBookStore\obj\Debug\netcoreapp3.1\Razor\Views\Admin\Manage_Products\Create_Category.cshtml.g.cs
+D:\FPT Aptech\HK 3\WAD\WAD\ShradhaBookStore\obj\Debug\netcoreapp3.1\Razor\Views\Admin\Manage_Products\Create_Publisher.cshtml.g.cs
+D:\FPT Aptech\HK 3\WAD\WAD\ShradhaBookStore\obj\Debug\netcoreapp3.1\Razor\Views\Admin\Banner\Add_Banner.cshtml.g.cs
+D:\FPT Aptech\HK 3\WAD\WAD\ShradhaBookStore\obj\Debug\netcoreapp3.1\Razor\Views\Admin\Banner\Banner_list.cshtml.g.cs
+D:\FPT Aptech\HK 3\WAD\WAD\ShradhaBookStore\obj\Debug\netcoreapp3.1\Razor\Views\Home\ShopePage.cshtml.g.cs
+D:\FPT Aptech\HK 3\WAD\WAD\ShradhaBookStore\obj\Debug\netcoreapp3.1\Razor\Views\Home\Detail.cshtml.g.cs
+D:\FPT Aptech\HK 3\WAD\WAD\ShradhaBookStore\obj\Debug\netcoreapp3.1\Razor\Views\Admin\Manage_Oders\OrderLog.cshtml.g.cs
+D:\FPT Aptech\HK 3\WAD\WAD\ShradhaBookStore\obj\Debug\netcoreapp3.1\Razor\Views\Admin\Manage_Oders\PutMessenger.cshtml.g.cs
+D:\FPT Aptech\HK 3\WAD\WAD\ShradhaBookStore\obj\Debug\netcoreapp3.1\Razor\Views\Admin\Manage_Oders\Shipping.cshtml.g.cs
+D:\FPT Aptech\HK 3\WAD\WAD\ShradhaBookStore\obj\Debug\netcoreapp3.1\Razor\Views\Cart2\Total.cshtml.g.cs
+D:\FPT Aptech\HK 3\WAD\WAD\ShradhaBookStore\obj\Debug\netcoreapp3.1\Razor\Views\Admin\Manage_Products\CategoryPublisherList.cshtml.g.cs
+D:\FPT Aptech\HK 3\WAD\WAD\ShradhaBookStore\obj\Debug\netcoreapp3.1\Razor\Views\Home\ContactUs.cshtml.g.cs
+D:\FPT Aptech\HK 3\WAD\WAD\ShradhaBookStore\obj\Debug\netcoreapp3.1\Razor\Views\Admin\Manage_Oders\Index.cshtml.g.cs
+D:\FPT Aptech\HK 3\WAD\WAD\ShradhaBookStore\obj\Debug\netcoreapp3.1\Razor\Views\Admin\Manage_Oders\Manrage_Denine_Oders.cshtml.g.cs
+D:\FPT Aptech\HK 3\WAD\WAD\ShradhaBookStore\obj\Debug\netcoreapp3.1\Razor\Views\Home\CreateView.cshtml.g.cs
+D:\FPT Aptech\HK 3\WAD\WAD\ShradhaBookStore\obj\Debug\netcoreapp3.1\Razor\Views\Admin\Manage_Admin\ManagaA_Chart.cshtml.g.cs
+C:\Users\trung\Desktop\Projec\ShradhaBookStore\bin\Debug\netcoreapp3.1\appsettings.Development.json
+C:\Users\trung\Desktop\Projec\ShradhaBookStore\bin\Debug\netcoreapp3.1\appsettings.json
+C:\Users\trung\Desktop\Projec\ShradhaBookStore\bin\Debug\netcoreapp3.1\ShradhaBookStore.exe
+C:\Users\trung\Desktop\Projec\ShradhaBookStore\bin\Debug\netcoreapp3.1\ShradhaBookStore.deps.json
+C:\Users\trung\Desktop\Projec\ShradhaBookStore\bin\Debug\netcoreapp3.1\ShradhaBookStore.runtimeconfig.json
+C:\Users\trung\Desktop\Projec\ShradhaBookStore\bin\Debug\netcoreapp3.1\ShradhaBookStore.runtimeconfig.dev.json
+C:\Users\trung\Desktop\Projec\ShradhaBookStore\bin\Debug\netcoreapp3.1\ShradhaBookStore.dll
+C:\Users\trung\Desktop\Projec\ShradhaBookStore\bin\Debug\netcoreapp3.1\ShradhaBookStore.pdb
+C:\Users\trung\Desktop\Projec\ShradhaBookStore\bin\Debug\netcoreapp3.1\ShradhaBookStore.Views.dll
+C:\Users\trung\Desktop\Projec\ShradhaBookStore\bin\Debug\netcoreapp3.1\ShradhaBookStore.Views.pdb
+C:\Users\trung\Desktop\Projec\ShradhaBookStore\bin\Debug\netcoreapp3.1\BingMapsRESTToolkit.dll
+C:\Users\trung\Desktop\Projec\ShradhaBookStore\bin\Debug\netcoreapp3.1\Microsoft.AspNetCore.JsonPatch.dll
+C:\Users\trung\Desktop\Projec\ShradhaBookStore\bin\Debug\netcoreapp3.1\Microsoft.AspNetCore.Razor.Language.dll
+C:\Users\trung\Desktop\Projec\ShradhaBookStore\bin\Debug\netcoreapp3.1\Microsoft.Bcl.AsyncInterfaces.dll
+C:\Users\trung\Desktop\Projec\ShradhaBookStore\bin\Debug\netcoreapp3.1\Microsoft.Bcl.HashCode.dll
+C:\Users\trung\Desktop\Projec\ShradhaBookStore\bin\Debug\netcoreapp3.1\Microsoft.CodeAnalysis.dll
+C:\Users\trung\Desktop\Projec\ShradhaBookStore\bin\Debug\netcoreapp3.1\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\trung\Desktop\Projec\ShradhaBookStore\bin\Debug\netcoreapp3.1\Microsoft.CodeAnalysis.CSharp.Workspaces.dll
+C:\Users\trung\Desktop\Projec\ShradhaBookStore\bin\Debug\netcoreapp3.1\Microsoft.CodeAnalysis.Razor.dll
+C:\Users\trung\Desktop\Projec\ShradhaBookStore\bin\Debug\netcoreapp3.1\Microsoft.CodeAnalysis.Workspaces.dll
+C:\Users\trung\Desktop\Projec\ShradhaBookStore\bin\Debug\netcoreapp3.1\Microsoft.Data.SqlClient.dll
+C:\Users\trung\Desktop\Projec\ShradhaBookStore\bin\Debug\netcoreapp3.1\Microsoft.DotNet.PlatformAbstractions.dll
+C:\Users\trung\Desktop\Projec\ShradhaBookStore\bin\Debug\netcoreapp3.1\Microsoft.EntityFrameworkCore.dll
+C:\Users\trung\Desktop\Projec\ShradhaBookStore\bin\Debug\netcoreapp3.1\Microsoft.EntityFrameworkCore.Abstractions.dll
+C:\Users\trung\Desktop\Projec\ShradhaBookStore\bin\Debug\netcoreapp3.1\Microsoft.EntityFrameworkCore.Relational.dll
+C:\Users\trung\Desktop\Projec\ShradhaBookStore\bin\Debug\netcoreapp3.1\Microsoft.EntityFrameworkCore.SqlServer.dll
+C:\Users\trung\Desktop\Projec\ShradhaBookStore\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Caching.Abstractions.dll
+C:\Users\trung\Desktop\Projec\ShradhaBookStore\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Caching.Memory.dll
+C:\Users\trung\Desktop\Projec\ShradhaBookStore\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Configuration.dll
+C:\Users\trung\Desktop\Projec\ShradhaBookStore\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Configuration.Abstractions.dll
+C:\Users\trung\Desktop\Projec\ShradhaBookStore\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Configuration.Binder.dll
+C:\Users\trung\Desktop\Projec\ShradhaBookStore\bin\Debug\netcoreapp3.1\Microsoft.Extensions.DependencyInjection.dll
+C:\Users\trung\Desktop\Projec\ShradhaBookStore\bin\Debug\netcoreapp3.1\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+C:\Users\trung\Desktop\Projec\ShradhaBookStore\bin\Debug\netcoreapp3.1\Microsoft.Extensions.DependencyModel.dll
+C:\Users\trung\Desktop\Projec\ShradhaBookStore\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Logging.dll
+C:\Users\trung\Desktop\Projec\ShradhaBookStore\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Logging.Abstractions.dll
+C:\Users\trung\Desktop\Projec\ShradhaBookStore\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Options.dll
+C:\Users\trung\Desktop\Projec\ShradhaBookStore\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Primitives.dll
+C:\Users\trung\Desktop\Projec\ShradhaBookStore\bin\Debug\netcoreapp3.1\Microsoft.Identity.Client.dll
+C:\Users\trung\Desktop\Projec\ShradhaBookStore\bin\Debug\netcoreapp3.1\Microsoft.IdentityModel.JsonWebTokens.dll
+C:\Users\trung\Desktop\Projec\ShradhaBookStore\bin\Debug\netcoreapp3.1\Microsoft.IdentityModel.Logging.dll
+C:\Users\trung\Desktop\Projec\ShradhaBookStore\bin\Debug\netcoreapp3.1\Microsoft.IdentityModel.Protocols.dll
+C:\Users\trung\Desktop\Projec\ShradhaBookStore\bin\Debug\netcoreapp3.1\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+C:\Users\trung\Desktop\Projec\ShradhaBookStore\bin\Debug\netcoreapp3.1\Microsoft.IdentityModel.Tokens.dll
+C:\Users\trung\Desktop\Projec\ShradhaBookStore\bin\Debug\netcoreapp3.1\Microsoft.VisualStudio.Web.CodeGeneration.dll
+C:\Users\trung\Desktop\Projec\ShradhaBookStore\bin\Debug\netcoreapp3.1\Microsoft.VisualStudio.Web.CodeGeneration.Contracts.dll
+C:\Users\trung\Desktop\Projec\ShradhaBookStore\bin\Debug\netcoreapp3.1\Microsoft.VisualStudio.Web.CodeGeneration.Core.dll
+C:\Users\trung\Desktop\Projec\ShradhaBookStore\bin\Debug\netcoreapp3.1\dotnet-aspnet-codegenerator-design.dll
+C:\Users\trung\Desktop\Projec\ShradhaBookStore\bin\Debug\netcoreapp3.1\Microsoft.VisualStudio.Web.CodeGeneration.EntityFrameworkCore.dll
+C:\Users\trung\Desktop\Projec\ShradhaBookStore\bin\Debug\netcoreapp3.1\Microsoft.VisualStudio.Web.CodeGeneration.Templating.dll
+C:\Users\trung\Desktop\Projec\ShradhaBookStore\bin\Debug\netcoreapp3.1\Microsoft.VisualStudio.Web.CodeGeneration.Utils.dll
+C:\Users\trung\Desktop\Projec\ShradhaBookStore\bin\Debug\netcoreapp3.1\Microsoft.VisualStudio.Web.CodeGenerators.Mvc.dll
+C:\Users\trung\Desktop\Projec\ShradhaBookStore\bin\Debug\netcoreapp3.1\Newtonsoft.Json.dll
+C:\Users\trung\Desktop\Projec\ShradhaBookStore\bin\Debug\netcoreapp3.1\Newtonsoft.Json.Bson.dll
+C:\Users\trung\Desktop\Projec\ShradhaBookStore\bin\Debug\netcoreapp3.1\NuGet.Frameworks.dll
+C:\Users\trung\Desktop\Projec\ShradhaBookStore\bin\Debug\netcoreapp3.1\System.Collections.Immutable.dll
+C:\Users\trung\Desktop\Projec\ShradhaBookStore\bin\Debug\netcoreapp3.1\System.Composition.AttributedModel.dll
+C:\Users\trung\Desktop\Projec\ShradhaBookStore\bin\Debug\netcoreapp3.1\System.Composition.Convention.dll
+C:\Users\trung\Desktop\Projec\ShradhaBookStore\bin\Debug\netcoreapp3.1\System.Composition.Hosting.dll
+C:\Users\trung\Desktop\Projec\ShradhaBookStore\bin\Debug\netcoreapp3.1\System.Composition.Runtime.dll
+C:\Users\trung\Desktop\Projec\ShradhaBookStore\bin\Debug\netcoreapp3.1\System.Composition.TypedParts.dll
+C:\Users\trung\Desktop\Projec\ShradhaBookStore\bin\Debug\netcoreapp3.1\System.Configuration.ConfigurationManager.dll
+C:\Users\trung\Desktop\Projec\ShradhaBookStore\bin\Debug\netcoreapp3.1\System.Diagnostics.DiagnosticSource.dll
+C:\Users\trung\Desktop\Projec\ShradhaBookStore\bin\Debug\netcoreapp3.1\System.IdentityModel.Tokens.Jwt.dll
+C:\Users\trung\Desktop\Projec\ShradhaBookStore\bin\Debug\netcoreapp3.1\System.Runtime.Caching.dll
+C:\Users\trung\Desktop\Projec\ShradhaBookStore\bin\Debug\netcoreapp3.1\System.Security.Cryptography.ProtectedData.dll
+C:\Users\trung\Desktop\Projec\ShradhaBookStore\bin\Debug\netcoreapp3.1\X.PagedList.dll
+C:\Users\trung\Desktop\Projec\ShradhaBookStore\bin\Debug\netcoreapp3.1\X.PagedList.Mvc.Core.dll
+C:\Users\trung\Desktop\Projec\ShradhaBookStore\bin\Debug\netcoreapp3.1\X.PagedList.Web.Common.dll
+C:\Users\trung\Desktop\Projec\ShradhaBookStore\bin\Debug\netcoreapp3.1\cs\Microsoft.CodeAnalysis.resources.dll
+C:\Users\trung\Desktop\Projec\ShradhaBookStore\bin\Debug\netcoreapp3.1\de\Microsoft.CodeAnalysis.resources.dll
+C:\Users\trung\Desktop\Projec\ShradhaBookStore\bin\Debug\netcoreapp3.1\es\Microsoft.CodeAnalysis.resources.dll
+C:\Users\trung\Desktop\Projec\ShradhaBookStore\bin\Debug\netcoreapp3.1\fr\Microsoft.CodeAnalysis.resources.dll
+C:\Users\trung\Desktop\Projec\ShradhaBookStore\bin\Debug\netcoreapp3.1\it\Microsoft.CodeAnalysis.resources.dll
+C:\Users\trung\Desktop\Projec\ShradhaBookStore\bin\Debug\netcoreapp3.1\ja\Microsoft.CodeAnalysis.resources.dll
+C:\Users\trung\Desktop\Projec\ShradhaBookStore\bin\Debug\netcoreapp3.1\ko\Microsoft.CodeAnalysis.resources.dll
+C:\Users\trung\Desktop\Projec\ShradhaBookStore\bin\Debug\netcoreapp3.1\pl\Microsoft.CodeAnalysis.resources.dll
+C:\Users\trung\Desktop\Projec\ShradhaBookStore\bin\Debug\netcoreapp3.1\pt-BR\Microsoft.CodeAnalysis.resources.dll
+C:\Users\trung\Desktop\Projec\ShradhaBookStore\bin\Debug\netcoreapp3.1\ru\Microsoft.CodeAnalysis.resources.dll
+C:\Users\trung\Desktop\Projec\ShradhaBookStore\bin\Debug\netcoreapp3.1\tr\Microsoft.CodeAnalysis.resources.dll
+C:\Users\trung\Desktop\Projec\ShradhaBookStore\bin\Debug\netcoreapp3.1\zh-Hans\Microsoft.CodeAnalysis.resources.dll
+C:\Users\trung\Desktop\Projec\ShradhaBookStore\bin\Debug\netcoreapp3.1\zh-Hant\Microsoft.CodeAnalysis.resources.dll
+C:\Users\trung\Desktop\Projec\ShradhaBookStore\bin\Debug\netcoreapp3.1\cs\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\trung\Desktop\Projec\ShradhaBookStore\bin\Debug\netcoreapp3.1\de\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\trung\Desktop\Projec\ShradhaBookStore\bin\Debug\netcoreapp3.1\es\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\trung\Desktop\Projec\ShradhaBookStore\bin\Debug\netcoreapp3.1\fr\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\trung\Desktop\Projec\ShradhaBookStore\bin\Debug\netcoreapp3.1\it\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\trung\Desktop\Projec\ShradhaBookStore\bin\Debug\netcoreapp3.1\ja\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\trung\Desktop\Projec\ShradhaBookStore\bin\Debug\netcoreapp3.1\ko\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\trung\Desktop\Projec\ShradhaBookStore\bin\Debug\netcoreapp3.1\pl\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\trung\Desktop\Projec\ShradhaBookStore\bin\Debug\netcoreapp3.1\pt-BR\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\trung\Desktop\Projec\ShradhaBookStore\bin\Debug\netcoreapp3.1\ru\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\trung\Desktop\Projec\ShradhaBookStore\bin\Debug\netcoreapp3.1\tr\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\trung\Desktop\Projec\ShradhaBookStore\bin\Debug\netcoreapp3.1\zh-Hans\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\trung\Desktop\Projec\ShradhaBookStore\bin\Debug\netcoreapp3.1\zh-Hant\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\trung\Desktop\Projec\ShradhaBookStore\bin\Debug\netcoreapp3.1\cs\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\trung\Desktop\Projec\ShradhaBookStore\bin\Debug\netcoreapp3.1\de\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\trung\Desktop\Projec\ShradhaBookStore\bin\Debug\netcoreapp3.1\es\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\trung\Desktop\Projec\ShradhaBookStore\bin\Debug\netcoreapp3.1\fr\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\trung\Desktop\Projec\ShradhaBookStore\bin\Debug\netcoreapp3.1\it\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\trung\Desktop\Projec\ShradhaBookStore\bin\Debug\netcoreapp3.1\ja\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\trung\Desktop\Projec\ShradhaBookStore\bin\Debug\netcoreapp3.1\ko\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\trung\Desktop\Projec\ShradhaBookStore\bin\Debug\netcoreapp3.1\pl\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\trung\Desktop\Projec\ShradhaBookStore\bin\Debug\netcoreapp3.1\pt-BR\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\trung\Desktop\Projec\ShradhaBookStore\bin\Debug\netcoreapp3.1\ru\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\trung\Desktop\Projec\ShradhaBookStore\bin\Debug\netcoreapp3.1\tr\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\trung\Desktop\Projec\ShradhaBookStore\bin\Debug\netcoreapp3.1\zh-Hans\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\trung\Desktop\Projec\ShradhaBookStore\bin\Debug\netcoreapp3.1\zh-Hant\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\trung\Desktop\Projec\ShradhaBookStore\bin\Debug\netcoreapp3.1\cs\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\trung\Desktop\Projec\ShradhaBookStore\bin\Debug\netcoreapp3.1\de\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\trung\Desktop\Projec\ShradhaBookStore\bin\Debug\netcoreapp3.1\es\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\trung\Desktop\Projec\ShradhaBookStore\bin\Debug\netcoreapp3.1\fr\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\trung\Desktop\Projec\ShradhaBookStore\bin\Debug\netcoreapp3.1\it\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\trung\Desktop\Projec\ShradhaBookStore\bin\Debug\netcoreapp3.1\ja\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\trung\Desktop\Projec\ShradhaBookStore\bin\Debug\netcoreapp3.1\ko\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\trung\Desktop\Projec\ShradhaBookStore\bin\Debug\netcoreapp3.1\pl\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\trung\Desktop\Projec\ShradhaBookStore\bin\Debug\netcoreapp3.1\pt-BR\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\trung\Desktop\Projec\ShradhaBookStore\bin\Debug\netcoreapp3.1\ru\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\trung\Desktop\Projec\ShradhaBookStore\bin\Debug\netcoreapp3.1\tr\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\trung\Desktop\Projec\ShradhaBookStore\bin\Debug\netcoreapp3.1\zh-Hans\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\trung\Desktop\Projec\ShradhaBookStore\bin\Debug\netcoreapp3.1\zh-Hant\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\trung\Desktop\Projec\ShradhaBookStore\bin\Debug\netcoreapp3.1\runtimes\unix\lib\netcoreapp2.1\Microsoft.Data.SqlClient.dll
+C:\Users\trung\Desktop\Projec\ShradhaBookStore\bin\Debug\netcoreapp3.1\runtimes\win\lib\netcoreapp2.1\Microsoft.Data.SqlClient.dll
+C:\Users\trung\Desktop\Projec\ShradhaBookStore\bin\Debug\netcoreapp3.1\runtimes\win-arm64\native\sni.dll
+C:\Users\trung\Desktop\Projec\ShradhaBookStore\bin\Debug\netcoreapp3.1\runtimes\win-x64\native\sni.dll
+C:\Users\trung\Desktop\Projec\ShradhaBookStore\bin\Debug\netcoreapp3.1\runtimes\win-x86\native\sni.dll
+C:\Users\trung\Desktop\Projec\ShradhaBookStore\bin\Debug\netcoreapp3.1\runtimes\unix\lib\netcoreapp2.0\System.Runtime.Caching.dll
+C:\Users\trung\Desktop\Projec\ShradhaBookStore\bin\Debug\netcoreapp3.1\runtimes\win\lib\netcoreapp2.0\System.Runtime.Caching.dll
+C:\Users\trung\Desktop\Projec\ShradhaBookStore\bin\Debug\netcoreapp3.1\runtimes\win\lib\netstandard2.0\System.Security.Cryptography.ProtectedData.dll
+C:\Users\trung\Desktop\Projec\ShradhaBookStore\bin\Debug\netcoreapp3.1\System.Web.Services.dll
+C:\Users\trung\Desktop\Projec\ShradhaBookStore\bin\Debug\netcoreapp3.1\System.EnterpriseServices.dll
+C:\Users\trung\Desktop\Projec\ShradhaBookStore\bin\Debug\netcoreapp3.1\System.Design.dll
+C:\Users\trung\Desktop\Projec\ShradhaBookStore\bin\Debug\netcoreapp3.1\System.DirectoryServices.dll
+C:\Users\trung\Desktop\Projec\ShradhaBookStore\bin\Debug\netcoreapp3.1\System.Runtime.Remoting.dll
+C:\Users\trung\Desktop\Projec\ShradhaBookStore\bin\Debug\netcoreapp3.1\System.Windows.Forms.dll
+C:\Users\trung\Desktop\Projec\ShradhaBookStore\bin\Debug\netcoreapp3.1\System.Data.OracleClient.dll
+C:\Users\trung\Desktop\Projec\ShradhaBookStore\bin\Debug\netcoreapp3.1\Accessibility.dll
+C:\Users\trung\Desktop\Projec\ShradhaBookStore\bin\Debug\netcoreapp3.1\System.Drawing.Design.dll
+C:\Users\trung\Desktop\Projec\ShradhaBookStore\bin\Debug\netcoreapp3.1\System.Web.RegularExpressions.dll
+C:\Users\trung\Desktop\Projec\ShradhaBookStore\bin\Debug\netcoreapp3.1\System.Runtime.Serialization.Formatters.Soap.dll
+C:\Users\trung\Desktop\Projec\ShradhaBookStore\bin\Debug\netcoreapp3.1\System.Deployment.dll
+C:\Users\trung\Desktop\Projec\ShradhaBookStore\bin\Debug\netcoreapp3.1\System.Web.Services.xml
+C:\Users\trung\Desktop\Projec\ShradhaBookStore\bin\Debug\netcoreapp3.1\System.EnterpriseServices.xml
+C:\Users\trung\Desktop\Projec\ShradhaBookStore\bin\Debug\netcoreapp3.1\System.Design.xml
+C:\Users\trung\Desktop\Projec\ShradhaBookStore\bin\Debug\netcoreapp3.1\System.DirectoryServices.xml
+C:\Users\trung\Desktop\Projec\ShradhaBookStore\bin\Debug\netcoreapp3.1\System.Runtime.Remoting.xml
+C:\Users\trung\Desktop\Projec\ShradhaBookStore\bin\Debug\netcoreapp3.1\System.Windows.Forms.xml
+C:\Users\trung\Desktop\Projec\ShradhaBookStore\bin\Debug\netcoreapp3.1\System.Data.OracleClient.xml
+C:\Users\trung\Desktop\Projec\ShradhaBookStore\bin\Debug\netcoreapp3.1\Accessibility.xml
+C:\Users\trung\Desktop\Projec\ShradhaBookStore\bin\Debug\netcoreapp3.1\System.Drawing.Design.xml
+C:\Users\trung\Desktop\Projec\ShradhaBookStore\bin\Debug\netcoreapp3.1\System.Web.RegularExpressions.xml
+C:\Users\trung\Desktop\Projec\ShradhaBookStore\bin\Debug\netcoreapp3.1\System.Runtime.Serialization.Formatters.Soap.xml
+C:\Users\trung\Desktop\Projec\ShradhaBookStore\bin\Debug\netcoreapp3.1\System.Deployment.xml
+C:\Users\trung\Desktop\Projec\ShradhaBookStore\bin\Debug\netcoreapp3.1\System.EnterpriseServices.Wrapper.dll
+C:\Users\trung\Desktop\Projec\ShradhaBookStore\obj\Debug\netcoreapp3.1\ShradhaBookStore.csprojAssemblyReference.cache
+C:\Users\trung\Desktop\Projec\ShradhaBookStore\obj\Debug\netcoreapp3.1\ShradhaBookStore.AssemblyInfoInputs.cache
+C:\Users\trung\Desktop\Projec\ShradhaBookStore\obj\Debug\netcoreapp3.1\ShradhaBookStore.AssemblyInfo.cs
+C:\Users\trung\Desktop\Projec\ShradhaBookStore\obj\Debug\netcoreapp3.1\ShradhaBookStore.csproj.CoreCompileInputs.cache
+C:\Users\trung\Desktop\Projec\ShradhaBookStore\obj\Debug\netcoreapp3.1\ShradhaBookStore.MvcApplicationPartsAssemblyInfo.cs
+C:\Users\trung\Desktop\Projec\ShradhaBookStore\obj\Debug\netcoreapp3.1\ShradhaBookStore.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\trung\Desktop\Projec\ShradhaBookStore\obj\Debug\netcoreapp3.1\ShradhaBookStore.RazorAssemblyInfo.cache
+C:\Users\trung\Desktop\Projec\ShradhaBookStore\obj\Debug\netcoreapp3.1\ShradhaBookStore.RazorAssemblyInfo.cs
+C:\Users\trung\Desktop\Projec\ShradhaBookStore\obj\Debug\netcoreapp3.1\staticwebassets\ShradhaBookStore.StaticWebAssets.Manifest.cache
+C:\Users\trung\Desktop\Projec\ShradhaBookStore\obj\Debug\netcoreapp3.1\staticwebassets\ShradhaBookStore.StaticWebAssets.xml
+C:\Users\trung\Desktop\Projec\ShradhaBookStore\obj\Debug\netcoreapp3.1\scopedcss\bundle\ShradhaBookStore.styles.css
+C:\Users\trung\Desktop\Projec\ShradhaBookStore\obj\Debug\netcoreapp3.1\ShradhaBookStore.TagHelpers.input.cache
+C:\Users\trung\Desktop\Projec\ShradhaBookStore\obj\Debug\netcoreapp3.1\ShradhaBookStore.TagHelpers.output.cache
+C:\Users\trung\Desktop\Projec\ShradhaBookStore\obj\Debug\netcoreapp3.1\ShradhaBookStore.RazorCoreGenerate.cache
+C:\Users\trung\Desktop\Projec\ShradhaBookStore\obj\Debug\netcoreapp3.1\Razor\Views\Admin\Banner\Add_Banner.cshtml.g.cs
+C:\Users\trung\Desktop\Projec\ShradhaBookStore\obj\Debug\netcoreapp3.1\Razor\Views\Admin\Banner\Banner_list.cshtml.g.cs
+C:\Users\trung\Desktop\Projec\ShradhaBookStore\obj\Debug\netcoreapp3.1\Razor\Views\Admin\Layout\_Layout.cshtml.g.cs
+C:\Users\trung\Desktop\Projec\ShradhaBookStore\obj\Debug\netcoreapp3.1\Razor\Views\Admin\Manage_Admin\ManagaA_Chart.cshtml.g.cs
+C:\Users\trung\Desktop\Projec\ShradhaBookStore\obj\Debug\netcoreapp3.1\Razor\Views\Admin\Manage_Admin\Manage_Admin.cshtml.g.cs
+C:\Users\trung\Desktop\Projec\ShradhaBookStore\obj\Debug\netcoreapp3.1\Razor\Views\Admin\Manage_Feedback\Manage_Feedback.cshtml.g.cs
+C:\Users\trung\Desktop\Projec\ShradhaBookStore\obj\Debug\netcoreapp3.1\Razor\Views\Admin\Manage_Oders\Index.cshtml.g.cs
+C:\Users\trung\Desktop\Projec\ShradhaBookStore\obj\Debug\netcoreapp3.1\Razor\Views\Admin\Manage_Oders\Manage_Oders.cshtml.g.cs
+C:\Users\trung\Desktop\Projec\ShradhaBookStore\obj\Debug\netcoreapp3.1\Razor\Views\Admin\Manage_Oders\Manrage_Denine_Oders.cshtml.g.cs
+C:\Users\trung\Desktop\Projec\ShradhaBookStore\obj\Debug\netcoreapp3.1\Razor\Views\Admin\Manage_Oders\OrderLog.cshtml.g.cs
+C:\Users\trung\Desktop\Projec\ShradhaBookStore\obj\Debug\netcoreapp3.1\Razor\Views\Admin\Manage_Oders\Shipping.cshtml.g.cs
+C:\Users\trung\Desktop\Projec\ShradhaBookStore\obj\Debug\netcoreapp3.1\Razor\Views\Admin\Manage_Products\CategoryPublisherList.cshtml.g.cs
+C:\Users\trung\Desktop\Projec\ShradhaBookStore\obj\Debug\netcoreapp3.1\Razor\Views\Admin\Manage_Products\Create_Category.cshtml.g.cs
+C:\Users\trung\Desktop\Projec\ShradhaBookStore\obj\Debug\netcoreapp3.1\Razor\Views\Admin\Manage_Products\Create_Product.cshtml.g.cs
+C:\Users\trung\Desktop\Projec\ShradhaBookStore\obj\Debug\netcoreapp3.1\Razor\Views\Admin\Manage_Products\Create_Products.cshtml.g.cs
+C:\Users\trung\Desktop\Projec\ShradhaBookStore\obj\Debug\netcoreapp3.1\Razor\Views\Admin\Manage_Products\Create_Publisher.cshtml.g.cs
+C:\Users\trung\Desktop\Projec\ShradhaBookStore\obj\Debug\netcoreapp3.1\Razor\Views\Admin\Manage_Products\Detail_Products.cshtml.g.cs
+C:\Users\trung\Desktop\Projec\ShradhaBookStore\obj\Debug\netcoreapp3.1\Razor\Views\Admin\Manage_Products\Edit_Products.cshtml.g.cs
+C:\Users\trung\Desktop\Projec\ShradhaBookStore\obj\Debug\netcoreapp3.1\Razor\Views\Admin\Manage_Products\Manage_Products.cshtml.g.cs
+C:\Users\trung\Desktop\Projec\ShradhaBookStore\obj\Debug\netcoreapp3.1\Razor\Views\Admin\Manage_Products\NotFound.cshtml.g.cs
+C:\Users\trung\Desktop\Projec\ShradhaBookStore\obj\Debug\netcoreapp3.1\Razor\Views\Admin\Manage_Users\Manage_Users.cshtml.g.cs
+C:\Users\trung\Desktop\Projec\ShradhaBookStore\obj\Debug\netcoreapp3.1\Razor\Views\Cart2\Count.cshtml.g.cs
+C:\Users\trung\Desktop\Projec\ShradhaBookStore\obj\Debug\netcoreapp3.1\Razor\Views\Cart2\Index.cshtml.g.cs
+C:\Users\trung\Desktop\Projec\ShradhaBookStore\obj\Debug\netcoreapp3.1\Razor\Views\Cart2\Total.cshtml.g.cs
+C:\Users\trung\Desktop\Projec\ShradhaBookStore\obj\Debug\netcoreapp3.1\Razor\Views\Cart2\_Count.cshtml.g.cs
+C:\Users\trung\Desktop\Projec\ShradhaBookStore\obj\Debug\netcoreapp3.1\Razor\Views\Cart2\_Index.cshtml.g.cs
+C:\Users\trung\Desktop\Projec\ShradhaBookStore\obj\Debug\netcoreapp3.1\Razor\Views\FeedBack\SendFeedBack.cshtml.g.cs
+C:\Users\trung\Desktop\Projec\ShradhaBookStore\obj\Debug\netcoreapp3.1\Razor\Views\Home\ContactUs.cshtml.g.cs
+C:\Users\trung\Desktop\Projec\ShradhaBookStore\obj\Debug\netcoreapp3.1\Razor\Views\Home\CreateView.cshtml.g.cs
+C:\Users\trung\Desktop\Projec\ShradhaBookStore\obj\Debug\netcoreapp3.1\Razor\Views\Home\Detail.cshtml.g.cs
+C:\Users\trung\Desktop\Projec\ShradhaBookStore\obj\Debug\netcoreapp3.1\Razor\Views\Home\Index.cshtml.g.cs
+C:\Users\trung\Desktop\Projec\ShradhaBookStore\obj\Debug\netcoreapp3.1\Razor\Views\Home\Privacy.cshtml.g.cs
+C:\Users\trung\Desktop\Projec\ShradhaBookStore\obj\Debug\netcoreapp3.1\Razor\Views\Home\ShopePage.cshtml.g.cs
+C:\Users\trung\Desktop\Projec\ShradhaBookStore\obj\Debug\netcoreapp3.1\Razor\Views\Order\CheckOut.cshtml.g.cs
+C:\Users\trung\Desktop\Projec\ShradhaBookStore\obj\Debug\netcoreapp3.1\Razor\Views\Order\CheckoutComplete.cshtml.g.cs
+C:\Users\trung\Desktop\Projec\ShradhaBookStore\obj\Debug\netcoreapp3.1\Razor\Views\Order\Error.cshtml.g.cs
+C:\Users\trung\Desktop\Projec\ShradhaBookStore\obj\Debug\netcoreapp3.1\Razor\Views\Order\Index.cshtml.g.cs
+C:\Users\trung\Desktop\Projec\ShradhaBookStore\obj\Debug\netcoreapp3.1\Razor\Views\Order\KiemTraThanhToan.cshtml.g.cs
+C:\Users\trung\Desktop\Projec\ShradhaBookStore\obj\Debug\netcoreapp3.1\Razor\Views\Order\ordersucess.cshtml.g.cs
+C:\Users\trung\Desktop\Projec\ShradhaBookStore\obj\Debug\netcoreapp3.1\Razor\Views\Order\payment.cshtml.g.cs
+C:\Users\trung\Desktop\Projec\ShradhaBookStore\obj\Debug\netcoreapp3.1\Razor\Views\Order\PaymentCreditCard.cshtml.g.cs
+C:\Users\trung\Desktop\Projec\ShradhaBookStore\obj\Debug\netcoreapp3.1\Razor\Views\Product\Index.cshtml.g.cs
+C:\Users\trung\Desktop\Projec\ShradhaBookStore\obj\Debug\netcoreapp3.1\Razor\Views\Product\Update.cshtml.g.cs
+C:\Users\trung\Desktop\Projec\ShradhaBookStore\obj\Debug\netcoreapp3.1\Razor\Views\Shared\Error.cshtml.g.cs
+C:\Users\trung\Desktop\Projec\ShradhaBookStore\obj\Debug\netcoreapp3.1\Razor\Views\Shared\_Layout.cshtml.g.cs
+C:\Users\trung\Desktop\Projec\ShradhaBookStore\obj\Debug\netcoreapp3.1\Razor\Views\Shared\_ValidationScriptsPartial.cshtml.g.cs
+C:\Users\trung\Desktop\Projec\ShradhaBookStore\obj\Debug\netcoreapp3.1\Razor\Views\TrackingOrder\Action.cshtml.g.cs
+C:\Users\trung\Desktop\Projec\ShradhaBookStore\obj\Debug\netcoreapp3.1\Razor\Views\TrackingOrder\gggg.cshtml.g.cs
+C:\Users\trung\Desktop\Projec\ShradhaBookStore\obj\Debug\netcoreapp3.1\Razor\Views\TrackingOrder\Index.cshtml.g.cs
+C:\Users\trung\Desktop\Projec\ShradhaBookStore\obj\Debug\netcoreapp3.1\Razor\Views\UserInfo\ChangePass.cshtml.g.cs
+C:\Users\trung\Desktop\Projec\ShradhaBookStore\obj\Debug\netcoreapp3.1\Razor\Views\UserInfo\Details.cshtml.g.cs
+C:\Users\trung\Desktop\Projec\ShradhaBookStore\obj\Debug\netcoreapp3.1\Razor\Views\UserInfo\Layout\_Layout.cshtml.g.cs
+C:\Users\trung\Desktop\Projec\ShradhaBookStore\obj\Debug\netcoreapp3.1\Razor\Views\UserInfo\Login.cshtml.g.cs
+C:\Users\trung\Desktop\Projec\ShradhaBookStore\obj\Debug\netcoreapp3.1\Razor\Views\UserInfo\Register.cshtml.g.cs
+C:\Users\trung\Desktop\Projec\ShradhaBookStore\obj\Debug\netcoreapp3.1\Razor\Views\UserInfo\Update.cshtml.g.cs
+C:\Users\trung\Desktop\Projec\ShradhaBookStore\obj\Debug\netcoreapp3.1\Razor\Views\_ViewImports.cshtml.g.cs
+C:\Users\trung\Desktop\Projec\ShradhaBookStore\obj\Debug\netcoreapp3.1\Razor\Views\_ViewStart.cshtml.g.cs
+C:\Users\trung\Desktop\Projec\ShradhaBookStore\obj\Debug\netcoreapp3.1\ShradhaBookStore.RazorTargetAssemblyInfo.cache
+C:\Users\trung\Desktop\Projec\ShradhaBookStore\obj\Debug\netcoreapp3.1\ShradhaBookStore.RazorTargetAssemblyInfo.cs
+C:\Users\trung\Desktop\Projec\ShradhaBookStore\obj\Debug\netcoreapp3.1\ShradhaBookStore.Views.pdb
+C:\Users\trung\Desktop\Projec\ShradhaBookStore\obj\Debug\netcoreapp3.1\ShradhaBookStore.csproj.CopyComplete
+C:\Users\trung\Desktop\Projec\ShradhaBookStore\obj\Debug\netcoreapp3.1\ShradhaBookStore.dll
+C:\Users\trung\Desktop\Projec\ShradhaBookStore\obj\Debug\netcoreapp3.1\ShradhaBookStore.pdb
+C:\Users\trung\Desktop\Projec\ShradhaBookStore\obj\Debug\netcoreapp3.1\ShradhaBookStore.genruntimeconfig.cache
+C:\Users\trung\Desktop\Projec\ShradhaBookStore\obj\Debug\netcoreapp3.1\Razor\Views\Admin\Manage_Oders\ShowProduct.cshtml.g.cs
+C:\Users\trung\Desktop\Projec\ShradhaBookStore\obj\Debug\netcoreapp3.1\Razor\Views\Admin\Manage_Oders\Order_Cancle.cshtml.g.cs
+D:\ShradhaBookStore\bin\Debug\netcoreapp3.1\appsettings.Development.json
+D:\ShradhaBookStore\bin\Debug\netcoreapp3.1\appsettings.json
+D:\ShradhaBookStore\bin\Debug\netcoreapp3.1\ShradhaBookStore.exe
+D:\ShradhaBookStore\bin\Debug\netcoreapp3.1\ShradhaBookStore.deps.json
+D:\ShradhaBookStore\bin\Debug\netcoreapp3.1\ShradhaBookStore.runtimeconfig.json
+D:\ShradhaBookStore\bin\Debug\netcoreapp3.1\ShradhaBookStore.runtimeconfig.dev.json
+D:\ShradhaBookStore\bin\Debug\netcoreapp3.1\ShradhaBookStore.dll
+D:\ShradhaBookStore\bin\Debug\netcoreapp3.1\ShradhaBookStore.pdb
+D:\ShradhaBookStore\bin\Debug\netcoreapp3.1\ShradhaBookStore.Views.dll
+D:\ShradhaBookStore\bin\Debug\netcoreapp3.1\ShradhaBookStore.Views.pdb
+D:\ShradhaBookStore\bin\Debug\netcoreapp3.1\BingMapsRESTToolkit.dll
+D:\ShradhaBookStore\bin\Debug\netcoreapp3.1\Microsoft.AspNetCore.JsonPatch.dll
+D:\ShradhaBookStore\bin\Debug\netcoreapp3.1\Microsoft.AspNetCore.Razor.Language.dll
+D:\ShradhaBookStore\bin\Debug\netcoreapp3.1\Microsoft.Bcl.AsyncInterfaces.dll
+D:\ShradhaBookStore\bin\Debug\netcoreapp3.1\Microsoft.Bcl.HashCode.dll
+D:\ShradhaBookStore\bin\Debug\netcoreapp3.1\Microsoft.CodeAnalysis.dll
+D:\ShradhaBookStore\bin\Debug\netcoreapp3.1\Microsoft.CodeAnalysis.CSharp.dll
+D:\ShradhaBookStore\bin\Debug\netcoreapp3.1\Microsoft.CodeAnalysis.CSharp.Workspaces.dll
+D:\ShradhaBookStore\bin\Debug\netcoreapp3.1\Microsoft.CodeAnalysis.Razor.dll
+D:\ShradhaBookStore\bin\Debug\netcoreapp3.1\Microsoft.CodeAnalysis.Workspaces.dll
+D:\ShradhaBookStore\bin\Debug\netcoreapp3.1\Microsoft.Data.SqlClient.dll
+D:\ShradhaBookStore\bin\Debug\netcoreapp3.1\Microsoft.DotNet.PlatformAbstractions.dll
+D:\ShradhaBookStore\bin\Debug\netcoreapp3.1\Microsoft.EntityFrameworkCore.dll
+D:\ShradhaBookStore\bin\Debug\netcoreapp3.1\Microsoft.EntityFrameworkCore.Abstractions.dll
+D:\ShradhaBookStore\bin\Debug\netcoreapp3.1\Microsoft.EntityFrameworkCore.Relational.dll
+D:\ShradhaBookStore\bin\Debug\netcoreapp3.1\Microsoft.EntityFrameworkCore.SqlServer.dll
+D:\ShradhaBookStore\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Caching.Abstractions.dll
+D:\ShradhaBookStore\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Caching.Memory.dll
+D:\ShradhaBookStore\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Configuration.dll
+D:\ShradhaBookStore\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Configuration.Abstractions.dll
+D:\ShradhaBookStore\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Configuration.Binder.dll
+D:\ShradhaBookStore\bin\Debug\netcoreapp3.1\Microsoft.Extensions.DependencyInjection.dll
+D:\ShradhaBookStore\bin\Debug\netcoreapp3.1\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+D:\ShradhaBookStore\bin\Debug\netcoreapp3.1\Microsoft.Extensions.DependencyModel.dll
+D:\ShradhaBookStore\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Logging.dll
+D:\ShradhaBookStore\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Logging.Abstractions.dll
+D:\ShradhaBookStore\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Options.dll
+D:\ShradhaBookStore\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Primitives.dll
+D:\ShradhaBookStore\bin\Debug\netcoreapp3.1\Microsoft.Identity.Client.dll
+D:\ShradhaBookStore\bin\Debug\netcoreapp3.1\Microsoft.IdentityModel.JsonWebTokens.dll
+D:\ShradhaBookStore\bin\Debug\netcoreapp3.1\Microsoft.IdentityModel.Logging.dll
+D:\ShradhaBookStore\bin\Debug\netcoreapp3.1\Microsoft.IdentityModel.Protocols.dll
+D:\ShradhaBookStore\bin\Debug\netcoreapp3.1\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+D:\ShradhaBookStore\bin\Debug\netcoreapp3.1\Microsoft.IdentityModel.Tokens.dll
+D:\ShradhaBookStore\bin\Debug\netcoreapp3.1\Microsoft.VisualStudio.Web.CodeGeneration.dll
+D:\ShradhaBookStore\bin\Debug\netcoreapp3.1\Microsoft.VisualStudio.Web.CodeGeneration.Contracts.dll
+D:\ShradhaBookStore\bin\Debug\netcoreapp3.1\Microsoft.VisualStudio.Web.CodeGeneration.Core.dll
+D:\ShradhaBookStore\bin\Debug\netcoreapp3.1\dotnet-aspnet-codegenerator-design.dll
+D:\ShradhaBookStore\bin\Debug\netcoreapp3.1\Microsoft.VisualStudio.Web.CodeGeneration.EntityFrameworkCore.dll
+D:\ShradhaBookStore\bin\Debug\netcoreapp3.1\Microsoft.VisualStudio.Web.CodeGeneration.Templating.dll
+D:\ShradhaBookStore\bin\Debug\netcoreapp3.1\Microsoft.VisualStudio.Web.CodeGeneration.Utils.dll
+D:\ShradhaBookStore\bin\Debug\netcoreapp3.1\Microsoft.VisualStudio.Web.CodeGenerators.Mvc.dll
+D:\ShradhaBookStore\bin\Debug\netcoreapp3.1\Newtonsoft.Json.dll
+D:\ShradhaBookStore\bin\Debug\netcoreapp3.1\Newtonsoft.Json.Bson.dll
+D:\ShradhaBookStore\bin\Debug\netcoreapp3.1\NuGet.Frameworks.dll
+D:\ShradhaBookStore\bin\Debug\netcoreapp3.1\System.Collections.Immutable.dll
+D:\ShradhaBookStore\bin\Debug\netcoreapp3.1\System.Composition.AttributedModel.dll
+D:\ShradhaBookStore\bin\Debug\netcoreapp3.1\System.Composition.Convention.dll
+D:\ShradhaBookStore\bin\Debug\netcoreapp3.1\System.Composition.Hosting.dll
+D:\ShradhaBookStore\bin\Debug\netcoreapp3.1\System.Composition.Runtime.dll
+D:\ShradhaBookStore\bin\Debug\netcoreapp3.1\System.Composition.TypedParts.dll
+D:\ShradhaBookStore\bin\Debug\netcoreapp3.1\System.Configuration.ConfigurationManager.dll
+D:\ShradhaBookStore\bin\Debug\netcoreapp3.1\System.Diagnostics.DiagnosticSource.dll
+D:\ShradhaBookStore\bin\Debug\netcoreapp3.1\System.IdentityModel.Tokens.Jwt.dll
+D:\ShradhaBookStore\bin\Debug\netcoreapp3.1\System.Runtime.Caching.dll
+D:\ShradhaBookStore\bin\Debug\netcoreapp3.1\System.Security.Cryptography.ProtectedData.dll
+D:\ShradhaBookStore\bin\Debug\netcoreapp3.1\X.PagedList.dll
+D:\ShradhaBookStore\bin\Debug\netcoreapp3.1\X.PagedList.Mvc.Core.dll
+D:\ShradhaBookStore\bin\Debug\netcoreapp3.1\X.PagedList.Web.Common.dll
+D:\ShradhaBookStore\bin\Debug\netcoreapp3.1\cs\Microsoft.CodeAnalysis.resources.dll
+D:\ShradhaBookStore\bin\Debug\netcoreapp3.1\de\Microsoft.CodeAnalysis.resources.dll
+D:\ShradhaBookStore\bin\Debug\netcoreapp3.1\es\Microsoft.CodeAnalysis.resources.dll
+D:\ShradhaBookStore\bin\Debug\netcoreapp3.1\fr\Microsoft.CodeAnalysis.resources.dll
+D:\ShradhaBookStore\bin\Debug\netcoreapp3.1\it\Microsoft.CodeAnalysis.resources.dll
+D:\ShradhaBookStore\bin\Debug\netcoreapp3.1\ja\Microsoft.CodeAnalysis.resources.dll
+D:\ShradhaBookStore\bin\Debug\netcoreapp3.1\ko\Microsoft.CodeAnalysis.resources.dll
+D:\ShradhaBookStore\bin\Debug\netcoreapp3.1\pl\Microsoft.CodeAnalysis.resources.dll
+D:\ShradhaBookStore\bin\Debug\netcoreapp3.1\pt-BR\Microsoft.CodeAnalysis.resources.dll
+D:\ShradhaBookStore\bin\Debug\netcoreapp3.1\ru\Microsoft.CodeAnalysis.resources.dll
+D:\ShradhaBookStore\bin\Debug\netcoreapp3.1\tr\Microsoft.CodeAnalysis.resources.dll
+D:\ShradhaBookStore\bin\Debug\netcoreapp3.1\zh-Hans\Microsoft.CodeAnalysis.resources.dll
+D:\ShradhaBookStore\bin\Debug\netcoreapp3.1\zh-Hant\Microsoft.CodeAnalysis.resources.dll
+D:\ShradhaBookStore\bin\Debug\netcoreapp3.1\cs\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\ShradhaBookStore\bin\Debug\netcoreapp3.1\de\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\ShradhaBookStore\bin\Debug\netcoreapp3.1\es\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\ShradhaBookStore\bin\Debug\netcoreapp3.1\fr\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\ShradhaBookStore\bin\Debug\netcoreapp3.1\it\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\ShradhaBookStore\bin\Debug\netcoreapp3.1\ja\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\ShradhaBookStore\bin\Debug\netcoreapp3.1\ko\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\ShradhaBookStore\bin\Debug\netcoreapp3.1\pl\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\ShradhaBookStore\bin\Debug\netcoreapp3.1\pt-BR\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\ShradhaBookStore\bin\Debug\netcoreapp3.1\ru\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\ShradhaBookStore\bin\Debug\netcoreapp3.1\tr\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\ShradhaBookStore\bin\Debug\netcoreapp3.1\zh-Hans\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\ShradhaBookStore\bin\Debug\netcoreapp3.1\zh-Hant\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\ShradhaBookStore\bin\Debug\netcoreapp3.1\cs\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\ShradhaBookStore\bin\Debug\netcoreapp3.1\de\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\ShradhaBookStore\bin\Debug\netcoreapp3.1\es\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\ShradhaBookStore\bin\Debug\netcoreapp3.1\fr\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\ShradhaBookStore\bin\Debug\netcoreapp3.1\it\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\ShradhaBookStore\bin\Debug\netcoreapp3.1\ja\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\ShradhaBookStore\bin\Debug\netcoreapp3.1\ko\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\ShradhaBookStore\bin\Debug\netcoreapp3.1\pl\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\ShradhaBookStore\bin\Debug\netcoreapp3.1\pt-BR\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\ShradhaBookStore\bin\Debug\netcoreapp3.1\ru\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\ShradhaBookStore\bin\Debug\netcoreapp3.1\tr\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\ShradhaBookStore\bin\Debug\netcoreapp3.1\zh-Hans\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\ShradhaBookStore\bin\Debug\netcoreapp3.1\zh-Hant\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\ShradhaBookStore\bin\Debug\netcoreapp3.1\cs\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\ShradhaBookStore\bin\Debug\netcoreapp3.1\de\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\ShradhaBookStore\bin\Debug\netcoreapp3.1\es\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\ShradhaBookStore\bin\Debug\netcoreapp3.1\fr\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\ShradhaBookStore\bin\Debug\netcoreapp3.1\it\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\ShradhaBookStore\bin\Debug\netcoreapp3.1\ja\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\ShradhaBookStore\bin\Debug\netcoreapp3.1\ko\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\ShradhaBookStore\bin\Debug\netcoreapp3.1\pl\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\ShradhaBookStore\bin\Debug\netcoreapp3.1\pt-BR\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\ShradhaBookStore\bin\Debug\netcoreapp3.1\ru\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\ShradhaBookStore\bin\Debug\netcoreapp3.1\tr\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\ShradhaBookStore\bin\Debug\netcoreapp3.1\zh-Hans\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\ShradhaBookStore\bin\Debug\netcoreapp3.1\zh-Hant\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\ShradhaBookStore\bin\Debug\netcoreapp3.1\runtimes\unix\lib\netcoreapp2.1\Microsoft.Data.SqlClient.dll
+D:\ShradhaBookStore\bin\Debug\netcoreapp3.1\runtimes\win\lib\netcoreapp2.1\Microsoft.Data.SqlClient.dll
+D:\ShradhaBookStore\bin\Debug\netcoreapp3.1\runtimes\win-arm64\native\sni.dll
+D:\ShradhaBookStore\bin\Debug\netcoreapp3.1\runtimes\win-x64\native\sni.dll
+D:\ShradhaBookStore\bin\Debug\netcoreapp3.1\runtimes\win-x86\native\sni.dll
+D:\ShradhaBookStore\bin\Debug\netcoreapp3.1\runtimes\unix\lib\netcoreapp2.0\System.Runtime.Caching.dll
+D:\ShradhaBookStore\bin\Debug\netcoreapp3.1\runtimes\win\lib\netcoreapp2.0\System.Runtime.Caching.dll
+D:\ShradhaBookStore\bin\Debug\netcoreapp3.1\runtimes\win\lib\netstandard2.0\System.Security.Cryptography.ProtectedData.dll
+D:\ShradhaBookStore\bin\Debug\netcoreapp3.1\System.Web.Services.dll
+D:\ShradhaBookStore\bin\Debug\netcoreapp3.1\System.EnterpriseServices.dll
+D:\ShradhaBookStore\bin\Debug\netcoreapp3.1\System.Design.dll
+D:\ShradhaBookStore\bin\Debug\netcoreapp3.1\System.DirectoryServices.dll
+D:\ShradhaBookStore\bin\Debug\netcoreapp3.1\System.Runtime.Remoting.dll
+D:\ShradhaBookStore\bin\Debug\netcoreapp3.1\System.Windows.Forms.dll
+D:\ShradhaBookStore\bin\Debug\netcoreapp3.1\System.Data.OracleClient.dll
+D:\ShradhaBookStore\bin\Debug\netcoreapp3.1\Accessibility.dll
+D:\ShradhaBookStore\bin\Debug\netcoreapp3.1\System.Drawing.Design.dll
+D:\ShradhaBookStore\bin\Debug\netcoreapp3.1\System.Web.RegularExpressions.dll
+D:\ShradhaBookStore\bin\Debug\netcoreapp3.1\System.Runtime.Serialization.Formatters.Soap.dll
+D:\ShradhaBookStore\bin\Debug\netcoreapp3.1\System.Deployment.dll
+D:\ShradhaBookStore\bin\Debug\netcoreapp3.1\System.Web.Services.xml
+D:\ShradhaBookStore\bin\Debug\netcoreapp3.1\System.EnterpriseServices.xml
+D:\ShradhaBookStore\bin\Debug\netcoreapp3.1\System.Design.xml
+D:\ShradhaBookStore\bin\Debug\netcoreapp3.1\System.DirectoryServices.xml
+D:\ShradhaBookStore\bin\Debug\netcoreapp3.1\System.Runtime.Remoting.xml
+D:\ShradhaBookStore\bin\Debug\netcoreapp3.1\System.Windows.Forms.xml
+D:\ShradhaBookStore\bin\Debug\netcoreapp3.1\System.Data.OracleClient.xml
+D:\ShradhaBookStore\bin\Debug\netcoreapp3.1\Accessibility.xml
+D:\ShradhaBookStore\bin\Debug\netcoreapp3.1\System.Drawing.Design.xml
+D:\ShradhaBookStore\bin\Debug\netcoreapp3.1\System.Web.RegularExpressions.xml
+D:\ShradhaBookStore\bin\Debug\netcoreapp3.1\System.Runtime.Serialization.Formatters.Soap.xml
+D:\ShradhaBookStore\bin\Debug\netcoreapp3.1\System.Deployment.xml
+D:\ShradhaBookStore\bin\Debug\netcoreapp3.1\System.EnterpriseServices.Wrapper.dll
+D:\ShradhaBookStore\obj\Debug\netcoreapp3.1\ShradhaBookStore.csprojAssemblyReference.cache
+D:\ShradhaBookStore\obj\Debug\netcoreapp3.1\ShradhaBookStore.AssemblyInfoInputs.cache
+D:\ShradhaBookStore\obj\Debug\netcoreapp3.1\ShradhaBookStore.AssemblyInfo.cs
+D:\ShradhaBookStore\obj\Debug\netcoreapp3.1\ShradhaBookStore.csproj.CoreCompileInputs.cache
+D:\ShradhaBookStore\obj\Debug\netcoreapp3.1\ShradhaBookStore.MvcApplicationPartsAssemblyInfo.cs
+D:\ShradhaBookStore\obj\Debug\netcoreapp3.1\ShradhaBookStore.MvcApplicationPartsAssemblyInfo.cache
+D:\ShradhaBookStore\obj\Debug\netcoreapp3.1\ShradhaBookStore.RazorAssemblyInfo.cache
+D:\ShradhaBookStore\obj\Debug\netcoreapp3.1\ShradhaBookStore.RazorAssemblyInfo.cs
+D:\ShradhaBookStore\obj\Debug\netcoreapp3.1\staticwebassets\ShradhaBookStore.StaticWebAssets.Manifest.cache
+D:\ShradhaBookStore\obj\Debug\netcoreapp3.1\staticwebassets\ShradhaBookStore.StaticWebAssets.xml
+D:\ShradhaBookStore\obj\Debug\netcoreapp3.1\scopedcss\bundle\ShradhaBookStore.styles.css
+D:\ShradhaBookStore\obj\Debug\netcoreapp3.1\ShradhaBookStore.TagHelpers.input.cache
+D:\ShradhaBookStore\obj\Debug\netcoreapp3.1\ShradhaBookStore.TagHelpers.output.cache
+D:\ShradhaBookStore\obj\Debug\netcoreapp3.1\ShradhaBookStore.RazorCoreGenerate.cache
+D:\ShradhaBookStore\obj\Debug\netcoreapp3.1\Razor\Views\Admin\Banner\Add_Banner.cshtml.g.cs
+D:\ShradhaBookStore\obj\Debug\netcoreapp3.1\Razor\Views\Admin\Banner\Banner_list.cshtml.g.cs
+D:\ShradhaBookStore\obj\Debug\netcoreapp3.1\Razor\Views\Admin\Layout\_Layout.cshtml.g.cs
+D:\ShradhaBookStore\obj\Debug\netcoreapp3.1\Razor\Views\Admin\Manage_Admin\ManagaA_Chart.cshtml.g.cs
+D:\ShradhaBookStore\obj\Debug\netcoreapp3.1\Razor\Views\Admin\Manage_Admin\Manage_Admin.cshtml.g.cs
+D:\ShradhaBookStore\obj\Debug\netcoreapp3.1\Razor\Views\Admin\Manage_Feedback\Manage_Feedback.cshtml.g.cs
+D:\ShradhaBookStore\obj\Debug\netcoreapp3.1\Razor\Views\Admin\Manage_Oders\Index.cshtml.g.cs
+D:\ShradhaBookStore\obj\Debug\netcoreapp3.1\Razor\Views\Admin\Manage_Oders\Manage_Oders.cshtml.g.cs
+D:\ShradhaBookStore\obj\Debug\netcoreapp3.1\Razor\Views\Admin\Manage_Oders\Manrage_Denine_Oders.cshtml.g.cs
+D:\ShradhaBookStore\obj\Debug\netcoreapp3.1\Razor\Views\Admin\Manage_Oders\OrderLog.cshtml.g.cs
+D:\ShradhaBookStore\obj\Debug\netcoreapp3.1\Razor\Views\Admin\Manage_Oders\Order_Cancle.cshtml.g.cs
+D:\ShradhaBookStore\obj\Debug\netcoreapp3.1\Razor\Views\Admin\Manage_Oders\Shipping.cshtml.g.cs
+D:\ShradhaBookStore\obj\Debug\netcoreapp3.1\Razor\Views\Admin\Manage_Oders\ShowProduct.cshtml.g.cs
+D:\ShradhaBookStore\obj\Debug\netcoreapp3.1\Razor\Views\Admin\Manage_Products\CategoryPublisherList.cshtml.g.cs
+D:\ShradhaBookStore\obj\Debug\netcoreapp3.1\Razor\Views\Admin\Manage_Products\Create_Category.cshtml.g.cs
+D:\ShradhaBookStore\obj\Debug\netcoreapp3.1\Razor\Views\Admin\Manage_Products\Create_Product.cshtml.g.cs
+D:\ShradhaBookStore\obj\Debug\netcoreapp3.1\Razor\Views\Admin\Manage_Products\Create_Products.cshtml.g.cs
+D:\ShradhaBookStore\obj\Debug\netcoreapp3.1\Razor\Views\Admin\Manage_Products\Create_Publisher.cshtml.g.cs
+D:\ShradhaBookStore\obj\Debug\netcoreapp3.1\Razor\Views\Admin\Manage_Products\Detail_Products.cshtml.g.cs
+D:\ShradhaBookStore\obj\Debug\netcoreapp3.1\Razor\Views\Admin\Manage_Products\Edit_Products.cshtml.g.cs
+D:\ShradhaBookStore\obj\Debug\netcoreapp3.1\Razor\Views\Admin\Manage_Products\Manage_Products.cshtml.g.cs
+D:\ShradhaBookStore\obj\Debug\netcoreapp3.1\Razor\Views\Admin\Manage_Products\NotFound.cshtml.g.cs
+D:\ShradhaBookStore\obj\Debug\netcoreapp3.1\Razor\Views\Admin\Manage_Users\Manage_Users.cshtml.g.cs
+D:\ShradhaBookStore\obj\Debug\netcoreapp3.1\Razor\Views\Cart2\Count.cshtml.g.cs
+D:\ShradhaBookStore\obj\Debug\netcoreapp3.1\Razor\Views\Cart2\Index.cshtml.g.cs
+D:\ShradhaBookStore\obj\Debug\netcoreapp3.1\Razor\Views\Cart2\Total.cshtml.g.cs
+D:\ShradhaBookStore\obj\Debug\netcoreapp3.1\Razor\Views\Cart2\_Count.cshtml.g.cs
+D:\ShradhaBookStore\obj\Debug\netcoreapp3.1\Razor\Views\Cart2\_Index.cshtml.g.cs
+D:\ShradhaBookStore\obj\Debug\netcoreapp3.1\Razor\Views\FeedBack\SendFeedBack.cshtml.g.cs
+D:\ShradhaBookStore\obj\Debug\netcoreapp3.1\Razor\Views\Home\ContactUs.cshtml.g.cs
+D:\ShradhaBookStore\obj\Debug\netcoreapp3.1\Razor\Views\Home\CreateView.cshtml.g.cs
+D:\ShradhaBookStore\obj\Debug\netcoreapp3.1\Razor\Views\Home\Detail.cshtml.g.cs
+D:\ShradhaBookStore\obj\Debug\netcoreapp3.1\Razor\Views\Home\Index.cshtml.g.cs
+D:\ShradhaBookStore\obj\Debug\netcoreapp3.1\Razor\Views\Home\Privacy.cshtml.g.cs
+D:\ShradhaBookStore\obj\Debug\netcoreapp3.1\Razor\Views\Home\ShopePage.cshtml.g.cs
+D:\ShradhaBookStore\obj\Debug\netcoreapp3.1\Razor\Views\Order\CheckOut.cshtml.g.cs
+D:\ShradhaBookStore\obj\Debug\netcoreapp3.1\Razor\Views\Order\CheckoutComplete.cshtml.g.cs
+D:\ShradhaBookStore\obj\Debug\netcoreapp3.1\Razor\Views\Order\Error.cshtml.g.cs
+D:\ShradhaBookStore\obj\Debug\netcoreapp3.1\Razor\Views\Order\Index.cshtml.g.cs
+D:\ShradhaBookStore\obj\Debug\netcoreapp3.1\Razor\Views\Order\KiemTraThanhToan.cshtml.g.cs
+D:\ShradhaBookStore\obj\Debug\netcoreapp3.1\Razor\Views\Order\ordersucess.cshtml.g.cs
+D:\ShradhaBookStore\obj\Debug\netcoreapp3.1\Razor\Views\Order\payment.cshtml.g.cs
+D:\ShradhaBookStore\obj\Debug\netcoreapp3.1\Razor\Views\Order\PaymentCreditCard.cshtml.g.cs
+D:\ShradhaBookStore\obj\Debug\netcoreapp3.1\Razor\Views\Product\Index.cshtml.g.cs
+D:\ShradhaBookStore\obj\Debug\netcoreapp3.1\Razor\Views\Product\Update.cshtml.g.cs
+D:\ShradhaBookStore\obj\Debug\netcoreapp3.1\Razor\Views\Shared\Error.cshtml.g.cs
+D:\ShradhaBookStore\obj\Debug\netcoreapp3.1\Razor\Views\Shared\_Layout.cshtml.g.cs
+D:\ShradhaBookStore\obj\Debug\netcoreapp3.1\Razor\Views\Shared\_ValidationScriptsPartial.cshtml.g.cs
+D:\ShradhaBookStore\obj\Debug\netcoreapp3.1\Razor\Views\TrackingOrder\Action.cshtml.g.cs
+D:\ShradhaBookStore\obj\Debug\netcoreapp3.1\Razor\Views\TrackingOrder\gggg.cshtml.g.cs
+D:\ShradhaBookStore\obj\Debug\netcoreapp3.1\Razor\Views\TrackingOrder\Index.cshtml.g.cs
+D:\ShradhaBookStore\obj\Debug\netcoreapp3.1\Razor\Views\UserInfo\ChangePass.cshtml.g.cs
+D:\ShradhaBookStore\obj\Debug\netcoreapp3.1\Razor\Views\UserInfo\Details.cshtml.g.cs
+D:\ShradhaBookStore\obj\Debug\netcoreapp3.1\Razor\Views\UserInfo\Layout\_Layout.cshtml.g.cs
+D:\ShradhaBookStore\obj\Debug\netcoreapp3.1\Razor\Views\UserInfo\Login.cshtml.g.cs
+D:\ShradhaBookStore\obj\Debug\netcoreapp3.1\Razor\Views\UserInfo\Register.cshtml.g.cs
+D:\ShradhaBookStore\obj\Debug\netcoreapp3.1\Razor\Views\UserInfo\Update.cshtml.g.cs
+D:\ShradhaBookStore\obj\Debug\netcoreapp3.1\Razor\Views\_ViewImports.cshtml.g.cs
+D:\ShradhaBookStore\obj\Debug\netcoreapp3.1\Razor\Views\_ViewStart.cshtml.g.cs
+D:\ShradhaBookStore\obj\Debug\netcoreapp3.1\ShradhaBookStore.RazorTargetAssemblyInfo.cache
+D:\ShradhaBookStore\obj\Debug\netcoreapp3.1\ShradhaBookStore.RazorTargetAssemblyInfo.cs
+D:\ShradhaBookStore\obj\Debug\netcoreapp3.1\ShradhaBookStore.Views.pdb
+D:\ShradhaBookStore\obj\Debug\netcoreapp3.1\ShradhaBookStore.csproj.CopyComplete
+D:\ShradhaBookStore\obj\Debug\netcoreapp3.1\ShradhaBookStore.dll
+D:\ShradhaBookStore\obj\Debug\netcoreapp3.1\ShradhaBookStore.pdb
+D:\ShradhaBookStore\obj\Debug\netcoreapp3.1\ShradhaBookStore.genruntimeconfig.cache
+D:\ShradhaBookStore\obj\Debug\netcoreapp3.1\Razor\Views\Admin\Manage_Feedback\ReplyMail.cshtml.g.cs
+C:\Users\trung\Desktop\Projec\123456\ShradhaBookStore\bin\Debug\netcoreapp3.1\appsettings.Development.json
+C:\Users\trung\Desktop\Projec\123456\ShradhaBookStore\bin\Debug\netcoreapp3.1\appsettings.json
+C:\Users\trung\Desktop\Projec\123456\ShradhaBookStore\bin\Debug\netcoreapp3.1\ShradhaBookStore.exe
+C:\Users\trung\Desktop\Projec\123456\ShradhaBookStore\bin\Debug\netcoreapp3.1\ShradhaBookStore.deps.json
+C:\Users\trung\Desktop\Projec\123456\ShradhaBookStore\bin\Debug\netcoreapp3.1\ShradhaBookStore.runtimeconfig.json
+C:\Users\trung\Desktop\Projec\123456\ShradhaBookStore\bin\Debug\netcoreapp3.1\ShradhaBookStore.runtimeconfig.dev.json
+C:\Users\trung\Desktop\Projec\123456\ShradhaBookStore\bin\Debug\netcoreapp3.1\ShradhaBookStore.dll
+C:\Users\trung\Desktop\Projec\123456\ShradhaBookStore\bin\Debug\netcoreapp3.1\ShradhaBookStore.pdb
+C:\Users\trung\Desktop\Projec\123456\ShradhaBookStore\bin\Debug\netcoreapp3.1\ShradhaBookStore.Views.dll
+C:\Users\trung\Desktop\Projec\123456\ShradhaBookStore\bin\Debug\netcoreapp3.1\ShradhaBookStore.Views.pdb
+C:\Users\trung\Desktop\Projec\123456\ShradhaBookStore\bin\Debug\netcoreapp3.1\BingMapsRESTToolkit.dll
+C:\Users\trung\Desktop\Projec\123456\ShradhaBookStore\bin\Debug\netcoreapp3.1\Microsoft.AspNetCore.JsonPatch.dll
+C:\Users\trung\Desktop\Projec\123456\ShradhaBookStore\bin\Debug\netcoreapp3.1\Microsoft.AspNetCore.Razor.Language.dll
+C:\Users\trung\Desktop\Projec\123456\ShradhaBookStore\bin\Debug\netcoreapp3.1\Microsoft.Bcl.AsyncInterfaces.dll
+C:\Users\trung\Desktop\Projec\123456\ShradhaBookStore\bin\Debug\netcoreapp3.1\Microsoft.Bcl.HashCode.dll
+C:\Users\trung\Desktop\Projec\123456\ShradhaBookStore\bin\Debug\netcoreapp3.1\Microsoft.CodeAnalysis.dll
+C:\Users\trung\Desktop\Projec\123456\ShradhaBookStore\bin\Debug\netcoreapp3.1\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\trung\Desktop\Projec\123456\ShradhaBookStore\bin\Debug\netcoreapp3.1\Microsoft.CodeAnalysis.CSharp.Workspaces.dll
+C:\Users\trung\Desktop\Projec\123456\ShradhaBookStore\bin\Debug\netcoreapp3.1\Microsoft.CodeAnalysis.Razor.dll
+C:\Users\trung\Desktop\Projec\123456\ShradhaBookStore\bin\Debug\netcoreapp3.1\Microsoft.CodeAnalysis.Workspaces.dll
+C:\Users\trung\Desktop\Projec\123456\ShradhaBookStore\bin\Debug\netcoreapp3.1\Microsoft.Data.SqlClient.dll
+C:\Users\trung\Desktop\Projec\123456\ShradhaBookStore\bin\Debug\netcoreapp3.1\Microsoft.DotNet.PlatformAbstractions.dll
+C:\Users\trung\Desktop\Projec\123456\ShradhaBookStore\bin\Debug\netcoreapp3.1\Microsoft.EntityFrameworkCore.dll
+C:\Users\trung\Desktop\Projec\123456\ShradhaBookStore\bin\Debug\netcoreapp3.1\Microsoft.EntityFrameworkCore.Abstractions.dll
+C:\Users\trung\Desktop\Projec\123456\ShradhaBookStore\bin\Debug\netcoreapp3.1\Microsoft.EntityFrameworkCore.Relational.dll
+C:\Users\trung\Desktop\Projec\123456\ShradhaBookStore\bin\Debug\netcoreapp3.1\Microsoft.EntityFrameworkCore.SqlServer.dll
+C:\Users\trung\Desktop\Projec\123456\ShradhaBookStore\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Caching.Abstractions.dll
+C:\Users\trung\Desktop\Projec\123456\ShradhaBookStore\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Caching.Memory.dll
+C:\Users\trung\Desktop\Projec\123456\ShradhaBookStore\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Configuration.dll
+C:\Users\trung\Desktop\Projec\123456\ShradhaBookStore\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Configuration.Abstractions.dll
+C:\Users\trung\Desktop\Projec\123456\ShradhaBookStore\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Configuration.Binder.dll
+C:\Users\trung\Desktop\Projec\123456\ShradhaBookStore\bin\Debug\netcoreapp3.1\Microsoft.Extensions.DependencyInjection.dll
+C:\Users\trung\Desktop\Projec\123456\ShradhaBookStore\bin\Debug\netcoreapp3.1\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+C:\Users\trung\Desktop\Projec\123456\ShradhaBookStore\bin\Debug\netcoreapp3.1\Microsoft.Extensions.DependencyModel.dll
+C:\Users\trung\Desktop\Projec\123456\ShradhaBookStore\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Logging.dll
+C:\Users\trung\Desktop\Projec\123456\ShradhaBookStore\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Logging.Abstractions.dll
+C:\Users\trung\Desktop\Projec\123456\ShradhaBookStore\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Options.dll
+C:\Users\trung\Desktop\Projec\123456\ShradhaBookStore\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Primitives.dll
+C:\Users\trung\Desktop\Projec\123456\ShradhaBookStore\bin\Debug\netcoreapp3.1\Microsoft.Identity.Client.dll
+C:\Users\trung\Desktop\Projec\123456\ShradhaBookStore\bin\Debug\netcoreapp3.1\Microsoft.IdentityModel.JsonWebTokens.dll
+C:\Users\trung\Desktop\Projec\123456\ShradhaBookStore\bin\Debug\netcoreapp3.1\Microsoft.IdentityModel.Logging.dll
+C:\Users\trung\Desktop\Projec\123456\ShradhaBookStore\bin\Debug\netcoreapp3.1\Microsoft.IdentityModel.Protocols.dll
+C:\Users\trung\Desktop\Projec\123456\ShradhaBookStore\bin\Debug\netcoreapp3.1\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+C:\Users\trung\Desktop\Projec\123456\ShradhaBookStore\bin\Debug\netcoreapp3.1\Microsoft.IdentityModel.Tokens.dll
+C:\Users\trung\Desktop\Projec\123456\ShradhaBookStore\bin\Debug\netcoreapp3.1\Microsoft.VisualStudio.Web.CodeGeneration.dll
+C:\Users\trung\Desktop\Projec\123456\ShradhaBookStore\bin\Debug\netcoreapp3.1\Microsoft.VisualStudio.Web.CodeGeneration.Contracts.dll
+C:\Users\trung\Desktop\Projec\123456\ShradhaBookStore\bin\Debug\netcoreapp3.1\Microsoft.VisualStudio.Web.CodeGeneration.Core.dll
+C:\Users\trung\Desktop\Projec\123456\ShradhaBookStore\bin\Debug\netcoreapp3.1\dotnet-aspnet-codegenerator-design.dll
+C:\Users\trung\Desktop\Projec\123456\ShradhaBookStore\bin\Debug\netcoreapp3.1\Microsoft.VisualStudio.Web.CodeGeneration.EntityFrameworkCore.dll
+C:\Users\trung\Desktop\Projec\123456\ShradhaBookStore\bin\Debug\netcoreapp3.1\Microsoft.VisualStudio.Web.CodeGeneration.Templating.dll
+C:\Users\trung\Desktop\Projec\123456\ShradhaBookStore\bin\Debug\netcoreapp3.1\Microsoft.VisualStudio.Web.CodeGeneration.Utils.dll
+C:\Users\trung\Desktop\Projec\123456\ShradhaBookStore\bin\Debug\netcoreapp3.1\Microsoft.VisualStudio.Web.CodeGenerators.Mvc.dll
+C:\Users\trung\Desktop\Projec\123456\ShradhaBookStore\bin\Debug\netcoreapp3.1\Newtonsoft.Json.dll
+C:\Users\trung\Desktop\Projec\123456\ShradhaBookStore\bin\Debug\netcoreapp3.1\Newtonsoft.Json.Bson.dll
+C:\Users\trung\Desktop\Projec\123456\ShradhaBookStore\bin\Debug\netcoreapp3.1\NuGet.Frameworks.dll
+C:\Users\trung\Desktop\Projec\123456\ShradhaBookStore\bin\Debug\netcoreapp3.1\System.Collections.Immutable.dll
+C:\Users\trung\Desktop\Projec\123456\ShradhaBookStore\bin\Debug\netcoreapp3.1\System.Composition.AttributedModel.dll
+C:\Users\trung\Desktop\Projec\123456\ShradhaBookStore\bin\Debug\netcoreapp3.1\System.Composition.Convention.dll
+C:\Users\trung\Desktop\Projec\123456\ShradhaBookStore\bin\Debug\netcoreapp3.1\System.Composition.Hosting.dll
+C:\Users\trung\Desktop\Projec\123456\ShradhaBookStore\bin\Debug\netcoreapp3.1\System.Composition.Runtime.dll
+C:\Users\trung\Desktop\Projec\123456\ShradhaBookStore\bin\Debug\netcoreapp3.1\System.Composition.TypedParts.dll
+C:\Users\trung\Desktop\Projec\123456\ShradhaBookStore\bin\Debug\netcoreapp3.1\System.Configuration.ConfigurationManager.dll
+C:\Users\trung\Desktop\Projec\123456\ShradhaBookStore\bin\Debug\netcoreapp3.1\System.Diagnostics.DiagnosticSource.dll
+C:\Users\trung\Desktop\Projec\123456\ShradhaBookStore\bin\Debug\netcoreapp3.1\System.IdentityModel.Tokens.Jwt.dll
+C:\Users\trung\Desktop\Projec\123456\ShradhaBookStore\bin\Debug\netcoreapp3.1\System.Runtime.Caching.dll
+C:\Users\trung\Desktop\Projec\123456\ShradhaBookStore\bin\Debug\netcoreapp3.1\System.Security.Cryptography.ProtectedData.dll
+C:\Users\trung\Desktop\Projec\123456\ShradhaBookStore\bin\Debug\netcoreapp3.1\X.PagedList.dll
+C:\Users\trung\Desktop\Projec\123456\ShradhaBookStore\bin\Debug\netcoreapp3.1\X.PagedList.Mvc.Core.dll
+C:\Users\trung\Desktop\Projec\123456\ShradhaBookStore\bin\Debug\netcoreapp3.1\X.PagedList.Web.Common.dll
+C:\Users\trung\Desktop\Projec\123456\ShradhaBookStore\bin\Debug\netcoreapp3.1\cs\Microsoft.CodeAnalysis.resources.dll
+C:\Users\trung\Desktop\Projec\123456\ShradhaBookStore\bin\Debug\netcoreapp3.1\de\Microsoft.CodeAnalysis.resources.dll
+C:\Users\trung\Desktop\Projec\123456\ShradhaBookStore\bin\Debug\netcoreapp3.1\es\Microsoft.CodeAnalysis.resources.dll
+C:\Users\trung\Desktop\Projec\123456\ShradhaBookStore\bin\Debug\netcoreapp3.1\fr\Microsoft.CodeAnalysis.resources.dll
+C:\Users\trung\Desktop\Projec\123456\ShradhaBookStore\bin\Debug\netcoreapp3.1\it\Microsoft.CodeAnalysis.resources.dll
+C:\Users\trung\Desktop\Projec\123456\ShradhaBookStore\bin\Debug\netcoreapp3.1\ja\Microsoft.CodeAnalysis.resources.dll
+C:\Users\trung\Desktop\Projec\123456\ShradhaBookStore\bin\Debug\netcoreapp3.1\ko\Microsoft.CodeAnalysis.resources.dll
+C:\Users\trung\Desktop\Projec\123456\ShradhaBookStore\bin\Debug\netcoreapp3.1\pl\Microsoft.CodeAnalysis.resources.dll
+C:\Users\trung\Desktop\Projec\123456\ShradhaBookStore\bin\Debug\netcoreapp3.1\pt-BR\Microsoft.CodeAnalysis.resources.dll
+C:\Users\trung\Desktop\Projec\123456\ShradhaBookStore\bin\Debug\netcoreapp3.1\ru\Microsoft.CodeAnalysis.resources.dll
+C:\Users\trung\Desktop\Projec\123456\ShradhaBookStore\bin\Debug\netcoreapp3.1\tr\Microsoft.CodeAnalysis.resources.dll
+C:\Users\trung\Desktop\Projec\123456\ShradhaBookStore\bin\Debug\netcoreapp3.1\zh-Hans\Microsoft.CodeAnalysis.resources.dll
+C:\Users\trung\Desktop\Projec\123456\ShradhaBookStore\bin\Debug\netcoreapp3.1\zh-Hant\Microsoft.CodeAnalysis.resources.dll
+C:\Users\trung\Desktop\Projec\123456\ShradhaBookStore\bin\Debug\netcoreapp3.1\cs\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\trung\Desktop\Projec\123456\ShradhaBookStore\bin\Debug\netcoreapp3.1\de\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\trung\Desktop\Projec\123456\ShradhaBookStore\bin\Debug\netcoreapp3.1\es\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\trung\Desktop\Projec\123456\ShradhaBookStore\bin\Debug\netcoreapp3.1\fr\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\trung\Desktop\Projec\123456\ShradhaBookStore\bin\Debug\netcoreapp3.1\it\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\trung\Desktop\Projec\123456\ShradhaBookStore\bin\Debug\netcoreapp3.1\ja\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\trung\Desktop\Projec\123456\ShradhaBookStore\bin\Debug\netcoreapp3.1\ko\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\trung\Desktop\Projec\123456\ShradhaBookStore\bin\Debug\netcoreapp3.1\pl\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\trung\Desktop\Projec\123456\ShradhaBookStore\bin\Debug\netcoreapp3.1\pt-BR\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\trung\Desktop\Projec\123456\ShradhaBookStore\bin\Debug\netcoreapp3.1\ru\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\trung\Desktop\Projec\123456\ShradhaBookStore\bin\Debug\netcoreapp3.1\tr\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\trung\Desktop\Projec\123456\ShradhaBookStore\bin\Debug\netcoreapp3.1\zh-Hans\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\trung\Desktop\Projec\123456\ShradhaBookStore\bin\Debug\netcoreapp3.1\zh-Hant\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\trung\Desktop\Projec\123456\ShradhaBookStore\bin\Debug\netcoreapp3.1\cs\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\trung\Desktop\Projec\123456\ShradhaBookStore\bin\Debug\netcoreapp3.1\de\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\trung\Desktop\Projec\123456\ShradhaBookStore\bin\Debug\netcoreapp3.1\es\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\trung\Desktop\Projec\123456\ShradhaBookStore\bin\Debug\netcoreapp3.1\fr\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\trung\Desktop\Projec\123456\ShradhaBookStore\bin\Debug\netcoreapp3.1\it\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\trung\Desktop\Projec\123456\ShradhaBookStore\bin\Debug\netcoreapp3.1\ja\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\trung\Desktop\Projec\123456\ShradhaBookStore\bin\Debug\netcoreapp3.1\ko\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\trung\Desktop\Projec\123456\ShradhaBookStore\bin\Debug\netcoreapp3.1\pl\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\trung\Desktop\Projec\123456\ShradhaBookStore\bin\Debug\netcoreapp3.1\pt-BR\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\trung\Desktop\Projec\123456\ShradhaBookStore\bin\Debug\netcoreapp3.1\ru\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\trung\Desktop\Projec\123456\ShradhaBookStore\bin\Debug\netcoreapp3.1\tr\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\trung\Desktop\Projec\123456\ShradhaBookStore\bin\Debug\netcoreapp3.1\zh-Hans\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\trung\Desktop\Projec\123456\ShradhaBookStore\bin\Debug\netcoreapp3.1\zh-Hant\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\trung\Desktop\Projec\123456\ShradhaBookStore\bin\Debug\netcoreapp3.1\cs\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\trung\Desktop\Projec\123456\ShradhaBookStore\bin\Debug\netcoreapp3.1\de\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\trung\Desktop\Projec\123456\ShradhaBookStore\bin\Debug\netcoreapp3.1\es\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\trung\Desktop\Projec\123456\ShradhaBookStore\bin\Debug\netcoreapp3.1\fr\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\trung\Desktop\Projec\123456\ShradhaBookStore\bin\Debug\netcoreapp3.1\it\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\trung\Desktop\Projec\123456\ShradhaBookStore\bin\Debug\netcoreapp3.1\ja\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\trung\Desktop\Projec\123456\ShradhaBookStore\bin\Debug\netcoreapp3.1\ko\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\trung\Desktop\Projec\123456\ShradhaBookStore\bin\Debug\netcoreapp3.1\pl\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\trung\Desktop\Projec\123456\ShradhaBookStore\bin\Debug\netcoreapp3.1\pt-BR\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\trung\Desktop\Projec\123456\ShradhaBookStore\bin\Debug\netcoreapp3.1\ru\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\trung\Desktop\Projec\123456\ShradhaBookStore\bin\Debug\netcoreapp3.1\tr\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\trung\Desktop\Projec\123456\ShradhaBookStore\bin\Debug\netcoreapp3.1\zh-Hans\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\trung\Desktop\Projec\123456\ShradhaBookStore\bin\Debug\netcoreapp3.1\zh-Hant\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\trung\Desktop\Projec\123456\ShradhaBookStore\bin\Debug\netcoreapp3.1\runtimes\unix\lib\netcoreapp2.1\Microsoft.Data.SqlClient.dll
+C:\Users\trung\Desktop\Projec\123456\ShradhaBookStore\bin\Debug\netcoreapp3.1\runtimes\win\lib\netcoreapp2.1\Microsoft.Data.SqlClient.dll
+C:\Users\trung\Desktop\Projec\123456\ShradhaBookStore\bin\Debug\netcoreapp3.1\runtimes\win-arm64\native\sni.dll
+C:\Users\trung\Desktop\Projec\123456\ShradhaBookStore\bin\Debug\netcoreapp3.1\runtimes\win-x64\native\sni.dll
+C:\Users\trung\Desktop\Projec\123456\ShradhaBookStore\bin\Debug\netcoreapp3.1\runtimes\win-x86\native\sni.dll
+C:\Users\trung\Desktop\Projec\123456\ShradhaBookStore\bin\Debug\netcoreapp3.1\runtimes\unix\lib\netcoreapp2.0\System.Runtime.Caching.dll
+C:\Users\trung\Desktop\Projec\123456\ShradhaBookStore\bin\Debug\netcoreapp3.1\runtimes\win\lib\netcoreapp2.0\System.Runtime.Caching.dll
+C:\Users\trung\Desktop\Projec\123456\ShradhaBookStore\bin\Debug\netcoreapp3.1\runtimes\win\lib\netstandard2.0\System.Security.Cryptography.ProtectedData.dll
+C:\Users\trung\Desktop\Projec\123456\ShradhaBookStore\bin\Debug\netcoreapp3.1\System.Web.Services.dll
+C:\Users\trung\Desktop\Projec\123456\ShradhaBookStore\bin\Debug\netcoreapp3.1\System.EnterpriseServices.dll
+C:\Users\trung\Desktop\Projec\123456\ShradhaBookStore\bin\Debug\netcoreapp3.1\System.Design.dll
+C:\Users\trung\Desktop\Projec\123456\ShradhaBookStore\bin\Debug\netcoreapp3.1\System.DirectoryServices.dll
+C:\Users\trung\Desktop\Projec\123456\ShradhaBookStore\bin\Debug\netcoreapp3.1\System.Runtime.Remoting.dll
+C:\Users\trung\Desktop\Projec\123456\ShradhaBookStore\bin\Debug\netcoreapp3.1\System.Windows.Forms.dll
+C:\Users\trung\Desktop\Projec\123456\ShradhaBookStore\bin\Debug\netcoreapp3.1\System.Data.OracleClient.dll
+C:\Users\trung\Desktop\Projec\123456\ShradhaBookStore\bin\Debug\netcoreapp3.1\Accessibility.dll
+C:\Users\trung\Desktop\Projec\123456\ShradhaBookStore\bin\Debug\netcoreapp3.1\System.Drawing.Design.dll
+C:\Users\trung\Desktop\Projec\123456\ShradhaBookStore\bin\Debug\netcoreapp3.1\System.Web.RegularExpressions.dll
+C:\Users\trung\Desktop\Projec\123456\ShradhaBookStore\bin\Debug\netcoreapp3.1\System.Runtime.Serialization.Formatters.Soap.dll
+C:\Users\trung\Desktop\Projec\123456\ShradhaBookStore\bin\Debug\netcoreapp3.1\System.Deployment.dll
+C:\Users\trung\Desktop\Projec\123456\ShradhaBookStore\bin\Debug\netcoreapp3.1\System.Web.Services.xml
+C:\Users\trung\Desktop\Projec\123456\ShradhaBookStore\bin\Debug\netcoreapp3.1\System.EnterpriseServices.xml
+C:\Users\trung\Desktop\Projec\123456\ShradhaBookStore\bin\Debug\netcoreapp3.1\System.Design.xml
+C:\Users\trung\Desktop\Projec\123456\ShradhaBookStore\bin\Debug\netcoreapp3.1\System.DirectoryServices.xml
+C:\Users\trung\Desktop\Projec\123456\ShradhaBookStore\bin\Debug\netcoreapp3.1\System.Runtime.Remoting.xml
+C:\Users\trung\Desktop\Projec\123456\ShradhaBookStore\bin\Debug\netcoreapp3.1\System.Windows.Forms.xml
+C:\Users\trung\Desktop\Projec\123456\ShradhaBookStore\bin\Debug\netcoreapp3.1\System.Data.OracleClient.xml
+C:\Users\trung\Desktop\Projec\123456\ShradhaBookStore\bin\Debug\netcoreapp3.1\Accessibility.xml
+C:\Users\trung\Desktop\Projec\123456\ShradhaBookStore\bin\Debug\netcoreapp3.1\System.Drawing.Design.xml
+C:\Users\trung\Desktop\Projec\123456\ShradhaBookStore\bin\Debug\netcoreapp3.1\System.Web.RegularExpressions.xml
+C:\Users\trung\Desktop\Projec\123456\ShradhaBookStore\bin\Debug\netcoreapp3.1\System.Runtime.Serialization.Formatters.Soap.xml
+C:\Users\trung\Desktop\Projec\123456\ShradhaBookStore\bin\Debug\netcoreapp3.1\System.Deployment.xml
+C:\Users\trung\Desktop\Projec\123456\ShradhaBookStore\bin\Debug\netcoreapp3.1\System.EnterpriseServices.Wrapper.dll
+C:\Users\trung\Desktop\Projec\123456\ShradhaBookStore\obj\Debug\netcoreapp3.1\ShradhaBookStore.csprojAssemblyReference.cache
+C:\Users\trung\Desktop\Projec\123456\ShradhaBookStore\obj\Debug\netcoreapp3.1\ShradhaBookStore.AssemblyInfoInputs.cache
+C:\Users\trung\Desktop\Projec\123456\ShradhaBookStore\obj\Debug\netcoreapp3.1\ShradhaBookStore.AssemblyInfo.cs
+C:\Users\trung\Desktop\Projec\123456\ShradhaBookStore\obj\Debug\netcoreapp3.1\ShradhaBookStore.csproj.CoreCompileInputs.cache
+C:\Users\trung\Desktop\Projec\123456\ShradhaBookStore\obj\Debug\netcoreapp3.1\ShradhaBookStore.MvcApplicationPartsAssemblyInfo.cs
+C:\Users\trung\Desktop\Projec\123456\ShradhaBookStore\obj\Debug\netcoreapp3.1\ShradhaBookStore.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\trung\Desktop\Projec\123456\ShradhaBookStore\obj\Debug\netcoreapp3.1\ShradhaBookStore.RazorAssemblyInfo.cache
+C:\Users\trung\Desktop\Projec\123456\ShradhaBookStore\obj\Debug\netcoreapp3.1\ShradhaBookStore.RazorAssemblyInfo.cs
+C:\Users\trung\Desktop\Projec\123456\ShradhaBookStore\obj\Debug\netcoreapp3.1\staticwebassets\ShradhaBookStore.StaticWebAssets.Manifest.cache
+C:\Users\trung\Desktop\Projec\123456\ShradhaBookStore\obj\Debug\netcoreapp3.1\staticwebassets\ShradhaBookStore.StaticWebAssets.xml
+C:\Users\trung\Desktop\Projec\123456\ShradhaBookStore\obj\Debug\netcoreapp3.1\scopedcss\bundle\ShradhaBookStore.styles.css
+C:\Users\trung\Desktop\Projec\123456\ShradhaBookStore\obj\Debug\netcoreapp3.1\ShradhaBookStore.TagHelpers.input.cache
+C:\Users\trung\Desktop\Projec\123456\ShradhaBookStore\obj\Debug\netcoreapp3.1\ShradhaBookStore.TagHelpers.output.cache
+C:\Users\trung\Desktop\Projec\123456\ShradhaBookStore\obj\Debug\netcoreapp3.1\ShradhaBookStore.RazorCoreGenerate.cache
+C:\Users\trung\Desktop\Projec\123456\ShradhaBookStore\obj\Debug\netcoreapp3.1\Razor\Views\Admin\Banner\Add_Banner.cshtml.g.cs
+C:\Users\trung\Desktop\Projec\123456\ShradhaBookStore\obj\Debug\netcoreapp3.1\Razor\Views\Admin\Banner\Banner_list.cshtml.g.cs
+C:\Users\trung\Desktop\Projec\123456\ShradhaBookStore\obj\Debug\netcoreapp3.1\Razor\Views\Admin\Layout\_Layout.cshtml.g.cs
+C:\Users\trung\Desktop\Projec\123456\ShradhaBookStore\obj\Debug\netcoreapp3.1\Razor\Views\Admin\Manage_Admin\Manage_Admin.cshtml.g.cs
+C:\Users\trung\Desktop\Projec\123456\ShradhaBookStore\obj\Debug\netcoreapp3.1\Razor\Views\Admin\Manage_Feedback\Manage_Feedback.cshtml.g.cs
+C:\Users\trung\Desktop\Projec\123456\ShradhaBookStore\obj\Debug\netcoreapp3.1\Razor\Views\Admin\Manage_Feedback\ReplyMail.cshtml.g.cs
+C:\Users\trung\Desktop\Projec\123456\ShradhaBookStore\obj\Debug\netcoreapp3.1\Razor\Views\Admin\Manage_Oders\Index.cshtml.g.cs
+C:\Users\trung\Desktop\Projec\123456\ShradhaBookStore\obj\Debug\netcoreapp3.1\Razor\Views\Admin\Manage_Oders\Manage_Oders.cshtml.g.cs
+C:\Users\trung\Desktop\Projec\123456\ShradhaBookStore\obj\Debug\netcoreapp3.1\Razor\Views\Admin\Manage_Oders\Manrage_Denine_Oders.cshtml.g.cs
+C:\Users\trung\Desktop\Projec\123456\ShradhaBookStore\obj\Debug\netcoreapp3.1\Razor\Views\Admin\Manage_Oders\OrderLog.cshtml.g.cs
+C:\Users\trung\Desktop\Projec\123456\ShradhaBookStore\obj\Debug\netcoreapp3.1\Razor\Views\Admin\Manage_Oders\Order_Cancle.cshtml.g.cs
+C:\Users\trung\Desktop\Projec\123456\ShradhaBookStore\obj\Debug\netcoreapp3.1\Razor\Views\Admin\Manage_Oders\Shipping.cshtml.g.cs
+C:\Users\trung\Desktop\Projec\123456\ShradhaBookStore\obj\Debug\netcoreapp3.1\Razor\Views\Admin\Manage_Oders\ShowProduct.cshtml.g.cs
+C:\Users\trung\Desktop\Projec\123456\ShradhaBookStore\obj\Debug\netcoreapp3.1\Razor\Views\Admin\Manage_Products\CategoryPublisherList.cshtml.g.cs
+C:\Users\trung\Desktop\Projec\123456\ShradhaBookStore\obj\Debug\netcoreapp3.1\Razor\Views\Admin\Manage_Products\Create_Category.cshtml.g.cs
+C:\Users\trung\Desktop\Projec\123456\ShradhaBookStore\obj\Debug\netcoreapp3.1\Razor\Views\Admin\Manage_Products\Create_Product.cshtml.g.cs
+C:\Users\trung\Desktop\Projec\123456\ShradhaBookStore\obj\Debug\netcoreapp3.1\Razor\Views\Admin\Manage_Products\Create_Products.cshtml.g.cs
+C:\Users\trung\Desktop\Projec\123456\ShradhaBookStore\obj\Debug\netcoreapp3.1\Razor\Views\Admin\Manage_Products\Create_Publisher.cshtml.g.cs
+C:\Users\trung\Desktop\Projec\123456\ShradhaBookStore\obj\Debug\netcoreapp3.1\Razor\Views\Admin\Manage_Products\Detail_Products.cshtml.g.cs
+C:\Users\trung\Desktop\Projec\123456\ShradhaBookStore\obj\Debug\netcoreapp3.1\Razor\Views\Admin\Manage_Products\Edit_Products.cshtml.g.cs
+C:\Users\trung\Desktop\Projec\123456\ShradhaBookStore\obj\Debug\netcoreapp3.1\Razor\Views\Admin\Manage_Products\Manage_Products.cshtml.g.cs
+C:\Users\trung\Desktop\Projec\123456\ShradhaBookStore\obj\Debug\netcoreapp3.1\Razor\Views\Admin\Manage_Products\NotFound.cshtml.g.cs
+C:\Users\trung\Desktop\Projec\123456\ShradhaBookStore\obj\Debug\netcoreapp3.1\Razor\Views\Admin\Manage_Users\Manage_Users.cshtml.g.cs
+C:\Users\trung\Desktop\Projec\123456\ShradhaBookStore\obj\Debug\netcoreapp3.1\Razor\Views\Cart2\Count.cshtml.g.cs
+C:\Users\trung\Desktop\Projec\123456\ShradhaBookStore\obj\Debug\netcoreapp3.1\Razor\Views\Cart2\Index.cshtml.g.cs
+C:\Users\trung\Desktop\Projec\123456\ShradhaBookStore\obj\Debug\netcoreapp3.1\Razor\Views\Cart2\Total.cshtml.g.cs
+C:\Users\trung\Desktop\Projec\123456\ShradhaBookStore\obj\Debug\netcoreapp3.1\Razor\Views\Cart2\_Count.cshtml.g.cs
+C:\Users\trung\Desktop\Projec\123456\ShradhaBookStore\obj\Debug\netcoreapp3.1\Razor\Views\Cart2\_Index.cshtml.g.cs
+C:\Users\trung\Desktop\Projec\123456\ShradhaBookStore\obj\Debug\netcoreapp3.1\Razor\Views\FeedBack\SendFeedBack.cshtml.g.cs
+C:\Users\trung\Desktop\Projec\123456\ShradhaBookStore\obj\Debug\netcoreapp3.1\Razor\Views\Home\ContactUs.cshtml.g.cs
+C:\Users\trung\Desktop\Projec\123456\ShradhaBookStore\obj\Debug\netcoreapp3.1\Razor\Views\Home\CreateView.cshtml.g.cs
+C:\Users\trung\Desktop\Projec\123456\ShradhaBookStore\obj\Debug\netcoreapp3.1\Razor\Views\Home\Detail.cshtml.g.cs
+C:\Users\trung\Desktop\Projec\123456\ShradhaBookStore\obj\Debug\netcoreapp3.1\Razor\Views\Home\Index.cshtml.g.cs
+C:\Users\trung\Desktop\Projec\123456\ShradhaBookStore\obj\Debug\netcoreapp3.1\Razor\Views\Home\Privacy.cshtml.g.cs
+C:\Users\trung\Desktop\Projec\123456\ShradhaBookStore\obj\Debug\netcoreapp3.1\Razor\Views\Home\ShopePage.cshtml.g.cs
+C:\Users\trung\Desktop\Projec\123456\ShradhaBookStore\obj\Debug\netcoreapp3.1\Razor\Views\Order\CheckOut.cshtml.g.cs
+C:\Users\trung\Desktop\Projec\123456\ShradhaBookStore\obj\Debug\netcoreapp3.1\Razor\Views\Order\CheckoutComplete.cshtml.g.cs
+C:\Users\trung\Desktop\Projec\123456\ShradhaBookStore\obj\Debug\netcoreapp3.1\Razor\Views\Order\Error.cshtml.g.cs
+C:\Users\trung\Desktop\Projec\123456\ShradhaBookStore\obj\Debug\netcoreapp3.1\Razor\Views\Order\Index.cshtml.g.cs
+C:\Users\trung\Desktop\Projec\123456\ShradhaBookStore\obj\Debug\netcoreapp3.1\Razor\Views\Order\KiemTraThanhToan.cshtml.g.cs
+C:\Users\trung\Desktop\Projec\123456\ShradhaBookStore\obj\Debug\netcoreapp3.1\Razor\Views\Order\ordersucess.cshtml.g.cs
+C:\Users\trung\Desktop\Projec\123456\ShradhaBookStore\obj\Debug\netcoreapp3.1\Razor\Views\Order\payment.cshtml.g.cs
+C:\Users\trung\Desktop\Projec\123456\ShradhaBookStore\obj\Debug\netcoreapp3.1\Razor\Views\Order\PaymentCreditCard.cshtml.g.cs
+C:\Users\trung\Desktop\Projec\123456\ShradhaBookStore\obj\Debug\netcoreapp3.1\Razor\Views\Product\Index.cshtml.g.cs
+C:\Users\trung\Desktop\Projec\123456\ShradhaBookStore\obj\Debug\netcoreapp3.1\Razor\Views\Product\Update.cshtml.g.cs
+C:\Users\trung\Desktop\Projec\123456\ShradhaBookStore\obj\Debug\netcoreapp3.1\Razor\Views\Shared\Error.cshtml.g.cs
+C:\Users\trung\Desktop\Projec\123456\ShradhaBookStore\obj\Debug\netcoreapp3.1\Razor\Views\Shared\_Layout.cshtml.g.cs
+C:\Users\trung\Desktop\Projec\123456\ShradhaBookStore\obj\Debug\netcoreapp3.1\Razor\Views\Shared\_ValidationScriptsPartial.cshtml.g.cs
+C:\Users\trung\Desktop\Projec\123456\ShradhaBookStore\obj\Debug\netcoreapp3.1\Razor\Views\TrackingOrder\Action.cshtml.g.cs
+C:\Users\trung\Desktop\Projec\123456\ShradhaBookStore\obj\Debug\netcoreapp3.1\Razor\Views\TrackingOrder\gggg.cshtml.g.cs
+C:\Users\trung\Desktop\Projec\123456\ShradhaBookStore\obj\Debug\netcoreapp3.1\Razor\Views\TrackingOrder\Index.cshtml.g.cs
+C:\Users\trung\Desktop\Projec\123456\ShradhaBookStore\obj\Debug\netcoreapp3.1\Razor\Views\UserInfo\ChangePass.cshtml.g.cs
+C:\Users\trung\Desktop\Projec\123456\ShradhaBookStore\obj\Debug\netcoreapp3.1\Razor\Views\UserInfo\Details.cshtml.g.cs
+C:\Users\trung\Desktop\Projec\123456\ShradhaBookStore\obj\Debug\netcoreapp3.1\Razor\Views\UserInfo\Layout\_Layout.cshtml.g.cs
+C:\Users\trung\Desktop\Projec\123456\ShradhaBookStore\obj\Debug\netcoreapp3.1\Razor\Views\UserInfo\Login.cshtml.g.cs
+C:\Users\trung\Desktop\Projec\123456\ShradhaBookStore\obj\Debug\netcoreapp3.1\Razor\Views\UserInfo\Register.cshtml.g.cs
+C:\Users\trung\Desktop\Projec\123456\ShradhaBookStore\obj\Debug\netcoreapp3.1\Razor\Views\UserInfo\Update.cshtml.g.cs
+C:\Users\trung\Desktop\Projec\123456\ShradhaBookStore\obj\Debug\netcoreapp3.1\Razor\Views\_ViewImports.cshtml.g.cs
+C:\Users\trung\Desktop\Projec\123456\ShradhaBookStore\obj\Debug\netcoreapp3.1\Razor\Views\_ViewStart.cshtml.g.cs
+C:\Users\trung\Desktop\Projec\123456\ShradhaBookStore\obj\Debug\netcoreapp3.1\ShradhaBookStore.RazorTargetAssemblyInfo.cache
+C:\Users\trung\Desktop\Projec\123456\ShradhaBookStore\obj\Debug\netcoreapp3.1\ShradhaBookStore.RazorTargetAssemblyInfo.cs
+C:\Users\trung\Desktop\Projec\123456\ShradhaBookStore\obj\Debug\netcoreapp3.1\ShradhaBookStore.Views.pdb
+C:\Users\trung\Desktop\Projec\123456\ShradhaBookStore\obj\Debug\netcoreapp3.1\ShradhaBookStore.csproj.CopyComplete
+C:\Users\trung\Desktop\Projec\123456\ShradhaBookStore\obj\Debug\netcoreapp3.1\ShradhaBookStore.dll
+C:\Users\trung\Desktop\Projec\123456\ShradhaBookStore\obj\Debug\netcoreapp3.1\ShradhaBookStore.pdb
+C:\Users\trung\Desktop\Projec\123456\ShradhaBookStore\obj\Debug\netcoreapp3.1\ShradhaBookStore.genruntimeconfig.cache
+D:\FPT Aptech\HK 3\Eproject_Team4\Source Code\ShradhaBookStore\bin\Debug\netcoreapp3.1\appsettings.Development.json
+D:\FPT Aptech\HK 3\Eproject_Team4\Source Code\ShradhaBookStore\bin\Debug\netcoreapp3.1\appsettings.json
+D:\FPT Aptech\HK 3\Eproject_Team4\Source Code\ShradhaBookStore\bin\Debug\netcoreapp3.1\Properties\launchSettings.json
+D:\FPT Aptech\HK 3\Eproject_Team4\Source Code\ShradhaBookStore\bin\Debug\netcoreapp3.1\ShradhaBookStore.exe
+D:\FPT Aptech\HK 3\Eproject_Team4\Source Code\ShradhaBookStore\bin\Debug\netcoreapp3.1\ShradhaBookStore.deps.json
+D:\FPT Aptech\HK 3\Eproject_Team4\Source Code\ShradhaBookStore\bin\Debug\netcoreapp3.1\ShradhaBookStore.runtimeconfig.json
+D:\FPT Aptech\HK 3\Eproject_Team4\Source Code\ShradhaBookStore\bin\Debug\netcoreapp3.1\ShradhaBookStore.runtimeconfig.dev.json
+D:\FPT Aptech\HK 3\Eproject_Team4\Source Code\ShradhaBookStore\bin\Debug\netcoreapp3.1\ShradhaBookStore.dll
+D:\FPT Aptech\HK 3\Eproject_Team4\Source Code\ShradhaBookStore\bin\Debug\netcoreapp3.1\ShradhaBookStore.pdb
+D:\FPT Aptech\HK 3\Eproject_Team4\Source Code\ShradhaBookStore\bin\Debug\netcoreapp3.1\ShradhaBookStore.Views.dll
+D:\FPT Aptech\HK 3\Eproject_Team4\Source Code\ShradhaBookStore\bin\Debug\netcoreapp3.1\ShradhaBookStore.Views.pdb
+D:\FPT Aptech\HK 3\Eproject_Team4\Source Code\ShradhaBookStore\bin\Debug\netcoreapp3.1\BingMapsRESTToolkit.dll
+D:\FPT Aptech\HK 3\Eproject_Team4\Source Code\ShradhaBookStore\bin\Debug\netcoreapp3.1\Microsoft.AspNetCore.JsonPatch.dll
+D:\FPT Aptech\HK 3\Eproject_Team4\Source Code\ShradhaBookStore\bin\Debug\netcoreapp3.1\Microsoft.AspNetCore.Razor.Language.dll
+D:\FPT Aptech\HK 3\Eproject_Team4\Source Code\ShradhaBookStore\bin\Debug\netcoreapp3.1\Microsoft.Bcl.AsyncInterfaces.dll
+D:\FPT Aptech\HK 3\Eproject_Team4\Source Code\ShradhaBookStore\bin\Debug\netcoreapp3.1\Microsoft.Bcl.HashCode.dll
+D:\FPT Aptech\HK 3\Eproject_Team4\Source Code\ShradhaBookStore\bin\Debug\netcoreapp3.1\Microsoft.CodeAnalysis.dll
+D:\FPT Aptech\HK 3\Eproject_Team4\Source Code\ShradhaBookStore\bin\Debug\netcoreapp3.1\Microsoft.CodeAnalysis.CSharp.dll
+D:\FPT Aptech\HK 3\Eproject_Team4\Source Code\ShradhaBookStore\bin\Debug\netcoreapp3.1\Microsoft.CodeAnalysis.CSharp.Workspaces.dll
+D:\FPT Aptech\HK 3\Eproject_Team4\Source Code\ShradhaBookStore\bin\Debug\netcoreapp3.1\Microsoft.CodeAnalysis.Razor.dll
+D:\FPT Aptech\HK 3\Eproject_Team4\Source Code\ShradhaBookStore\bin\Debug\netcoreapp3.1\Microsoft.CodeAnalysis.Workspaces.dll
+D:\FPT Aptech\HK 3\Eproject_Team4\Source Code\ShradhaBookStore\bin\Debug\netcoreapp3.1\Microsoft.Data.SqlClient.dll
+D:\FPT Aptech\HK 3\Eproject_Team4\Source Code\ShradhaBookStore\bin\Debug\netcoreapp3.1\Microsoft.DotNet.PlatformAbstractions.dll
+D:\FPT Aptech\HK 3\Eproject_Team4\Source Code\ShradhaBookStore\bin\Debug\netcoreapp3.1\Microsoft.EntityFrameworkCore.dll
+D:\FPT Aptech\HK 3\Eproject_Team4\Source Code\ShradhaBookStore\bin\Debug\netcoreapp3.1\Microsoft.EntityFrameworkCore.Abstractions.dll
+D:\FPT Aptech\HK 3\Eproject_Team4\Source Code\ShradhaBookStore\bin\Debug\netcoreapp3.1\Microsoft.EntityFrameworkCore.Relational.dll
+D:\FPT Aptech\HK 3\Eproject_Team4\Source Code\ShradhaBookStore\bin\Debug\netcoreapp3.1\Microsoft.EntityFrameworkCore.SqlServer.dll
+D:\FPT Aptech\HK 3\Eproject_Team4\Source Code\ShradhaBookStore\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Caching.Abstractions.dll
+D:\FPT Aptech\HK 3\Eproject_Team4\Source Code\ShradhaBookStore\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Caching.Memory.dll
+D:\FPT Aptech\HK 3\Eproject_Team4\Source Code\ShradhaBookStore\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Configuration.dll
+D:\FPT Aptech\HK 3\Eproject_Team4\Source Code\ShradhaBookStore\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Configuration.Abstractions.dll
+D:\FPT Aptech\HK 3\Eproject_Team4\Source Code\ShradhaBookStore\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Configuration.Binder.dll
+D:\FPT Aptech\HK 3\Eproject_Team4\Source Code\ShradhaBookStore\bin\Debug\netcoreapp3.1\Microsoft.Extensions.DependencyInjection.dll
+D:\FPT Aptech\HK 3\Eproject_Team4\Source Code\ShradhaBookStore\bin\Debug\netcoreapp3.1\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+D:\FPT Aptech\HK 3\Eproject_Team4\Source Code\ShradhaBookStore\bin\Debug\netcoreapp3.1\Microsoft.Extensions.DependencyModel.dll
+D:\FPT Aptech\HK 3\Eproject_Team4\Source Code\ShradhaBookStore\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Logging.dll
+D:\FPT Aptech\HK 3\Eproject_Team4\Source Code\ShradhaBookStore\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Logging.Abstractions.dll
+D:\FPT Aptech\HK 3\Eproject_Team4\Source Code\ShradhaBookStore\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Options.dll
+D:\FPT Aptech\HK 3\Eproject_Team4\Source Code\ShradhaBookStore\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Primitives.dll
+D:\FPT Aptech\HK 3\Eproject_Team4\Source Code\ShradhaBookStore\bin\Debug\netcoreapp3.1\Microsoft.Identity.Client.dll
+D:\FPT Aptech\HK 3\Eproject_Team4\Source Code\ShradhaBookStore\bin\Debug\netcoreapp3.1\Microsoft.IdentityModel.JsonWebTokens.dll
+D:\FPT Aptech\HK 3\Eproject_Team4\Source Code\ShradhaBookStore\bin\Debug\netcoreapp3.1\Microsoft.IdentityModel.Logging.dll
+D:\FPT Aptech\HK 3\Eproject_Team4\Source Code\ShradhaBookStore\bin\Debug\netcoreapp3.1\Microsoft.IdentityModel.Protocols.dll
+D:\FPT Aptech\HK 3\Eproject_Team4\Source Code\ShradhaBookStore\bin\Debug\netcoreapp3.1\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+D:\FPT Aptech\HK 3\Eproject_Team4\Source Code\ShradhaBookStore\bin\Debug\netcoreapp3.1\Microsoft.IdentityModel.Tokens.dll
+D:\FPT Aptech\HK 3\Eproject_Team4\Source Code\ShradhaBookStore\bin\Debug\netcoreapp3.1\Microsoft.VisualStudio.Web.CodeGeneration.dll
+D:\FPT Aptech\HK 3\Eproject_Team4\Source Code\ShradhaBookStore\bin\Debug\netcoreapp3.1\Microsoft.VisualStudio.Web.CodeGeneration.Contracts.dll
+D:\FPT Aptech\HK 3\Eproject_Team4\Source Code\ShradhaBookStore\bin\Debug\netcoreapp3.1\Microsoft.VisualStudio.Web.CodeGeneration.Core.dll
+D:\FPT Aptech\HK 3\Eproject_Team4\Source Code\ShradhaBookStore\bin\Debug\netcoreapp3.1\dotnet-aspnet-codegenerator-design.dll
+D:\FPT Aptech\HK 3\Eproject_Team4\Source Code\ShradhaBookStore\bin\Debug\netcoreapp3.1\Microsoft.VisualStudio.Web.CodeGeneration.EntityFrameworkCore.dll
+D:\FPT Aptech\HK 3\Eproject_Team4\Source Code\ShradhaBookStore\bin\Debug\netcoreapp3.1\Microsoft.VisualStudio.Web.CodeGeneration.Templating.dll
+D:\FPT Aptech\HK 3\Eproject_Team4\Source Code\ShradhaBookStore\bin\Debug\netcoreapp3.1\Microsoft.VisualStudio.Web.CodeGeneration.Utils.dll
+D:\FPT Aptech\HK 3\Eproject_Team4\Source Code\ShradhaBookStore\bin\Debug\netcoreapp3.1\Microsoft.VisualStudio.Web.CodeGenerators.Mvc.dll
+D:\FPT Aptech\HK 3\Eproject_Team4\Source Code\ShradhaBookStore\bin\Debug\netcoreapp3.1\Newtonsoft.Json.dll
+D:\FPT Aptech\HK 3\Eproject_Team4\Source Code\ShradhaBookStore\bin\Debug\netcoreapp3.1\Newtonsoft.Json.Bson.dll
+D:\FPT Aptech\HK 3\Eproject_Team4\Source Code\ShradhaBookStore\bin\Debug\netcoreapp3.1\NuGet.Frameworks.dll
+D:\FPT Aptech\HK 3\Eproject_Team4\Source Code\ShradhaBookStore\bin\Debug\netcoreapp3.1\System.Collections.Immutable.dll
+D:\FPT Aptech\HK 3\Eproject_Team4\Source Code\ShradhaBookStore\bin\Debug\netcoreapp3.1\System.Composition.AttributedModel.dll
+D:\FPT Aptech\HK 3\Eproject_Team4\Source Code\ShradhaBookStore\bin\Debug\netcoreapp3.1\System.Composition.Convention.dll
+D:\FPT Aptech\HK 3\Eproject_Team4\Source Code\ShradhaBookStore\bin\Debug\netcoreapp3.1\System.Composition.Hosting.dll
+D:\FPT Aptech\HK 3\Eproject_Team4\Source Code\ShradhaBookStore\bin\Debug\netcoreapp3.1\System.Composition.Runtime.dll
+D:\FPT Aptech\HK 3\Eproject_Team4\Source Code\ShradhaBookStore\bin\Debug\netcoreapp3.1\System.Composition.TypedParts.dll
+D:\FPT Aptech\HK 3\Eproject_Team4\Source Code\ShradhaBookStore\bin\Debug\netcoreapp3.1\System.Configuration.ConfigurationManager.dll
+D:\FPT Aptech\HK 3\Eproject_Team4\Source Code\ShradhaBookStore\bin\Debug\netcoreapp3.1\System.Diagnostics.DiagnosticSource.dll
+D:\FPT Aptech\HK 3\Eproject_Team4\Source Code\ShradhaBookStore\bin\Debug\netcoreapp3.1\System.IdentityModel.Tokens.Jwt.dll
+D:\FPT Aptech\HK 3\Eproject_Team4\Source Code\ShradhaBookStore\bin\Debug\netcoreapp3.1\System.Runtime.Caching.dll
+D:\FPT Aptech\HK 3\Eproject_Team4\Source Code\ShradhaBookStore\bin\Debug\netcoreapp3.1\System.Security.Cryptography.ProtectedData.dll
+D:\FPT Aptech\HK 3\Eproject_Team4\Source Code\ShradhaBookStore\bin\Debug\netcoreapp3.1\X.PagedList.dll
+D:\FPT Aptech\HK 3\Eproject_Team4\Source Code\ShradhaBookStore\bin\Debug\netcoreapp3.1\X.PagedList.Mvc.Core.dll
+D:\FPT Aptech\HK 3\Eproject_Team4\Source Code\ShradhaBookStore\bin\Debug\netcoreapp3.1\X.PagedList.Web.Common.dll
+D:\FPT Aptech\HK 3\Eproject_Team4\Source Code\ShradhaBookStore\bin\Debug\netcoreapp3.1\cs\Microsoft.CodeAnalysis.resources.dll
+D:\FPT Aptech\HK 3\Eproject_Team4\Source Code\ShradhaBookStore\bin\Debug\netcoreapp3.1\de\Microsoft.CodeAnalysis.resources.dll
+D:\FPT Aptech\HK 3\Eproject_Team4\Source Code\ShradhaBookStore\bin\Debug\netcoreapp3.1\es\Microsoft.CodeAnalysis.resources.dll
+D:\FPT Aptech\HK 3\Eproject_Team4\Source Code\ShradhaBookStore\bin\Debug\netcoreapp3.1\fr\Microsoft.CodeAnalysis.resources.dll
+D:\FPT Aptech\HK 3\Eproject_Team4\Source Code\ShradhaBookStore\bin\Debug\netcoreapp3.1\it\Microsoft.CodeAnalysis.resources.dll
+D:\FPT Aptech\HK 3\Eproject_Team4\Source Code\ShradhaBookStore\bin\Debug\netcoreapp3.1\ja\Microsoft.CodeAnalysis.resources.dll
+D:\FPT Aptech\HK 3\Eproject_Team4\Source Code\ShradhaBookStore\bin\Debug\netcoreapp3.1\ko\Microsoft.CodeAnalysis.resources.dll
+D:\FPT Aptech\HK 3\Eproject_Team4\Source Code\ShradhaBookStore\bin\Debug\netcoreapp3.1\pl\Microsoft.CodeAnalysis.resources.dll
+D:\FPT Aptech\HK 3\Eproject_Team4\Source Code\ShradhaBookStore\bin\Debug\netcoreapp3.1\pt-BR\Microsoft.CodeAnalysis.resources.dll
+D:\FPT Aptech\HK 3\Eproject_Team4\Source Code\ShradhaBookStore\bin\Debug\netcoreapp3.1\ru\Microsoft.CodeAnalysis.resources.dll
+D:\FPT Aptech\HK 3\Eproject_Team4\Source Code\ShradhaBookStore\bin\Debug\netcoreapp3.1\tr\Microsoft.CodeAnalysis.resources.dll
+D:\FPT Aptech\HK 3\Eproject_Team4\Source Code\ShradhaBookStore\bin\Debug\netcoreapp3.1\zh-Hans\Microsoft.CodeAnalysis.resources.dll
+D:\FPT Aptech\HK 3\Eproject_Team4\Source Code\ShradhaBookStore\bin\Debug\netcoreapp3.1\zh-Hant\Microsoft.CodeAnalysis.resources.dll
+D:\FPT Aptech\HK 3\Eproject_Team4\Source Code\ShradhaBookStore\bin\Debug\netcoreapp3.1\cs\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\FPT Aptech\HK 3\Eproject_Team4\Source Code\ShradhaBookStore\bin\Debug\netcoreapp3.1\de\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\FPT Aptech\HK 3\Eproject_Team4\Source Code\ShradhaBookStore\bin\Debug\netcoreapp3.1\es\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\FPT Aptech\HK 3\Eproject_Team4\Source Code\ShradhaBookStore\bin\Debug\netcoreapp3.1\fr\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\FPT Aptech\HK 3\Eproject_Team4\Source Code\ShradhaBookStore\bin\Debug\netcoreapp3.1\it\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\FPT Aptech\HK 3\Eproject_Team4\Source Code\ShradhaBookStore\bin\Debug\netcoreapp3.1\ja\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\FPT Aptech\HK 3\Eproject_Team4\Source Code\ShradhaBookStore\bin\Debug\netcoreapp3.1\ko\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\FPT Aptech\HK 3\Eproject_Team4\Source Code\ShradhaBookStore\bin\Debug\netcoreapp3.1\pl\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\FPT Aptech\HK 3\Eproject_Team4\Source Code\ShradhaBookStore\bin\Debug\netcoreapp3.1\pt-BR\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\FPT Aptech\HK 3\Eproject_Team4\Source Code\ShradhaBookStore\bin\Debug\netcoreapp3.1\ru\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\FPT Aptech\HK 3\Eproject_Team4\Source Code\ShradhaBookStore\bin\Debug\netcoreapp3.1\tr\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\FPT Aptech\HK 3\Eproject_Team4\Source Code\ShradhaBookStore\bin\Debug\netcoreapp3.1\zh-Hans\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\FPT Aptech\HK 3\Eproject_Team4\Source Code\ShradhaBookStore\bin\Debug\netcoreapp3.1\zh-Hant\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\FPT Aptech\HK 3\Eproject_Team4\Source Code\ShradhaBookStore\bin\Debug\netcoreapp3.1\cs\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\FPT Aptech\HK 3\Eproject_Team4\Source Code\ShradhaBookStore\bin\Debug\netcoreapp3.1\de\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\FPT Aptech\HK 3\Eproject_Team4\Source Code\ShradhaBookStore\bin\Debug\netcoreapp3.1\es\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\FPT Aptech\HK 3\Eproject_Team4\Source Code\ShradhaBookStore\bin\Debug\netcoreapp3.1\fr\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\FPT Aptech\HK 3\Eproject_Team4\Source Code\ShradhaBookStore\bin\Debug\netcoreapp3.1\it\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\FPT Aptech\HK 3\Eproject_Team4\Source Code\ShradhaBookStore\bin\Debug\netcoreapp3.1\ja\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\FPT Aptech\HK 3\Eproject_Team4\Source Code\ShradhaBookStore\bin\Debug\netcoreapp3.1\ko\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\FPT Aptech\HK 3\Eproject_Team4\Source Code\ShradhaBookStore\bin\Debug\netcoreapp3.1\pl\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\FPT Aptech\HK 3\Eproject_Team4\Source Code\ShradhaBookStore\bin\Debug\netcoreapp3.1\pt-BR\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\FPT Aptech\HK 3\Eproject_Team4\Source Code\ShradhaBookStore\bin\Debug\netcoreapp3.1\ru\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\FPT Aptech\HK 3\Eproject_Team4\Source Code\ShradhaBookStore\bin\Debug\netcoreapp3.1\tr\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\FPT Aptech\HK 3\Eproject_Team4\Source Code\ShradhaBookStore\bin\Debug\netcoreapp3.1\zh-Hans\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\FPT Aptech\HK 3\Eproject_Team4\Source Code\ShradhaBookStore\bin\Debug\netcoreapp3.1\zh-Hant\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\FPT Aptech\HK 3\Eproject_Team4\Source Code\ShradhaBookStore\bin\Debug\netcoreapp3.1\cs\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\FPT Aptech\HK 3\Eproject_Team4\Source Code\ShradhaBookStore\bin\Debug\netcoreapp3.1\de\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\FPT Aptech\HK 3\Eproject_Team4\Source Code\ShradhaBookStore\bin\Debug\netcoreapp3.1\es\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\FPT Aptech\HK 3\Eproject_Team4\Source Code\ShradhaBookStore\bin\Debug\netcoreapp3.1\fr\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\FPT Aptech\HK 3\Eproject_Team4\Source Code\ShradhaBookStore\bin\Debug\netcoreapp3.1\it\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\FPT Aptech\HK 3\Eproject_Team4\Source Code\ShradhaBookStore\bin\Debug\netcoreapp3.1\ja\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\FPT Aptech\HK 3\Eproject_Team4\Source Code\ShradhaBookStore\bin\Debug\netcoreapp3.1\ko\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\FPT Aptech\HK 3\Eproject_Team4\Source Code\ShradhaBookStore\bin\Debug\netcoreapp3.1\pl\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\FPT Aptech\HK 3\Eproject_Team4\Source Code\ShradhaBookStore\bin\Debug\netcoreapp3.1\pt-BR\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\FPT Aptech\HK 3\Eproject_Team4\Source Code\ShradhaBookStore\bin\Debug\netcoreapp3.1\ru\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\FPT Aptech\HK 3\Eproject_Team4\Source Code\ShradhaBookStore\bin\Debug\netcoreapp3.1\tr\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\FPT Aptech\HK 3\Eproject_Team4\Source Code\ShradhaBookStore\bin\Debug\netcoreapp3.1\zh-Hans\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\FPT Aptech\HK 3\Eproject_Team4\Source Code\ShradhaBookStore\bin\Debug\netcoreapp3.1\zh-Hant\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\FPT Aptech\HK 3\Eproject_Team4\Source Code\ShradhaBookStore\bin\Debug\netcoreapp3.1\runtimes\unix\lib\netcoreapp2.1\Microsoft.Data.SqlClient.dll
+D:\FPT Aptech\HK 3\Eproject_Team4\Source Code\ShradhaBookStore\bin\Debug\netcoreapp3.1\runtimes\win\lib\netcoreapp2.1\Microsoft.Data.SqlClient.dll
+D:\FPT Aptech\HK 3\Eproject_Team4\Source Code\ShradhaBookStore\bin\Debug\netcoreapp3.1\runtimes\win-arm64\native\sni.dll
+D:\FPT Aptech\HK 3\Eproject_Team4\Source Code\ShradhaBookStore\bin\Debug\netcoreapp3.1\runtimes\win-x64\native\sni.dll
+D:\FPT Aptech\HK 3\Eproject_Team4\Source Code\ShradhaBookStore\bin\Debug\netcoreapp3.1\runtimes\win-x86\native\sni.dll
+D:\FPT Aptech\HK 3\Eproject_Team4\Source Code\ShradhaBookStore\bin\Debug\netcoreapp3.1\runtimes\unix\lib\netcoreapp2.0\System.Runtime.Caching.dll
+D:\FPT Aptech\HK 3\Eproject_Team4\Source Code\ShradhaBookStore\bin\Debug\netcoreapp3.1\runtimes\win\lib\netcoreapp2.0\System.Runtime.Caching.dll
+D:\FPT Aptech\HK 3\Eproject_Team4\Source Code\ShradhaBookStore\bin\Debug\netcoreapp3.1\runtimes\win\lib\netstandard2.0\System.Security.Cryptography.ProtectedData.dll
+D:\FPT Aptech\HK 3\Eproject_Team4\Source Code\ShradhaBookStore\bin\Debug\netcoreapp3.1\System.Web.Services.dll
+D:\FPT Aptech\HK 3\Eproject_Team4\Source Code\ShradhaBookStore\bin\Debug\netcoreapp3.1\System.EnterpriseServices.dll
+D:\FPT Aptech\HK 3\Eproject_Team4\Source Code\ShradhaBookStore\bin\Debug\netcoreapp3.1\System.Design.dll
+D:\FPT Aptech\HK 3\Eproject_Team4\Source Code\ShradhaBookStore\bin\Debug\netcoreapp3.1\System.DirectoryServices.dll
+D:\FPT Aptech\HK 3\Eproject_Team4\Source Code\ShradhaBookStore\bin\Debug\netcoreapp3.1\System.Runtime.Remoting.dll
+D:\FPT Aptech\HK 3\Eproject_Team4\Source Code\ShradhaBookStore\bin\Debug\netcoreapp3.1\System.Windows.Forms.dll
+D:\FPT Aptech\HK 3\Eproject_Team4\Source Code\ShradhaBookStore\bin\Debug\netcoreapp3.1\System.Data.OracleClient.dll
+D:\FPT Aptech\HK 3\Eproject_Team4\Source Code\ShradhaBookStore\bin\Debug\netcoreapp3.1\Accessibility.dll
+D:\FPT Aptech\HK 3\Eproject_Team4\Source Code\ShradhaBookStore\bin\Debug\netcoreapp3.1\System.Drawing.Design.dll
+D:\FPT Aptech\HK 3\Eproject_Team4\Source Code\ShradhaBookStore\bin\Debug\netcoreapp3.1\System.Web.RegularExpressions.dll
+D:\FPT Aptech\HK 3\Eproject_Team4\Source Code\ShradhaBookStore\bin\Debug\netcoreapp3.1\System.Runtime.Serialization.Formatters.Soap.dll
+D:\FPT Aptech\HK 3\Eproject_Team4\Source Code\ShradhaBookStore\bin\Debug\netcoreapp3.1\System.Deployment.dll
+D:\FPT Aptech\HK 3\Eproject_Team4\Source Code\ShradhaBookStore\bin\Debug\netcoreapp3.1\System.Web.Services.xml
+D:\FPT Aptech\HK 3\Eproject_Team4\Source Code\ShradhaBookStore\bin\Debug\netcoreapp3.1\System.EnterpriseServices.xml
+D:\FPT Aptech\HK 3\Eproject_Team4\Source Code\ShradhaBookStore\bin\Debug\netcoreapp3.1\System.Design.xml
+D:\FPT Aptech\HK 3\Eproject_Team4\Source Code\ShradhaBookStore\bin\Debug\netcoreapp3.1\System.DirectoryServices.xml
+D:\FPT Aptech\HK 3\Eproject_Team4\Source Code\ShradhaBookStore\bin\Debug\netcoreapp3.1\System.Runtime.Remoting.xml
+D:\FPT Aptech\HK 3\Eproject_Team4\Source Code\ShradhaBookStore\bin\Debug\netcoreapp3.1\System.Windows.Forms.xml
+D:\FPT Aptech\HK 3\Eproject_Team4\Source Code\ShradhaBookStore\bin\Debug\netcoreapp3.1\System.Data.OracleClient.xml
+D:\FPT Aptech\HK 3\Eproject_Team4\Source Code\ShradhaBookStore\bin\Debug\netcoreapp3.1\Accessibility.xml
+D:\FPT Aptech\HK 3\Eproject_Team4\Source Code\ShradhaBookStore\bin\Debug\netcoreapp3.1\System.Drawing.Design.xml
+D:\FPT Aptech\HK 3\Eproject_Team4\Source Code\ShradhaBookStore\bin\Debug\netcoreapp3.1\System.Web.RegularExpressions.xml
+D:\FPT Aptech\HK 3\Eproject_Team4\Source Code\ShradhaBookStore\bin\Debug\netcoreapp3.1\System.Runtime.Serialization.Formatters.Soap.xml
+D:\FPT Aptech\HK 3\Eproject_Team4\Source Code\ShradhaBookStore\bin\Debug\netcoreapp3.1\System.Deployment.xml
+D:\FPT Aptech\HK 3\Eproject_Team4\Source Code\ShradhaBookStore\bin\Debug\netcoreapp3.1\System.EnterpriseServices.Wrapper.dll
+D:\FPT Aptech\HK 3\Eproject_Team4\Source Code\ShradhaBookStore\obj\Debug\netcoreapp3.1\ShradhaBookStore.csprojAssemblyReference.cache
+D:\FPT Aptech\HK 3\Eproject_Team4\Source Code\ShradhaBookStore\obj\Debug\netcoreapp3.1\ShradhaBookStore.AssemblyInfoInputs.cache
+D:\FPT Aptech\HK 3\Eproject_Team4\Source Code\ShradhaBookStore\obj\Debug\netcoreapp3.1\ShradhaBookStore.AssemblyInfo.cs
+D:\FPT Aptech\HK 3\Eproject_Team4\Source Code\ShradhaBookStore\obj\Debug\netcoreapp3.1\ShradhaBookStore.csproj.CoreCompileInputs.cache
+D:\FPT Aptech\HK 3\Eproject_Team4\Source Code\ShradhaBookStore\obj\Debug\netcoreapp3.1\ShradhaBookStore.MvcApplicationPartsAssemblyInfo.cs
+D:\FPT Aptech\HK 3\Eproject_Team4\Source Code\ShradhaBookStore\obj\Debug\netcoreapp3.1\ShradhaBookStore.MvcApplicationPartsAssemblyInfo.cache
+D:\FPT Aptech\HK 3\Eproject_Team4\Source Code\ShradhaBookStore\obj\Debug\netcoreapp3.1\ShradhaBookStore.RazorAssemblyInfo.cache
+D:\FPT Aptech\HK 3\Eproject_Team4\Source Code\ShradhaBookStore\obj\Debug\netcoreapp3.1\ShradhaBookStore.RazorAssemblyInfo.cs
+D:\FPT Aptech\HK 3\Eproject_Team4\Source Code\ShradhaBookStore\obj\Debug\netcoreapp3.1\ShradhaBookStore.TagHelpers.input.cache
+D:\FPT Aptech\HK 3\Eproject_Team4\Source Code\ShradhaBookStore\obj\Debug\netcoreapp3.1\ShradhaBookStore.TagHelpers.output.cache
+D:\FPT Aptech\HK 3\Eproject_Team4\Source Code\ShradhaBookStore\obj\Debug\netcoreapp3.1\ShradhaBookStore.RazorCoreGenerate.cache
+D:\FPT Aptech\HK 3\Eproject_Team4\Source Code\ShradhaBookStore\obj\Debug\netcoreapp3.1\Razor\Views\Admin\Banner\Add_Banner.cshtml.g.cs
+D:\FPT Aptech\HK 3\Eproject_Team4\Source Code\ShradhaBookStore\obj\Debug\netcoreapp3.1\Razor\Views\Admin\Banner\Banner_list.cshtml.g.cs
+D:\FPT Aptech\HK 3\Eproject_Team4\Source Code\ShradhaBookStore\obj\Debug\netcoreapp3.1\Razor\Views\Admin\Layout\_Layout.cshtml.g.cs
+D:\FPT Aptech\HK 3\Eproject_Team4\Source Code\ShradhaBookStore\obj\Debug\netcoreapp3.1\Razor\Views\Admin\Manage_Admin\Manage_Admin.cshtml.g.cs
+D:\FPT Aptech\HK 3\Eproject_Team4\Source Code\ShradhaBookStore\obj\Debug\netcoreapp3.1\Razor\Views\Admin\Manage_Feedback\Manage_Feedback.cshtml.g.cs
+D:\FPT Aptech\HK 3\Eproject_Team4\Source Code\ShradhaBookStore\obj\Debug\netcoreapp3.1\Razor\Views\Admin\Manage_Feedback\ReplyMail.cshtml.g.cs
+D:\FPT Aptech\HK 3\Eproject_Team4\Source Code\ShradhaBookStore\obj\Debug\netcoreapp3.1\Razor\Views\Admin\Manage_Oders\Index.cshtml.g.cs
+D:\FPT Aptech\HK 3\Eproject_Team4\Source Code\ShradhaBookStore\obj\Debug\netcoreapp3.1\Razor\Views\Admin\Manage_Oders\Manage_Oders.cshtml.g.cs
+D:\FPT Aptech\HK 3\Eproject_Team4\Source Code\ShradhaBookStore\obj\Debug\netcoreapp3.1\Razor\Views\Admin\Manage_Oders\Manrage_Denine_Oders.cshtml.g.cs
+D:\FPT Aptech\HK 3\Eproject_Team4\Source Code\ShradhaBookStore\obj\Debug\netcoreapp3.1\Razor\Views\Admin\Manage_Oders\OrderLog.cshtml.g.cs
+D:\FPT Aptech\HK 3\Eproject_Team4\Source Code\ShradhaBookStore\obj\Debug\netcoreapp3.1\Razor\Views\Admin\Manage_Oders\Order_Cancle.cshtml.g.cs
+D:\FPT Aptech\HK 3\Eproject_Team4\Source Code\ShradhaBookStore\obj\Debug\netcoreapp3.1\Razor\Views\Admin\Manage_Oders\Shipping.cshtml.g.cs
+D:\FPT Aptech\HK 3\Eproject_Team4\Source Code\ShradhaBookStore\obj\Debug\netcoreapp3.1\Razor\Views\Admin\Manage_Oders\ShowProduct.cshtml.g.cs
+D:\FPT Aptech\HK 3\Eproject_Team4\Source Code\ShradhaBookStore\obj\Debug\netcoreapp3.1\Razor\Views\Admin\Manage_Products\CategoryPublisherList.cshtml.g.cs
+D:\FPT Aptech\HK 3\Eproject_Team4\Source Code\ShradhaBookStore\obj\Debug\netcoreapp3.1\Razor\Views\Admin\Manage_Products\Create_Category.cshtml.g.cs
+D:\FPT Aptech\HK 3\Eproject_Team4\Source Code\ShradhaBookStore\obj\Debug\netcoreapp3.1\Razor\Views\Admin\Manage_Products\Create_Product.cshtml.g.cs
+D:\FPT Aptech\HK 3\Eproject_Team4\Source Code\ShradhaBookStore\obj\Debug\netcoreapp3.1\Razor\Views\Admin\Manage_Products\Create_Products.cshtml.g.cs
+D:\FPT Aptech\HK 3\Eproject_Team4\Source Code\ShradhaBookStore\obj\Debug\netcoreapp3.1\Razor\Views\Admin\Manage_Products\Create_Publisher.cshtml.g.cs
+D:\FPT Aptech\HK 3\Eproject_Team4\Source Code\ShradhaBookStore\obj\Debug\netcoreapp3.1\Razor\Views\Admin\Manage_Products\Detail_Products.cshtml.g.cs
+D:\FPT Aptech\HK 3\Eproject_Team4\Source Code\ShradhaBookStore\obj\Debug\netcoreapp3.1\Razor\Views\Admin\Manage_Products\Edit_Products.cshtml.g.cs
+D:\FPT Aptech\HK 3\Eproject_Team4\Source Code\ShradhaBookStore\obj\Debug\netcoreapp3.1\Razor\Views\Admin\Manage_Products\Manage_Products.cshtml.g.cs
+D:\FPT Aptech\HK 3\Eproject_Team4\Source Code\ShradhaBookStore\obj\Debug\netcoreapp3.1\Razor\Views\Admin\Manage_Products\NotFound.cshtml.g.cs
+D:\FPT Aptech\HK 3\Eproject_Team4\Source Code\ShradhaBookStore\obj\Debug\netcoreapp3.1\Razor\Views\Admin\Manage_Users\Manage_Users.cshtml.g.cs
+D:\FPT Aptech\HK 3\Eproject_Team4\Source Code\ShradhaBookStore\obj\Debug\netcoreapp3.1\Razor\Views\Cart2\Count.cshtml.g.cs
+D:\FPT Aptech\HK 3\Eproject_Team4\Source Code\ShradhaBookStore\obj\Debug\netcoreapp3.1\Razor\Views\Cart2\Index.cshtml.g.cs
+D:\FPT Aptech\HK 3\Eproject_Team4\Source Code\ShradhaBookStore\obj\Debug\netcoreapp3.1\Razor\Views\Cart2\Total.cshtml.g.cs
+D:\FPT Aptech\HK 3\Eproject_Team4\Source Code\ShradhaBookStore\obj\Debug\netcoreapp3.1\Razor\Views\Cart2\_Count.cshtml.g.cs
+D:\FPT Aptech\HK 3\Eproject_Team4\Source Code\ShradhaBookStore\obj\Debug\netcoreapp3.1\Razor\Views\Cart2\_Index.cshtml.g.cs
+D:\FPT Aptech\HK 3\Eproject_Team4\Source Code\ShradhaBookStore\obj\Debug\netcoreapp3.1\Razor\Views\FeedBack\SendFeedBack.cshtml.g.cs
+D:\FPT Aptech\HK 3\Eproject_Team4\Source Code\ShradhaBookStore\obj\Debug\netcoreapp3.1\Razor\Views\Home\ContactUs.cshtml.g.cs
+D:\FPT Aptech\HK 3\Eproject_Team4\Source Code\ShradhaBookStore\obj\Debug\netcoreapp3.1\Razor\Views\Home\CreateView.cshtml.g.cs
+D:\FPT Aptech\HK 3\Eproject_Team4\Source Code\ShradhaBookStore\obj\Debug\netcoreapp3.1\Razor\Views\Home\Detail.cshtml.g.cs
+D:\FPT Aptech\HK 3\Eproject_Team4\Source Code\ShradhaBookStore\obj\Debug\netcoreapp3.1\Razor\Views\Home\Index.cshtml.g.cs
+D:\FPT Aptech\HK 3\Eproject_Team4\Source Code\ShradhaBookStore\obj\Debug\netcoreapp3.1\Razor\Views\Home\Privacy.cshtml.g.cs
+D:\FPT Aptech\HK 3\Eproject_Team4\Source Code\ShradhaBookStore\obj\Debug\netcoreapp3.1\Razor\Views\Home\ShopePage.cshtml.g.cs
+D:\FPT Aptech\HK 3\Eproject_Team4\Source Code\ShradhaBookStore\obj\Debug\netcoreapp3.1\Razor\Views\Order\CheckOut.cshtml.g.cs
+D:\FPT Aptech\HK 3\Eproject_Team4\Source Code\ShradhaBookStore\obj\Debug\netcoreapp3.1\Razor\Views\Order\CheckoutComplete.cshtml.g.cs
+D:\FPT Aptech\HK 3\Eproject_Team4\Source Code\ShradhaBookStore\obj\Debug\netcoreapp3.1\Razor\Views\Order\Error.cshtml.g.cs
+D:\FPT Aptech\HK 3\Eproject_Team4\Source Code\ShradhaBookStore\obj\Debug\netcoreapp3.1\Razor\Views\Order\Index.cshtml.g.cs
+D:\FPT Aptech\HK 3\Eproject_Team4\Source Code\ShradhaBookStore\obj\Debug\netcoreapp3.1\Razor\Views\Order\KiemTraThanhToan.cshtml.g.cs
+D:\FPT Aptech\HK 3\Eproject_Team4\Source Code\ShradhaBookStore\obj\Debug\netcoreapp3.1\Razor\Views\Order\ordersucess.cshtml.g.cs
+D:\FPT Aptech\HK 3\Eproject_Team4\Source Code\ShradhaBookStore\obj\Debug\netcoreapp3.1\Razor\Views\Order\payment.cshtml.g.cs
+D:\FPT Aptech\HK 3\Eproject_Team4\Source Code\ShradhaBookStore\obj\Debug\netcoreapp3.1\Razor\Views\Order\PaymentCreditCard.cshtml.g.cs
+D:\FPT Aptech\HK 3\Eproject_Team4\Source Code\ShradhaBookStore\obj\Debug\netcoreapp3.1\Razor\Views\Product\Index.cshtml.g.cs
+D:\FPT Aptech\HK 3\Eproject_Team4\Source Code\ShradhaBookStore\obj\Debug\netcoreapp3.1\Razor\Views\Product\Update.cshtml.g.cs
+D:\FPT Aptech\HK 3\Eproject_Team4\Source Code\ShradhaBookStore\obj\Debug\netcoreapp3.1\Razor\Views\Shared\Error.cshtml.g.cs
+D:\FPT Aptech\HK 3\Eproject_Team4\Source Code\ShradhaBookStore\obj\Debug\netcoreapp3.1\Razor\Views\Shared\_Layout.cshtml.g.cs
+D:\FPT Aptech\HK 3\Eproject_Team4\Source Code\ShradhaBookStore\obj\Debug\netcoreapp3.1\Razor\Views\Shared\_ValidationScriptsPartial.cshtml.g.cs
+D:\FPT Aptech\HK 3\Eproject_Team4\Source Code\ShradhaBookStore\obj\Debug\netcoreapp3.1\Razor\Views\TrackingOrder\Action.cshtml.g.cs
+D:\FPT Aptech\HK 3\Eproject_Team4\Source Code\ShradhaBookStore\obj\Debug\netcoreapp3.1\Razor\Views\TrackingOrder\gggg.cshtml.g.cs
+D:\FPT Aptech\HK 3\Eproject_Team4\Source Code\ShradhaBookStore\obj\Debug\netcoreapp3.1\Razor\Views\TrackingOrder\Index.cshtml.g.cs
+D:\FPT Aptech\HK 3\Eproject_Team4\Source Code\ShradhaBookStore\obj\Debug\netcoreapp3.1\Razor\Views\UserInfo\ChangePass.cshtml.g.cs
+D:\FPT Aptech\HK 3\Eproject_Team4\Source Code\ShradhaBookStore\obj\Debug\netcoreapp3.1\Razor\Views\UserInfo\Details.cshtml.g.cs
+D:\FPT Aptech\HK 3\Eproject_Team4\Source Code\ShradhaBookStore\obj\Debug\netcoreapp3.1\Razor\Views\UserInfo\Layout\_Layout.cshtml.g.cs
+D:\FPT Aptech\HK 3\Eproject_Team4\Source Code\ShradhaBookStore\obj\Debug\netcoreapp3.1\Razor\Views\UserInfo\Login.cshtml.g.cs
+D:\FPT Aptech\HK 3\Eproject_Team4\Source Code\ShradhaBookStore\obj\Debug\netcoreapp3.1\Razor\Views\UserInfo\Register.cshtml.g.cs
+D:\FPT Aptech\HK 3\Eproject_Team4\Source Code\ShradhaBookStore\obj\Debug\netcoreapp3.1\Razor\Views\UserInfo\Update.cshtml.g.cs
+D:\FPT Aptech\HK 3\Eproject_Team4\Source Code\ShradhaBookStore\obj\Debug\netcoreapp3.1\Razor\Views\_ViewImports.cshtml.g.cs
+D:\FPT Aptech\HK 3\Eproject_Team4\Source Code\ShradhaBookStore\obj\Debug\netcoreapp3.1\Razor\Views\_ViewStart.cshtml.g.cs
+D:\FPT Aptech\HK 3\Eproject_Team4\Source Code\ShradhaBookStore\obj\Debug\netcoreapp3.1\ShradhaBookStore.RazorTargetAssemblyInfo.cache
+D:\FPT Aptech\HK 3\Eproject_Team4\Source Code\ShradhaBookStore\obj\Debug\netcoreapp3.1\ShradhaBookStore.RazorTargetAssemblyInfo.cs
+D:\FPT Aptech\HK 3\Eproject_Team4\Source Code\ShradhaBookStore\obj\Debug\netcoreapp3.1\ShradhaBookStore.Views.pdb
+D:\FPT Aptech\HK 3\Eproject_Team4\Source Code\ShradhaBookStore\obj\Debug\netcoreapp3.1\ShradhaBookStore.csproj.CopyComplete
+D:\FPT Aptech\HK 3\Eproject_Team4\Source Code\ShradhaBookStore\obj\Debug\netcoreapp3.1\staticwebassets\ShradhaBookStore.StaticWebAssets.Manifest.cache
+D:\FPT Aptech\HK 3\Eproject_Team4\Source Code\ShradhaBookStore\obj\Debug\netcoreapp3.1\staticwebassets\ShradhaBookStore.StaticWebAssets.xml
+D:\FPT Aptech\HK 3\Eproject_Team4\Source Code\ShradhaBookStore\obj\Debug\netcoreapp3.1\ShradhaBookStore.dll
+D:\FPT Aptech\HK 3\Eproject_Team4\Source Code\ShradhaBookStore\obj\Debug\netcoreapp3.1\ShradhaBookStore.pdb
+D:\FPT Aptech\HK 3\Eproject_Team4\Source Code\ShradhaBookStore\obj\Debug\netcoreapp3.1\ShradhaBookStore.genruntimeconfig.cache

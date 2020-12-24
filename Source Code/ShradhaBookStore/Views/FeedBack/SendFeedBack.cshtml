@@ -1,0 +1,86 @@
+﻿@model ShradhaBookStore.Models.FeedBack
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Feed Back</title>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="stylesheet" type="text/css" href="~/css/font-awesome.min.css" />
+    <link rel="stylesheet" type="text/css" href="~/css/main.css" />
+    @using AspNetCore @using Microsoft.AspNetCore.Http
+</head>
+<body>
+    @using (Html.BeginForm("SendFeedBack", "FeedBack", FormMethod.Post))
+    {
+        <div class="container-contact100" style="min-height: 100px">
+            <div class="wrap-contact100" style="display: block">
+                <form class="contact100-form validate-form">
+                    <span class="contact100-form-title"> Send Your FeedBack For Us </span>
+                    <div>
+                        <h3 style="color: #ee5b54">@ViewBag.error</h3>
+                    </div>
+                    <input type="hidden" class="input100" name="UserID" value="
+                    @Context.Session.GetInt32("id")" />
+                    <div class="wrap-input100 validate-input">
+                        <span class="label-input100">Full Name</span>
+                        <input class="input100" name="FullName" readonly value=" @Context.Session.GetString("fullname")" />
+                        <span class="focus-input100"></span>
+                    </div>
+                    <div class="wrap-input100 validate-input">
+                        <span class="label-input100">Email</span>
+                        <input class="input100" name="Email" readonly value=" @Context.Session.GetString("mail")" />
+                        <span class="focus-input100"></span>
+                    </div>
+                    <div class="wrap-input100 validate-input"
+                         data-validate="Title is required">
+                        <span class="label-input100">Tilte</span>
+                        <input class="input100"
+                               name="Title"
+                               placeholder="Your message here..."
+                               data-ng-required="Title is required" />
+                        <span class="focus-input100"></span>
+                    </div>
+                    <div class="wrap-input100 validate-input">
+                        <span class="label-input100">Message</span>
+                        <textarea class="input100"
+                                  name="Message"
+                                  placeholder="Your message here..."
+                                  data-ng-required="Message is required">
+            </textarea>
+                        <span class="focus-input100"></span>
+                    </div>
+                  
+                   
+                    <div class="container-contact100-form-btn">
+                        <button class="contact100-form-btn"
+                                onclick="return alert('Your request has been sent!')">
+                            <span>
+                                Submit
+                                <i class="fa fa-long-arrow-right m-l-7" aria-hidden="true"></i>
+                            </span>
+                        </button>
+                    </div>
+                </form>
+                <span class="contact100-more">
+                    For any question contact our 24/7 call center:
+                    <span class="contact100-more-highlight">+84 337 770 782</span>
+                </span>
+            </div>
+        </div>
+    } @if (ViewBag.Msg != null)
+    {
+        <script type="text/javascript">
+      window.onload = function () {
+        alert("@ViewBag.Msg");
+      };
+        </script>
+        <div>
+            <h3 style="color: #ee5b54">@ViewBag.Msg</h3>
+        </div>
+
+        <div>
+            @Html.ActionLink("FeedBack", "SendFeedBack", "FeedBack")
+        </div>
+    }
+</body>
+</html>
