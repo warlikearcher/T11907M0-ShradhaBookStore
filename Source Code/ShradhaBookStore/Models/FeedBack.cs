@@ -10,10 +10,7 @@ namespace ShradhaBookStore.Models
 {
     public class FeedBack
     {
-        public FeedBack()
-        {
-            FeedBackAt = DateTime.Now;
-        }
+     
         [Key]
         [DatabaseGenerated(DatabaseGeneratedOption.Identity)]
         public int FeedBackID { get; set; }

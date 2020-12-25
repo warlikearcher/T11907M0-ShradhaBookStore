@@ -9,6 +9,13 @@ namespace ShradhaBookStore.Models
 {
     public class UserInfo
     {
+        public UserInfo()
+        {
+            Status = true;
+            IsAdmin = false;
+            CreateAt = DateTime.Now;
+
+        }
         [Key]
         [DatabaseGenerated(DatabaseGeneratedOption.Identity)]
         public int UserID { get; set; }
@@ -19,7 +26,6 @@ namespace ShradhaBookStore.Models
         [Required(ErrorMessage = "PassWord must be from 5 to 50 charactor")]
         [DataType(DataType.Password)]
         [StringLength(50, MinimumLength = 5, ErrorMessage = "PassWord must be from 5 to 50 charactor")]
-
         public string PassWord { get; set; }
         [NotMapped]
         [Required(ErrorMessage = "Comfirm PassWord is required")]
@@ -27,18 +33,13 @@ namespace ShradhaBookStore.Models
         public string ConfirmPassword { get; set; }
         [Required(ErrorMessage = "Email is required")]
         [RegularExpression(@"[A-Za-z0-9._%+-]+@[A-Za-z0-9.-]+\.[A-Za-z]{2,4}", ErrorMessage = "Please enter the correct format")]
-
         public string Email { get; set; }
-
         [Required(ErrorMessage = "Phone is required")]
         public string Phone { get; set; }
         [Required(ErrorMessage = "Adress is required")]
         public string Adress { get; set; }
         public bool IsAdmin { get; set; }
-
         public bool Status { get; set; }
         public DateTime? CreateAt { get; set; }
-
-
     }
 }

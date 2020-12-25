@@ -299,7 +299,10 @@ namespace ShradhaBookStore.Controllers.Admin
         public IActionResult Create_Category(Category category)
         {
             var result = context.Category.Where(p => p.CategoryCode.Equals(category.CategoryCode));
-            if(result == null || result.Count() == 0)
+            var checkName = context.Category.Where(p => p.CategoryName.Equals(category.CategoryName));
+            if (checkName == null || checkName.Count()  == 0)
+            {
+if(result == null || result.Count() == 0)
             {
                 context.Category.Add(category);
                 context.SaveChanges();
@@ -311,6 +314,13 @@ namespace ShradhaBookStore.Controllers.Admin
                 TempData["msg"] = "<script>alert('Category code already exist!!');</script>";
                 return View("~/Views/Admin/Manage_Products/Create_Category.cshtml");
             }
+            }
+            else
+            {
+                TempData["msg"] = "<script>alert('Category name already exist!!');</script>";
+                return View("~/Views/Admin/Manage_Products/Create_Category.cshtml");
+            }
+            
             return View("~/Views/Admin/Manage_Products/Create_Category.cshtml");
         }
         public IActionResult Create_Publisher()

@@ -49,7 +49,7 @@ namespace ShradhaBookStore.Controllers
             return View();
         }
 
-        public IActionResult ShopePage(string searchText, string sortby, int? page,string Category)
+        public IActionResult ShopePage(string searchText, string sortby, int? page,string Category,bool secondhand,int? minPrice,int? maxPrice)
         {
             var listProduct = from p in context.Product
                               join c in context.Category on p.CategoryCode equals c.CategoryCode
@@ -68,6 +68,10 @@ namespace ShradhaBookStore.Controllers
             ViewBag.GetCategory = clist;
             try
             {
+                if(secondhand == true)
+                {
+                    listProduct = listProduct.Where(p => p.Product.Used == true);
+                }
                 if (!string.IsNullOrEmpty(Category))
                 {
                     listProduct = listProduct.Where(
@@ -84,6 +88,7 @@ namespace ShradhaBookStore.Controllers
                                         p => p.Product.ProductName.ToLower().Contains(searchText)
                                         || p.Product.AuthorName.ToUpper().Contains(searchText)
                                         || p.Category.CategoryName.Contains(searchText)
+                                        || p.Publisher.PublisherName.Contains(searchText)
                                         );
                     if (listProduct.Count() == 0)
                     {
@@ -91,6 +96,12 @@ namespace ShradhaBookStore.Controllers
                         return RedirectToAction("ShopePage", "Home");
                     }
                 }
+                if((minPrice >=0) && (maxPrice > minPrice))
+                {
+                    listProduct = listProduct.Where(p => p.Product.Price >= minPrice);
+                    listProduct = listProduct.Where(p => p.Product.Price <= maxPrice);
+                }
+
                 if (!string.IsNullOrEmpty(sortby))
                 {
                     switch (sortby)

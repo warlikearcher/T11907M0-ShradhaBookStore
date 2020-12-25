@@ -21,70 +21,73 @@
                     <div class="card">
                         <div class="card-header">
                             <h3 class="card-title">List Orders</h3>
-                            <div class="card-tools">
-                                <div class="input-group input-group-sm" style="width: 150px;">
-                                    <form asp-action="Index" asp-controller="Manage_Oders">
-                                        <input type="text" name="table_search" class="form-control float-right" placeholder="Search by OrderNo.">
-                                        <div class="input-group-append">
-                                            <button type="submit" class="btn btn-default">
-                                                <i class="fas fa-search"></i>
-                                            </button>
-                                        </div>
-                                    </form>
-
-                                </div>
-                            </div>
                             </div>
                             <!-- /.card-header -->
-                            <div class="card-body table-responsive p-0" style="height: 500px;">
-                                @if (ViewBag.OrderList == null)
-                                {
+                        <div class="card-body table-responsive p-0" style="height: 500px;">
+                            <form asp-action="Index" asp-controller="Manage_Oders">
+                                <div class="row">
+
+                                    <div class="col-md-3">
+                                        <div class="form-group">
+                                            <input type="text" name="table_search" class="form-control" placeholder="Search By OrderNo." />
+                                        </div>
+                                    </div>
+                                    <div class="col-md-2">
+                                        <button type="submit" class="btn btn-success">Search</button>
+                                    </div>
+                                </div>
+                            </form>
+
+
+                            @if (ViewBag.OrderList == null)
+                            {
                         <table class="table table-head-fixed text-nowrap">
                             <tr><td>No new orders have been confirmed yet</td></tr>
                         </table>}
 
-                                <table class="table table-head-fixed text-nowrap">
-                                    <thead>
-                                        <tr>
-                                            <th>OrderNo</th>
-                                            <th>Email</th>
-                                            <th>FullName</th>
-                                            <th>Phone</th>
-                                            <th>Address</th>
-                                            <th>Street/..</th>
-                                            <th>Status</th>
-                                            <th>Show Product</th>
-                                            <th>Accept</th>
-                                            <th>Deny</th>
-                                        </tr>
-                                    </thead>
-                                    <tbody>
-                                        @foreach (var item in ViewBag.OrderList)
-                                        {
-                            <tr>
-                                <td>@item.OrderNo</td>
-                                <td>@item.Email</td>
-                                <td>@item.Fullname</td>
-                                <td>@item.PhoneNumber</td>
-                                <td>@item.AddressLine1</td>
-                                <td>@item.To</td>
+                            <table class="table table-head-fixed text-nowrap">
+                                <thead>
+                                    <tr>
+                                        <th>OrderNo</th>
+                                        <th>Email</th>
+                                        <th>FullName</th>
+                                        <th>Phone</th>
+                                        <th>Address</th>
+                                        <th>Street/..</th>
+                                        <th>Status</th>
+                                        <th>Show Product</th>
+                                        <th>Accept</th>
+                                        <th>Deny</th>
+                                    </tr>
+                                </thead>
+                                <tbody>
+                                    @foreach (var item in ViewBag.OrderList)
+                                    {
+                        <tr>
+                            <td>@item.OrderNo</td>
+                            <td>@item.Email</td>
+                            <td>@item.Fullname</td>
+                            <td>@item.PhoneNumber</td>
+                            <td>@item.AddressLine1</td>
+                            <td>@item.To</td>
 
-                                <td>@item.Status</td>
-                                <td>
-                                    <a class="btn btn-secondary" asp-action="ShowProduct" asp-controller="Manage_Oders" asp-route-id="@item.OrderNo">Show Product</a>
+                            <td>@item.Status</td>
+                            <td>
+                                <a class="btn btn-secondary" asp-action="ShowProduct" asp-controller="Manage_Oders" asp-route-id="@item.OrderNo">Show Product</a>
 
-                                </td>
-                                <td>
+                            </td>
+                            <td>
 
-                                    <a class="btn btn-success" asp-action="AcceptOrder" asp-controller="Manage_Oders" asp-route-id="@item.OrderNo">Accept Order</a>
-                                </td>
-                                <td>
-                                    <a class="btn btn-warning" asp-action="Denight" asp-controller="Manage_Oders" asp-route-id="@item.OrderNo">Deny Order</a>
-                                </td>
-                            </tr>}
-                                    </tbody>
-                                </table>
-                            </div>
+                                <a class="btn btn-success" asp-action="AcceptOrder" asp-controller="Manage_Oders" asp-route-id="@item.OrderNo">Accept Order</a>
+                            </td>
+                            <td>
+                                <a class="btn btn-warning" asp-action="Denight" asp-controller="Manage_Oders" asp-route-id="@item.OrderNo">Deny Order</a>
+                            </td>
+                        </tr>
+}
+                                </tbody>
+                            </table>
+                        </div>
                             <!-- /.card-body -->
 
 

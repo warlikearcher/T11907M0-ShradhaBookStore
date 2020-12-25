@@ -30,13 +30,13 @@ namespace ShradhaBookStore.Controllers.Admin
                 UserInfo user = dBContext.UserInfo.SingleOrDefault(u => u.UserID.Equals(id));
                 if (user != null)
                 {
-                    if (user.IsAdmin == true)
+                    if (user.Status == true)
                     {
-                        user.IsAdmin = false;
+                        user.Status = false;
                     }
                     else
                     {
-                        user.IsAdmin = true;
+                        user.Status = true;
                     }
                     dBContext.SaveChanges();
                     return RedirectToAction("Manage_Users");
@@ -50,10 +50,13 @@ namespace ShradhaBookStore.Controllers.Admin
         }
         public IActionResult Filter(string bname)
         {
+            //var model = dBContext.UserInfo.Where(p => p.IsAdmin == false).ToList();
             var model = from m in dBContext.UserInfo
+                        where m.IsAdmin==false
                         select m;
             if (!string.IsNullOrEmpty(bname))
             {
+             
                 model = model.Where(m => m.FullName.Contains(bname));
             }
             return View("~/Views/Admin/Manage_Users/Manage_Users.cshtml", model);

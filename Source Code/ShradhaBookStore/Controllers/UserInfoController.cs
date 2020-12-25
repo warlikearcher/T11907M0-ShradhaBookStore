@@ -67,6 +67,7 @@ namespace ShradhaBookStore.Controllers
                     {
                         context.UserInfo.Add(userInfo);
                         context.SaveChanges();
+                        TempData["msg"] = "<script>alert('Register succesfully');</script>";
                         return RedirectToAction("Login", "UserInfo");
                     }
                     else
@@ -104,41 +105,52 @@ namespace ShradhaBookStore.Controllers
             {
                 UserInfo user = context.UserInfo.SingleOrDefault(a => a.UserName.Equals(userInfo.UserName));
                 if (user != null)
+                   
                 {
-                    if (user.PassWord.Equals(userInfo.PassWord))
+                    if (user.Status == true) 
+                    {
+                        if (user.PassWord.Equals(userInfo.PassWord))
 
-                    { 
-                        if (user.IsAdmin == true)
                         {
-                            HttpContext.Session.SetInt32("adid", user.UserID);
-                            HttpContext.Session.SetString("adfullname", user.FullName);
-                            HttpContext.Session.SetString("adusername", user.UserName);
-                           
-                            return RedirectToAction("Manage_Admin", "Manage_Admin");
+
+                            if (user.IsAdmin == true)
+                            {
+                                HttpContext.Session.SetInt32("adid", user.UserID);
+                                HttpContext.Session.SetString("adfullname", user.FullName);
+                                HttpContext.Session.SetString("adusername", user.UserName);
+
+                                return RedirectToAction("Manage_Admin", "Manage_Admin");
+
+                            }
+                            else
+                            {
+
+                                string fname = HttpContext.Session.GetString("fullname");
+                                string check = HttpContext.Session.GetString("cart");
+                                HttpContext.Session.SetString("fullname", user.FullName);
+                                HttpContext.Session.SetInt32("id", user.UserID);
+                                HttpContext.Session.SetString("username", user.UserName);
+                                HttpContext.Session.SetString("mail", user.Email);
+                                if (check != null)
+                                {
+
+                                    return RedirectToAction("UpdateToDatabase", "Cart2");
+                                }
+
+                                TempData["msg"] = "<script>alert('Login succesfully');</script>";
+                                return RedirectToAction("Index", "Home");
+                            }
                         }
                         else
                         {
-                          
-                            string fname = HttpContext.Session.GetString("fullname");
-                            string check = HttpContext.Session.GetString("cart");
-                            HttpContext.Session.SetString("fullname", user.FullName);
-                            HttpContext.Session.SetInt32("id", user.UserID);
-                            HttpContext.Session.SetString("username", user.UserName);
-                            HttpContext.Session.SetString("mail", user.Email);
-                            if (check != null)
-                            {
-                                return RedirectToAction("UpdateToDatabase", "Cart2");
-                            }
-
-
-
-                            return RedirectToAction("Index", "Home");
+                            ViewBag.Msg = "Invalid Password";
                         }
                     }
                     else
                     {
-                        ViewBag.Msg = "Invalid Password";
+                        ViewBag.Msg = "This account has been locked";
                     }
+              
                 }
                 else
                 {

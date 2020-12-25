@@ -44,7 +44,10 @@
                     <p class="pd-no">Category:<span>@category.CategoryName</span></p>
                 </div>
                 <div class="product-inner-price">
-                    <ins style="color:fuchsia"> Us $@product.Price</ins>
+                    <ins style="color:fuchsia"> Us $@product.Price</ins>- @if ((DateTime.Now - product.CreateAt).TotalDays <= 3)
+                    {
+                        <span class="label-warning">New!</span>
+                    }
                 </div>
                 <form action="" class="cart">
                     @if (product.Quantity > 0)

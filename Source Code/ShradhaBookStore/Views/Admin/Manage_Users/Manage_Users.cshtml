@@ -43,7 +43,6 @@
                                         <th>No</th>
                                         <th>Name</th>
                                         <th>Username</th>
-                                        <th>Password</th>
                                         <th>Email</th>
                                         <th>Phone</th>
                                         <th>Status</th>
@@ -60,28 +59,30 @@
                                         <td>@item.UserID</td>
                                         <td>@item.FullName</td>
                                         <td>@item.UserName</td>
-                                        <td>******</td>
                                         <td>@item.Email</td>
                                         <td>@item.Phone</td>
-                                        <td>@item.Adress</td>
+
+
+
                                         <td>
                                             @if (item.Status == true)
                                             {
-                                    <Text>Inactive</Text> }
+                                    <Text>Active</Text> }
                                 else
                                 {
-                                    <Text>Active</Text>}
+                                    <Text>Inactive</Text>}
                                         </td>
+                                        <td>@item.Adress</td>
                                         <td>@item.CreateAt</td>
 
                                         <td>
 
-                                            @if (item.Status == true)
+                                            @if (item.Status == false)
                                             {
-                                    <a href="@Url.Action("deactiveUser","Manage_Users", new {id=item.UserID })">Active User</a> }
+                                            <a href="@Url.Action("deactiveUser","Manage_Users", new {id=item.UserID })">Active User</a> }
                                 else
                                 {
-                                    <a href="@Url.Action("deactiveUser","Manage_Users", new {id=item.UserID })">Deactivate User</a>}
+                                        <a href="@Url.Action("deactiveUser","Manage_Users", new {id=item.UserID })">Deactivate User</a>}
 
                                         </td>
                                     </tr>}

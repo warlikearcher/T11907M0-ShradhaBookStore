@@ -32,7 +32,7 @@
             <div class="block-heading">
                 <h2>Payment</h2>
             </div>
-            <form>
+            <form asp-action="PaymentCreditCard" asp-controller="Order">
                 <div id="cardDetail" class="card-details">
                     <div id="pay-invoice" class="card">
                         <div class="card-body">
@@ -54,16 +54,16 @@
                             </div>
                             <div class="form-group">
                                 <label>Payment amount</label>
-                                <h2>@*@ViewBag.Money*@</h2>
+                                <h2>@ViewBag.Money</h2>
                             </div>
                             <div class="form-group has-success">
                                 <label for="cc-name" class="control-label">Name on card</label>
-                                <input id="cc-name" name="cc-name" type="text" disabled value="Vo Hoang Trung" class="form-control cc-name valid" data-val="true" data-val-required="Please enter the name on card" autocomplete="cc-name" aria-required="true" aria-invalid="false" aria-describedby="cc-name-error">
+                                <input id="cc-name" name="cc-name" required type="text"  class="form-control cc-name valid" data-val="true" data-val-required="Please enter the name on card" autocomplete="cc-name" aria-required="true" aria-invalid="false" aria-describedby="cc-name-error">
                                 <span class="help-block field-validation-valid" data-valmsg-for="cc-name" data-valmsg-replace="true"></span>
                             </div>
                             <div class="form-group">
                                 <label for="cc-number" class="control-label">Card number</label>
-                                <input id="cc-number" onkeypress="cc_number()"disabled   name="cc-number" type="tel" class="form-control cc-number identified" value="4141-4141-4141-4144" data-val="true" data-val-required="Please enter the card number" data-val-cc-number="Please enter a valid card number" autocomplete="cc-number">
+                                <input id="cc-number" required onkeypress="cc_number()"   name="cc-number" type="tel" class="form-control cc-number identified"  data-val="true" data-val-required="Please enter the card number" data-val-cc-number="Please enter a valid card number" autocomplete="cc-number">
                                 <span class="help-block" data-valmsg-for="cc-number" data-valmsg-replace="true"></span>
                             </div>
                             <div class="form-group">
@@ -71,21 +71,24 @@
                                     <div class="col-sm-6">
                                         <div class="form-group">
                                             <label for="cc-exp" class="control-label">Expiration</label>
-                                            <input id="cc-exp"  name="cc-exp" type="tel" disabled class="form-control cc-exp" value="07/50" data-val="true" data-val-required="Please enter the card expiration" data-val-cc-exp="Please enter a valid month and year" placeholder="MM / YY" autocomplete="cc-exp">
+                                            <input id="cc-exp" required name="cc-exp" type="tel"  class="form-control cc-exp"  data-val="true" data-val-required="Please enter the card expiration" data-val-cc-exp="Please enter a valid month and year" placeholder="MM / YY" autocomplete="cc-exp">
                                             <span class="help-block" data-valmsg-for="cc-exp" data-valmsg-replace="true"></span>
                                         </div>
                                     </div>
                                     <div class="col-sm-6">
                                         <div class="form-group">
                                             <label for="x_card_code" class=" control-label mb-1">Security code</label>
-                                            <input id="x_card_code" name="x_card_code" value="510" disabled type="tel" max="3" class="form-control cc-cvc" required autocomplete="off">
+                                            <input id="x_card_code" required name="x_card_code"   type="tel" max="3" class="form-control cc-cvc" required autocomplete="off">
                                             <span class="help-block" data-valmsg-for="x_card_code" data-valmsg-replace="true"></span>
                                         </div>
                                     </div>
                                 </div>
                             </div>
                             <div>
-                                <a class="btn btn-lg btn-success btn-block" asp-action="ordersucess" asp-route-id="@ViewBag.OrderNumber" asp-route-tranferCode="@ViewBag.RandomCode" id="payment-button" onclick="alert('Payment success');">Pay @ViewBag.Money</a>
+                                <input name="Code" value="@ViewBag.OrderNumber" hidden/>
+                                <input hidden name="TranferCpde" value="@ViewBag.RandomCode"/>
+                                <input class="btn btn-lg btn-success btn-block" type="submit" value="Pay @ViewBag.Money"/>
+                                @*<a class="btn btn-lg btn-success btn-block" asp-action="ordersucess" asp-route-id="@ViewBag.OrderNumber" asp-route-tranferCode="@ViewBag.RandomCode" id="payment-button" onclick="alert('Payment success');">Pay @ViewBag.Money</a>*@
                                 @*<input type="submit" class="btn btn-lg btn-success btn-block" id="payment-button" onclick="alert('Payment success');" value="Pay @ViewBag.Money"/>*@
                             </div>
                         </div>

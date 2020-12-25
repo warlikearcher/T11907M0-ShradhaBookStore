@@ -110,6 +110,13 @@ namespace ShradhaBookStore.Controllers
             return View();
         }
 
+        [HttpPost]
+        public IActionResult PaymentCreditCard(string Code,string TranferCpde)
+        {
+
+            return RedirectToAction("ordersucess", new { id = Code, tranferCode = TranferCpde }) ;
+        }
+
         [HttpGet]
         public IActionResult CheckOut(string text)
         {
@@ -165,9 +172,8 @@ namespace ShradhaBookStore.Controllers
         }
 
 
-
-        [ValidateAntiForgeryToken]
         [HttpPost]
+        [ValidateAntiForgeryToken]
         public IActionResult CheckOut(Order order, string to, double fee)
         {
             //var clist = _appDbContext.Category.ToList();
@@ -291,7 +297,7 @@ namespace ShradhaBookStore.Controllers
         /// 
         public IActionResult Error()
         {
-            ////ClearOrder();
+            //ClearOrder();
             var clist = _appDbContext.Category.ToList();
             ViewBag.GetCategory = clist;
             ViewBag.looking = "You are not log in!-Please Log in";

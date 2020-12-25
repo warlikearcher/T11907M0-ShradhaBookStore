@@ -92,6 +92,30 @@
   </ItemGroup>
 
   <ItemGroup>
+    <None Include="Views\Admin\Manage_Admin\Manage_Admin.cshtml" />
+    <None Include="Views\Admin\Manage_Oders\Index.cshtml" />
+    <None Include="Views\Admin\Manage_Oders\Manage_Oders.cshtml" />
+    <None Include="Views\Admin\Manage_Oders\Manrage_Denine_Oders.cshtml" />
+    <None Include="Views\Admin\Manage_Oders\OrderLog.cshtml" />
+    <None Include="Views\Admin\Manage_Oders\Order_Cancle.cshtml" />
+    <None Include="Views\Admin\Manage_Oders\Shipping.cshtml" />
+    <None Include="Views\Admin\Manage_Oders\ShowProduct.cshtml" />
+    <None Include="Views\Cart2\Count.cshtml" />
+    <None Include="Views\Cart2\Index.cshtml" />
+    <None Include="Views\Cart2\Total.cshtml" />
+    <None Include="Views\Cart2\_Count.cshtml" />
+    <None Include="Views\Cart2\_Index.cshtml" />
+    <None Include="Views\Order\CheckOut.cshtml" />
+    <None Include="Views\Order\CheckoutComplete.cshtml" />
+    <None Include="Views\Order\Error.cshtml" />
+    <None Include="Views\Order\Index.cshtml" />
+    <None Include="Views\Order\KiemTraThanhToan.cshtml" />
+    <None Include="Views\Order\ordersucess.cshtml" />
+    <None Include="Views\Order\payment.cshtml" />
+    <None Include="Views\Order\PaymentCreditCard.cshtml" />
+    <None Include="Views\TrackingOrder\Action.cshtml" />
+    <None Include="Views\TrackingOrder\gggg.cshtml" />
+    <None Include="Views\TrackingOrder\Index.cshtml" />
     <None Include="Views\UserInfo\ChangePass.cshtml" />
     <None Include="Views\UserInfo\Details.cshtml" />
     <None Include="Views\UserInfo\Layout\_Layout.cshtml" />

@@ -63,7 +63,7 @@ namespace ShradhaBookStore.Controllers
             var model = from i in item
                         select i;
 
-            if (item != null && item.Count() > 0)
+            if (item != null || item.Count() > 0)
             {
                 if (table_search.HasValue)
                 {

@@ -82,7 +82,10 @@
                                 <h2><a href="single-product.html">@item.ProductName</a></h2>
 
                                 <div class="product-carousel-price">
-                                    <ins>US $@item.Price</ins>
+                                    <ins>US $@item.Price</ins>- @if ((DateTime.Now - item.CreateAt).TotalDays <= 3)
+                                    {
+                                        <span class="label-warning">New!</span>
+                                    }
                                 </div>
                             </div>}
 
@@ -127,7 +130,10 @@
                                 <h2><a href="single-product.html">@item.Product.ProductName</a></h2>
 
                                 <div class="product-carousel-price">
-                                    <ins>US $@item.Product.Price</ins>
+                                    <ins>US $@item.Product.Price</ins>- @if ((DateTime.Now - item.Product.CreateAt).TotalDays <= 3)
+                                    {
+                                        <span class="label-warning">New!</span>
+                                    }
                                 </div>
                             </div>}
 
