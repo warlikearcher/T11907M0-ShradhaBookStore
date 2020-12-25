@@ -7,7 +7,7 @@ namespace ShradhaBookStore.Models
 	[DataContract]
 	public class DataPoint
 	{
-		public DataPoint(int? label, double y)
+		public DataPoint(string label, double y)
 		{
 			this.Label = label;
 			this.Y = y;
@@ -15,7 +15,7 @@ namespace ShradhaBookStore.Models
 
 		//Explicitly setting the name to be used while serializing to JSON.
 		[DataMember(Name = "label")]
-		public int? Label = null;
+		public string Label = "";
 
 		//Explicitly setting the name to be used while serializing to JSON.
 		[DataMember(Name = "y")]

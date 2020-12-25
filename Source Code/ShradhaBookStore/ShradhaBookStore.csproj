@@ -87,7 +87,6 @@
   </ItemGroup>
 
   <ItemGroup>
-    <Folder Include="Services\" />
     <Folder Include="Views\Admin\Error\" />
   </ItemGroup>
 
@@ -98,6 +97,7 @@
     <None Include="Views\Admin\Manage_Oders\Manrage_Denine_Oders.cshtml" />
     <None Include="Views\Admin\Manage_Oders\OrderLog.cshtml" />
     <None Include="Views\Admin\Manage_Oders\Order_Cancle.cshtml" />
+    <None Include="Views\Admin\Manage_Oders\priority_mode.cshtml" />
     <None Include="Views\Admin\Manage_Oders\Shipping.cshtml" />
     <None Include="Views\Admin\Manage_Oders\ShowProduct.cshtml" />
     <None Include="Views\Cart2\Count.cshtml" />

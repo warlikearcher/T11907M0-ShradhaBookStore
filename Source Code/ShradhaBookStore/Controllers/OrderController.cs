@@ -149,11 +149,11 @@ namespace ShradhaBookStore.Controllers
                         _appDbContext.Cart.Remove(Model);
                         ViewBag.hetSanPhamRoi = "Some items you have ordered are out of stock";
                     }
-                    //else if (Model.Amount > Model.product.Quantity)
-                    //{
-                    //    Model.Amount = Model.product.Quantity;
-                    //    ViewBag.hetSanPhamRoi = "The quantity in stock is not enough to supply the Item to you , Item will automatically reduce the quantity in the basket by the quantity in stock";
-                    //}
+                    else if (Model.Amount > Model.product.Quantity)
+                    {
+                        Model.Amount = Model.product.Quantity;
+                        ViewBag.hetSanPhamRoi = "The quantity in stock is not enough to supply the Item to you , Item will automatically reduce the quantity in the basket by the quantity in stock";
+                    }
                 }
                 _appDbContext.SaveChanges();
                 var total = item
@@ -328,6 +328,18 @@ namespace ShradhaBookStore.Controllers
                 {
                     if (tranferCode != null)
                     {
+                        var product = _appDbContext.Product.Where(d => d.ProductCode.Equals(item.detail.ProductCode)).ToList();
+                        if (product == null)
+                        {
+                            return RedirectToAction("Error", "Order");
+                        }
+
+                        foreach (var item2 in product)
+                        {
+
+                            item2.Quantity = item2.Quantity - item.detail.Amount;
+                        }
+
                         var Order = _appDbContext.Order.Where(Hivs => Hivs.OrderNo.Equals(item.detail.OrderNo)).ToList();
                         foreach (var item3 in Order)
                         {

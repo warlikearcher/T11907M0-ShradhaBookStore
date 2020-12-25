@@ -1,0 +1,95 @@
+﻿@model IEnumerable<ShradhaBookStore.Models.Order>
+@{ ViewData["Title"] = "Priority_Mode"; }
+@{ Layout = "~/Views/Admin/Layout/_Layout.cshtml"; }
+<div class="content-wrapper">
+    <!-- Content Header (Page header) -->
+    <div class="content-header">
+        <div class="container-fluid">
+            <div class="row mb-2">
+                <div class="col-sm-6">
+                    <h4 style="text-align:center;color:red">@ViewBag.Messenger</h4>
+                </div><!-- /.col -->
+            </div><!-- /.row -->
+        </div><!-- /.container-fluid -->
+    </div>
+    <section class="content">
+        <div class="container-fluid">
+            <!-- /.row -->
+            <div class="row">
+                <div class="col-12">
+                    <div class="card">
+                        <div class="card-header">
+                            <h3 class="card-title">List Orders</h3>
+                        </div>
+                        <!-- /.card-header -->
+                        <div class="card-body table-responsive p-0" style="height: 500px;">
+                            <form asp-action="priority_mode" asp-controller="Manage_Oders">
+                                <div class="row">
+
+                                    <div class="col-md-3">
+                                        <div class="form-group">
+                                            <input type="text" name="table_search" class="form-control" placeholder="Search By OrderNo." />
+                                        </div>
+                                    </div>
+                                    <div class="col-md-2">
+                                        <button type="submit" class="btn btn-success">Search</button>
+                                    </div>
+                                </div>
+                            </form>
+
+
+                            @foreach (var item in Model)
+                            {
+                        <table class="table table-head-fixed text-nowrap">
+                            <tr><td>No new orders have been confirmed yet</td></tr>
+                        </table>}
+
+                            <table class="table table-head-fixed text-nowrap">
+                                <thead>
+                                    <tr>
+                                        <th>OrderNo</th>
+                                        <th>Email</th>
+                                        <th>FullName</th>
+                                        <th>Phone</th>
+                                        <th>Address</th>
+                                        <th>Street/..</th>
+                                        <th>Status</th>
+                                        <th>Show Product</th>
+                                        <th>Accept</th>
+                                    </tr>
+                                </thead>
+                                <tbody>
+                                    @foreach (var item in Model)
+                                    {
+                                    <tr>
+                                        <td>@item.OrderNo</td>
+                                        <td>@item.Email</td>
+                                        <td>@item.Fullname</td>
+                                        <td>@item.PhoneNumber</td>
+                                        <td>@item.AddressLine1</td>
+                                        <td>@item.To</td>
+
+                                        <td>@item.Status</td>
+                                        <td>
+                                            <a class="btn btn-secondary" asp-action="ShowProduct" asp-controller="Manage_Oders" asp-route-id="@item.OrderNo">Show Product</a>
+
+                                        </td>
+                                        <td>
+                                            <a class="btn btn-success" asp-action="AcceptOrder" asp-controller="Manage_Oders" asp-route-id="@item.OrderNo">Accept Order</a>
+                                        </td>
+                                    </tr>
+                        }
+                                </tbody>
+                            </table>
+                        </div>
+                        <!-- /.card-body -->
+
+
+                    </div>
+                    <!-- /.card -->
+                </div>
+            </div>
+        </div>
+    </section>
+</div>
+@Html.Raw(TempData["msg"])

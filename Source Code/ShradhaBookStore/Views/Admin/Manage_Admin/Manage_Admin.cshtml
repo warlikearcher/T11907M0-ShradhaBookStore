@@ -1,104 +1,58 @@
 ﻿@{ ViewData["title"] = "Manage Admin"; }
 @{ Layout = "~/Views/Admin/Layout/_Layout.cshtml"; }
+<style>
+    .card {
+        height: 404px !important;
+    }
+    canvas {
+        height: 376px !important;
+    }
+</style>
 <div class="content-wrapper">
-    <!---->
-    <script>
-window.onload = function () {
-
-var chart1 = new CanvasJS.Chart("chartContainer", {
-	theme: "light2", // "light1", "light2", "dark1", "dark2"
-	exportEnabled: true,
-	animationEnabled: true,
-	title: {
-		text: "Product Chart",
-		fontSize: 21
-	},
-	data: [{
-		type: "pie",
-		startAngle: 160,
-		toolTipContent: "<b>{label}</b>: {y}%",
-		indexLabel: "{label} - {y}%",
-		dataPoints: @Html.Raw(ViewBag.DataPoints)
-	}]
-});
-chart1.render();
-
-
-
-var chart2 = new CanvasJS.Chart("chartContainer2", {
-	animationEnabled: true,
-	theme: "light2", // "light1", "light2", "dark1", "dark2"
-	title: {
-        text: "InCome Currency $"
-	},
-	axisY: {
-		title: "Grand Price"
-	},
-	data: [{
-		type: "column",
-		dataPoints: @Html.Raw(ViewBag.DataPoints2)
-	}]
-});
-chart2.render();
-
-}
-    </script>
-    @*<script>
-        window.onload = function () {
-
-        }
-            </script>*@
-    <link href="https://cdn.datatables.net/1.10.15/css/dataTables.bootstrap.min.css" rel="stylesheet" />
-    <link href="https://cdn.datatables.net/responsive/2.1.1/css/responsive.bootstrap.min.css" rel="stylesheet" />
-
-    <script src="https://cdn.datatables.net/1.10.15/js/jquery.dataTables.min.js"></script>
-    <script src="https://cdn.datatables.net/1.10.15/js/dataTables.bootstrap4.min.js "></script>
     <!-- Main content -->
     <section class="content">
         <div class="container-fluid">
             <div class="row">
-                <div class="col-lg-6">
-                    <div class="card" ">
-                        <div class="card-body" id="chartContainer" style="min-height:400px;height: 502px; width: 100%;">
-
-                        </div>
-                    </div>
-
-                </div>
-                <div class="col-lg-6">
-                    <div class="card">
-                        <div id="chartContainer2" style="min-height:400px;height: 502px; width: 90%;">
-                        </div>
-                    </div>
-
-                </div>
-                <div class="col-lg-12">
-                    <h3 style="text-align:center">Note</h3>
-                </div>
                 <div class="col-lg-12">
                     <div class="card">
-                        <table id="example" class="table">
-                            <thead>
-                                <tr>
-                                    <th>Catagory code</th>
-                                    <th>Catagory Name</th>
-                                </tr>
-                            </thead>
-                            <tbody>
-                                @foreach (var item in ViewBag.Table)
-                                {
-                    <tr>
-                        <td>@item.CategoryCode</td>
-                        <td>@item.CategoryName</td>
-                    </tr>
-}
-                            </tbody>
-                        </table>
-                    </div>
+                        <div id="chartContainer" style="height: 370px; width: 100%;">
+                            <div class="canvasjs-chart-container" style="position: relative; text-align: left; cursor: auto; direction: ltr;">
+                                </div>
+                            </div>
+                        </div>
+
                 </div>
             </div>
         </div>
     </section>
 </div>
 @Html.Raw(TempData["msg"])
-@*<script src="https://canvasjs.com/assets/script/canvasjs.min.js"></script>*@
+<script src="https://canvasjs.com/assets/script/canvasjs.min.js"></script>
+
+<script>
+window.onload = function () {
+
+var chart = new CanvasJS.Chart("chartContainer", {
+	theme: "light1", // "light1", "light2", "dark1", "dark2"
+	exportEnabled: true,
+	animationEnabled: true,
+	title: {
+		text: "Product"
+	},
+	subtitles: [{
+		text: "/2020"
+	}],
+	data: [{
+		type: "pie",
+		startAngle: 180,
+		toolTipContent: "<b>{label}</b>: {y}%",
+		showInLegend: "true",
+		legendText: "{label}",
+		indexLabel: "{label} - {y}%",
+		dataPoints: @Html.Raw(ViewBag.DataPoints)
+	}]
+});
+chart.render();
+
+}
+</script>

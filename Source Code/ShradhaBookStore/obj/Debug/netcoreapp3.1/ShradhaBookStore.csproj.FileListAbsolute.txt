@@ -1169,3 +1169,4 @@ D:\FPT Aptech\HK 3\Eproject_Team4\Source Code\ShradhaBookStore\obj\Debug\netcore
 D:\FPT Aptech\HK 3\Eproject_Team4\Source Code\ShradhaBookStore\obj\Debug\netcoreapp3.1\ShradhaBookStore.dll
 D:\FPT Aptech\HK 3\Eproject_Team4\Source Code\ShradhaBookStore\obj\Debug\netcoreapp3.1\ShradhaBookStore.pdb
 D:\FPT Aptech\HK 3\Eproject_Team4\Source Code\ShradhaBookStore\obj\Debug\netcoreapp3.1\ShradhaBookStore.genruntimeconfig.cache
+D:\FPT Aptech\HK 3\Eproject_Team4\Source Code\ShradhaBookStore\obj\Debug\netcoreapp3.1\Razor\Views\Admin\Manage_Oders\priority_mode.cshtml.g.cs

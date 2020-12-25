@@ -97,9 +97,6 @@ namespace ShradhaBookStore.Controllers
             return View("~/Views/Admin/Manage_Oders/ShowProduct.cshtml");
         }
 
-
-
-
         public IActionResult Manrage_Denine_Oders(int? table_search)
         {
             var item = from i in context.Order
@@ -209,27 +206,22 @@ namespace ShradhaBookStore.Controllers
             var checkked = from i in context.OrderDetails
                           join a in context.Product
                           on i.ProductCode equals a.ProductCode
+                          where i.OrderNo.Equals(id)
                           select new DetailsOrder {
                               product = a,
                               orderDetail = i
                           };
             var models = (from i in checkked select i).ToList();
-            foreach (var Tem2 in models)
+            if (models != null)
             {
-                var product = context.Product.Where(d => d.ProductCode.Equals(Tem2.orderDetail.ProductCode)).ToList();
-                if (product == null)
+                foreach (var Tem2 in models)
                 {
-                    return RedirectToAction("Error", "Order");
-                }
-
-                foreach (var item2 in product)
-                {
-                    var quantity = item2.Quantity - Tem2.orderDetail.Amount;
-                    if (item2.Quantity == 0)
+                    var quantity = Tem2.product.Quantity - Tem2.orderDetail.Amount;
+                    if (Tem2.product.Quantity == 0)
                     {
-                        item2.Quantity = 0;
+                        Tem2.product.Quantity = 0;
                         context.SaveChanges();
-                        TempData["Error"] = "Order No. '" + id + "' Some products are not in stock enough to supply or are out of stock,please choose Show Product to check";
+                        TempData["Error"] = "Order No. '" + id + "' Some Yes are not in stock enough to supply or are out of stock,please choose Show Product to check";
                         return RedirectToAction("Index");
                     }
                     else if (quantity < 0)
@@ -237,10 +229,10 @@ namespace ShradhaBookStore.Controllers
                         TempData["Errorss"] = "Order No. '" + id + "' Some products are not in stock enough to supply or are out of stock,please choose Show Product to check";
                         return RedirectToAction("Index");
                     }
-                    item2.Quantity = quantity;
+                    Tem2.product.Quantity = quantity;
                 }
+                context.SaveChanges();
             }
-            context.SaveChanges();
             if (item.Status == "Order is confirm")
             {
                 ViewBag.Alert = "Order is active!";
