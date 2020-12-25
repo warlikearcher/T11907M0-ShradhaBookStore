@@ -12,6 +12,6 @@ Name: BUI DINH HUNG StudentID: Student1215631
 
 Open file Setup in folder Setup for reading the installation guide of our project Instructions to run the website and download the source code.
 
-Open the folder "Setup" --> select and open file "Setup.pdf"
+Open the folder "User Manual" --> select and open file "Installation-Guide.pdf"
 
 Thanks for watching and we look forward to receiving review from you!
